@@ -62,9 +62,10 @@ def send_telegram_message(message):
     except Exception as e:
         print(f"Error sending Telegram message: {e}")
 
-def delete_emails(mail, query, description):
+def delete_emails(mail, criteria_list, description):
     print(f"\nSearching for {description}...")
-    status, messages = mail.search(None, 'X-GM-RAW', query)
+    # Pass the criteria as separate arguments to imaplib to avoid quoting bugs
+    status, messages = mail.search(None, *criteria_list)
     
     if status != "OK" or not messages[0]:
         print(f"No emails found for {description}.")
@@ -98,17 +99,22 @@ def delete_emails(mail, query, description):
 
 def process_deletions(mail):
     print("--- STARTING DELETION TASKS ---")
-    # 1. OTPs older than 1 day (Split into multiple searches to avoid imaplib quoting errors)
-    delete_emails(mail, 'subject:OTP older_than:1d', "OTP emails older than 24 hours")
-    delete_emails(mail, 'subject:verification older_than:1d', "Verification emails older than 24 hours")
-    delete_emails(mail, 'subject:password older_than:1d', "Password emails older than 24 hours")
-    delete_emails(mail, 'subject:security older_than:1d', "Security emails older than 24 hours")
     
-    # 2. Marketing/Promotions older than 2 days
-    delete_emails(mail, 'category:promotions older_than:2d', "Marketing emails older than 48 hours")
+    # Calculate IMAP standard dates
+    date_1d_ago = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%d-%b-%Y")
+    date_2d_ago = (datetime.date.today() - datetime.timedelta(days=2)).strftime("%d-%b-%Y")
+
+    # 1. OTPs older than 1 day (Using standard IMAP SUBJECT and BEFORE criteria)
+    delete_emails(mail, ["SUBJECT", '"OTP"', "BEFORE", date_1d_ago], "OTP emails older than 24 hours")
+    delete_emails(mail, ["SUBJECT", '"verification"', "BEFORE", date_1d_ago], "Verification emails older than 24 hours")
+    delete_emails(mail, ["SUBJECT", '"password"', "BEFORE", date_1d_ago], "Password emails older than 24 hours")
+    delete_emails(mail, ["SUBJECT", '"security"', "BEFORE", date_1d_ago], "Security emails older than 24 hours")
+    
+    # 2. Marketing/Promotions older than 2 days (Using X-GM-RAW for category, paired with standard BEFORE)
+    delete_emails(mail, ["X-GM-RAW", "category:promotions", "BEFORE", date_2d_ago], "Marketing emails older than 48 hours")
     
     # 3. Social media older than 2 days
-    delete_emails(mail, 'category:social older_than:2d', "Social media emails older than 48 hours")
+    delete_emails(mail, ["X-GM-RAW", "category:social", "BEFORE", date_2d_ago], "Social media emails older than 48 hours")
     
     if not TEST_MODE:
         mail.expunge()
@@ -116,9 +122,9 @@ def process_deletions(mail):
 def check_important_emails(mail):
     print("\n--- STARTING NOTIFICATION TASKS ---")
     
-    # Fetch all emails received in the last day
-    query = 'newer_than:1d'
-    status, messages = mail.search(None, 'X-GM-RAW', query.encode('utf-8'))
+    # Fetch all emails received since yesterday (Standard IMAP)
+    date_1d_ago = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%d-%b-%Y")
+    status, messages = mail.search(None, "SINCE", date_1d_ago)
     
     if status != "OK" or not messages[0]:
         print("No new important or reply emails found.")
