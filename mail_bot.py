@@ -69,14 +69,14 @@ def delete_emails(mail, criteria_list, description):
     
     if status != "OK" or not messages[0]:
         print(f"No emails found for {description}.")
-        return
+        return 0
 
     email_ids = messages[0].split()
     print(f"Found {len(email_ids)} emails to delete.")
 
     if TEST_MODE:
         print(f"[TEST MODE] Skipping deletion of {len(email_ids)} emails.")
-        return
+        return len(email_ids)
 
     chunk_size = 500
     for i in range(0, len(email_ids), chunk_size):
@@ -96,6 +96,7 @@ def delete_emails(mail, criteria_list, description):
         mail.store(chunk_ids, '+FLAGS', '\\Deleted')
     
     print(f"Moved {len(email_ids)} emails to Trash.")
+    return len(email_ids)
 
 def process_deletions(mail):
     print("--- STARTING DELETION TASKS ---")
@@ -104,20 +105,37 @@ def process_deletions(mail):
     date_1d_ago = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%d-%b-%Y")
     date_2d_ago = (datetime.date.today() - datetime.timedelta(days=2)).strftime("%d-%b-%Y")
 
+    report = []
+
     # 1. OTPs older than 1 day (Using standard IMAP SUBJECT and BEFORE criteria)
-    delete_emails(mail, ["SUBJECT", '"OTP"', "BEFORE", date_1d_ago], "OTP emails older than 24 hours")
-    delete_emails(mail, ["SUBJECT", '"verification"', "BEFORE", date_1d_ago], "Verification emails older than 24 hours")
-    delete_emails(mail, ["SUBJECT", '"password"', "BEFORE", date_1d_ago], "Password emails older than 24 hours")
-    delete_emails(mail, ["SUBJECT", '"security"', "BEFORE", date_1d_ago], "Security emails older than 24 hours")
+    c1 = delete_emails(mail, ["SUBJECT", '"OTP"', "BEFORE", date_1d_ago], "OTP emails older than 24 hours")
+    if c1 > 0: report.append(f"• {c1} OTP emails")
+    
+    c2 = delete_emails(mail, ["SUBJECT", '"verification"', "BEFORE", date_1d_ago], "Verification emails older than 24 hours")
+    if c2 > 0: report.append(f"• {c2} Verification emails")
+    
+    c3 = delete_emails(mail, ["SUBJECT", '"password"', "BEFORE", date_1d_ago], "Password emails older than 24 hours")
+    if c3 > 0: report.append(f"• {c3} Password reset emails")
+    
+    c4 = delete_emails(mail, ["SUBJECT", '"security"', "BEFORE", date_1d_ago], "Security emails older than 24 hours")
+    if c4 > 0: report.append(f"• {c4} Security emails")
     
     # 2. Marketing/Promotions older than 2 days (Using X-GM-RAW for category, paired with standard BEFORE)
-    delete_emails(mail, ["X-GM-RAW", "category:promotions", "BEFORE", date_2d_ago], "Marketing emails older than 48 hours")
+    c5 = delete_emails(mail, ["X-GM-RAW", "category:promotions", "BEFORE", date_2d_ago], "Marketing emails older than 48 hours")
+    if c5 > 0: report.append(f"• {c5} Marketing/Promotional emails")
     
     # 3. Social media older than 2 days
-    delete_emails(mail, ["X-GM-RAW", "category:social", "BEFORE", date_2d_ago], "Social media emails older than 48 hours")
+    c6 = delete_emails(mail, ["X-GM-RAW", "category:social", "BEFORE", date_2d_ago], "Social media emails older than 48 hours")
+    if c6 > 0: report.append(f"• {c6} Social media emails")
     
     if not TEST_MODE:
         mail.expunge()
+
+    # Send a single Telegram summary if any emails were deleted
+    if report:
+        total = sum([c1, c2, c3, c4, c5, c6])
+        msg = f"🗑️ *Trash Report*\n\nCleaned up a total of *{total}* old emails:\n" + "\n".join(report)
+        send_telegram_message(msg)
 
 def check_important_emails(mail):
     print("\n--- STARTING NOTIFICATION TASKS ---")
