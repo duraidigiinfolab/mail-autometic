@@ -98,8 +98,11 @@ def delete_emails(mail, query, description):
 
 def process_deletions(mail):
     print("--- STARTING DELETION TASKS ---")
-    # 1. OTPs older than 1 day
-    delete_emails(mail, 'subject:(OTP OR "verification code" OR "one time password" OR "security code") older_than:1d', "OTPs older than 24 hours")
+    # 1. OTPs older than 1 day (Split into multiple searches to avoid imaplib quoting errors)
+    delete_emails(mail, 'subject:OTP older_than:1d', "OTP emails older than 24 hours")
+    delete_emails(mail, 'subject:verification older_than:1d', "Verification emails older than 24 hours")
+    delete_emails(mail, 'subject:password older_than:1d', "Password emails older than 24 hours")
+    delete_emails(mail, 'subject:security older_than:1d', "Security emails older than 24 hours")
     
     # 2. Marketing/Promotions older than 2 days
     delete_emails(mail, 'category:promotions older_than:2d', "Marketing emails older than 48 hours")
