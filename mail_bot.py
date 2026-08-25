@@ -11,10 +11,10 @@ load_dotenv()
 
 GMAIL_USER = os.getenv("GMAIL_USER")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
-CALLMEBOT_PHONE = os.getenv("CALLMEBOT_PHONE")
-CALLMEBOT_API_KEY = os.getenv("CALLMEBOT_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
-# For local testing, set this to True to prevent actual deletions and WhatsApp messages
+# For local testing, set this to True to prevent actual deletions and Telegram messages
 TEST_MODE = os.getenv("TEST_MODE", "false").lower() == "true"
 
 def decode_subject(subject_bytes):
@@ -41,26 +41,26 @@ def get_email_body(msg):
             pass
     return "Could not extract body."
 
-def send_whatsapp_message(message):
+def send_telegram_message(message):
     if TEST_MODE:
-        print(f"[TEST MODE] Would send WhatsApp message:\n{message}")
+        print(f"[TEST MODE] Would send Telegram message:\n{message}")
         return
         
-    url = "https://api.callmebot.com/whatsapp.php"
-    params = {
-        "phone": CALLMEBOT_PHONE,
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
         "text": message,
-        "apikey": CALLMEBOT_API_KEY
+        "parse_mode": "Markdown"
     }
     
     try:
-        response = requests.get(url, params=params)
+        response = requests.post(url, json=payload)
         if response.status_code == 200:
-            print("WhatsApp notification sent successfully.")
+            print("Telegram notification sent successfully.")
         else:
-            print(f"Failed to send WhatsApp notification. HTTP {response.status_code}: {response.text}")
+            print(f"Failed to send Telegram notification. HTTP {response.status_code}: {response.text}")
     except Exception as e:
-        print(f"Error sending WhatsApp message: {e}")
+        print(f"Error sending Telegram message: {e}")
 
 def delete_emails(mail, query, description):
     print(f"\nSearching for {description}...")
@@ -113,8 +113,8 @@ def process_deletions(mail):
 def check_important_emails(mail):
     print("\n--- STARTING NOTIFICATION TASKS ---")
     
-    # Fetch emails received in the last day that are Important OR are Replies
-    query = 'newer_than:1d (is:important OR subject:Re:)'
+    # Fetch all emails received in the last day
+    query = 'newer_than:1d'
     status, messages = mail.search(None, 'X-GM-RAW', query.encode('utf-8'))
     
     if status != "OK" or not messages[0]:
@@ -159,22 +159,22 @@ def check_important_emails(mail):
                 body = get_email_body(msg)
                 snippet = body[:200].replace('\n', ' ').replace('\r', '') + ("..." if len(body) > 200 else "")
                 
-                # Format WhatsApp message
-                whatsapp_msg = (
-                    f"🔔 *New Important Email*\n\n"
+                # Format Telegram message
+                telegram_msg = (
+                    f"🔔 *New Email*\n\n"
                     f"*From:* {sender}\n"
                     f"*Date:* {date_str}\n"
                     f"*Subject:* {subject}\n\n"
                     f"{snippet}"
                 )
                 
-                send_whatsapp_message(whatsapp_msg)
+                send_telegram_message(telegram_msg)
                 notified_count += 1
 
-    print(f"Sent {notified_count} WhatsApp notifications.")
+    print(f"Sent {notified_count} Telegram notifications.")
 
 def main():
-    if not all([GMAIL_USER, GMAIL_APP_PASSWORD, CALLMEBOT_PHONE, CALLMEBOT_API_KEY]):
+    if not all([GMAIL_USER, GMAIL_APP_PASSWORD, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID]):
         print("ERROR: Missing environment variables. Please check your .env file or GitHub Secrets.")
         return
 

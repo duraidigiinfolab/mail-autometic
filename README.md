@@ -8,17 +8,19 @@ Since it runs on GitHub Actions, **your computer does not need to be turned on**
 1. **Deletes OTPs** that are older than 24 hours.
 2. **Deletes Marketing/Promotional emails** that are older than 48 hours.
 3. **Deletes Social Media emails** that are older than 48 hours.
-4. **Sends WhatsApp Notifications** for any new Important or Reply emails received in the last 3 hours.
+4. **Sends Telegram Notifications** for any new Important or Reply emails received in the last 3 hours.
 
 ---
 
 ## Setup Instructions
 
-### 1. Get a CallMeBot API Key (Free)
-We use CallMeBot to send free WhatsApp messages to your phone.
-1. Add the phone number `+34 699 15 84 52` to your Phone Contacts (name it CallMeBot).
-2. Send the message `I allow callmebot to send me messages` on WhatsApp to that contact.
-3. The bot will instantly reply with your `apikey`. Save this key!
+### 1. Get a Telegram Bot API Key (Free)
+We use Telegram to send free notifications to your phone. It is very reliable.
+1. Open Telegram and search for **BotFather** (it has a blue checkmark).
+2. Send the message `/newbot` and follow the prompts to give your bot a name and username.
+3. BotFather will give you a **token** (it looks like `1234567890:ABCdefGHI...`). Save this! This is your `TELEGRAM_BOT_TOKEN`.
+4. Now, search for **userinfobot** on Telegram. Send it any message. It will reply with your ID number. Save this! This is your `TELEGRAM_CHAT_ID`.
+5. Finally, search for the username of the bot you just created in Step 2, and send it the message `/start` so it is allowed to message you.
 
 ### 2. Push to GitHub
 1. Create a **Private** repository on your GitHub account.
@@ -35,12 +37,12 @@ For security, you must NEVER upload your passwords directly in the code or a `.e
 | :--- | :--- |
 | `GMAIL_USER` | Your email (e.g., `you@gmail.com`) |
 | `GMAIL_APP_PASSWORD` | The 16-letter App Password you generated earlier |
-| `CALLMEBOT_PHONE` | Your full phone number with country code (e.g., `+919876543210`) |
-| `CALLMEBOT_API_KEY` | The API key you got in Step 1 |
+| `TELEGRAM_BOT_TOKEN` | The Bot Token you got from BotFather |
+| `TELEGRAM_CHAT_ID` | The ID number you got from userinfobot |
 
 ### 4. You're Done!
 The bot is now fully active. It will automatically run:
-* **Every 3 hours** to check for new important emails and notify you on WhatsApp.
+* **Every 3 hours** to check for new important emails and notify you on Telegram.
 * While checking, it will also quietly delete any old OTPs and marketing emails in the background.
 
 > **Testing it right now:**
