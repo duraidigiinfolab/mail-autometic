@@ -15,6 +15,9 @@ load_dotenv()
 
 GMAIL_USER = os.getenv("GMAIL_USER")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
+OUTLOOK_USER = os.getenv("OUTLOOK_USER")
+OUTLOOK_PASSWORD = os.getenv("OUTLOOK_PASSWORD")
+
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -77,76 +80,104 @@ def send_telegram_message(message):
     except Exception as e:
         print(f"Error sending Telegram message: {e}")
 
-def get_imap_connection():
+def get_imap_connection(account_type="gmail"):
     try:
-        mail = imaplib.IMAP4_SSL("imap.gmail.com")
-        mail.login(GMAIL_USER, GMAIL_APP_PASSWORD)
-        mail.select("inbox")
-        return mail
+        if account_type == "gmail":
+            if not GMAIL_USER or not GMAIL_APP_PASSWORD: return None
+            mail = imaplib.IMAP4_SSL("imap.gmail.com")
+            mail.login(GMAIL_USER, GMAIL_APP_PASSWORD)
+            mail.select("inbox")
+            return mail
+        elif account_type == "outlook":
+            if not OUTLOOK_USER or not OUTLOOK_PASSWORD: return None
+            mail = imaplib.IMAP4_SSL("outlook.office365.com")
+            mail.login(OUTLOOK_USER, OUTLOOK_PASSWORD)
+            mail.select("inbox")
+            return mail
     except Exception as e:
-        print(f"IMAP Login failed: {e}")
+        print(f"IMAP Login failed for {account_type}: {e}")
         return None
+    return None
+
+def fetch_new_emails_for_account(account_type, data):
+    print(f"Fetching new emails for {account_type}...")
+    mail = get_imap_connection(account_type)
+    if not mail: 
+        print(f"Could not connect to {account_type}. Skipping.")
+        return 0
+    
+    now = datetime.datetime.now(datetime.timezone.utc)
+    date_3d_ago = (datetime.date.today() - datetime.timedelta(days=3)).strftime("%d-%b-%Y")
+    
+    try:
+        status, messages = mail.uid('search', None, f"SINCE {date_3d_ago}")
+        if status != "OK" or not messages[0]:
+            print(f"No recent emails found for {account_type}.")
+            mail.logout()
+            return 0
+
+        uid_list = messages[0].split()
+        new_emails = 0
+
+        for e_uid in uid_list:
+            e_uid_str = e_uid.decode('utf-8')
+            # Prefix UID with account type to avoid collisions between Gmail and Outlook
+            global_uid = f"{account_type}_{e_uid_str}"
+            
+            if global_uid in data:
+                continue
+                
+            res, msg_data = mail.uid('fetch', e_uid, '(RFC822)')
+            if res != "OK": continue
+                
+            for response_part in msg_data:
+                if isinstance(response_part, tuple):
+                    msg = email.message_from_bytes(response_part[1])
+                    date_tuple = email.utils.parsedate_tz(msg.get("Date"))
+                    if not date_tuple: continue
+                        
+                    msg_timestamp = email.utils.mktime_tz(date_tuple)
+                    msg_date = datetime.datetime.fromtimestamp(msg_timestamp, datetime.timezone.utc)
+                    
+                    subject = decode_subject(msg.get("Subject", ""))
+                    sender = decode_subject(msg.get("From", ""))
+                    
+                    body = get_email_body(msg)
+                    snippet = body[:300].replace('\n', ' ').replace('\r', '')
+                    
+                    data[global_uid] = {
+                        "account": account_type,
+                        "uid": e_uid_str,
+                        "timestamp": msg_timestamp,
+                        "date_str": str(msg_date),
+                        "sender": sender,
+                        "subject": subject,
+                        "snippet": snippet,
+                        "status": "UNCLASSIFIED",
+                        "category": None
+                    }
+                    new_emails += 1
+                    
+                    if any(k in sender.lower() or k in subject.lower() for k in ["boss", "urgent", "important", "bank"]):
+                        send_telegram_message(f"🔔 *Important Alert ({account_type.upper()})*\n\n*From:* {sender}\n*Subject:* {subject}\n\n{snippet[:100]}...")
+
+        mail.logout()
+        return new_emails
+    except Exception as e:
+        print(f"Error fetching {account_type}: {e}")
+        try: mail.logout()
+        except: pass
+        return 0
 
 def fetch_new_emails():
-    print("Fetching new emails...")
-    mail = get_imap_connection()
-    if not mail: return
-    
     data = load_data()
-    now = datetime.datetime.now(datetime.timezone.utc)
+    total_new = 0
     
-    date_3d_ago = (datetime.date.today() - datetime.timedelta(days=3)).strftime("%d-%b-%Y")
-    status, messages = mail.uid('search', None, f"SINCE {date_3d_ago}")
+    total_new += fetch_new_emails_for_account("gmail", data)
+    total_new += fetch_new_emails_for_account("outlook", data)
     
-    if status != "OK" or not messages[0]:
-        print("No recent emails found.")
-        mail.logout()
-        return
-
-    uid_list = messages[0].split()
-    new_emails = 0
-
-    for e_uid in uid_list:
-        e_uid_str = e_uid.decode('utf-8')
-        if e_uid_str in data:
-            continue
-            
-        res, msg_data = mail.uid('fetch', e_uid, '(RFC822)')
-        if res != "OK": continue
-            
-        for response_part in msg_data:
-            if isinstance(response_part, tuple):
-                msg = email.message_from_bytes(response_part[1])
-                date_tuple = email.utils.parsedate_tz(msg.get("Date"))
-                if not date_tuple: continue
-                    
-                msg_timestamp = email.utils.mktime_tz(date_tuple)
-                msg_date = datetime.datetime.fromtimestamp(msg_timestamp, datetime.timezone.utc)
-                
-                subject = decode_subject(msg.get("Subject", ""))
-                sender = decode_subject(msg.get("From", ""))
-                
-                body = get_email_body(msg)
-                snippet = body[:300].replace('\n', ' ').replace('\r', '')
-                
-                data[e_uid_str] = {
-                    "timestamp": msg_timestamp,
-                    "date_str": str(msg_date),
-                    "sender": sender,
-                    "subject": subject,
-                    "snippet": snippet,
-                    "status": "UNCLASSIFIED",
-                    "category": None
-                }
-                new_emails += 1
-                
-                # Instant notification for potentially important senders (optional, simple keyword check)
-                if any(k in sender.lower() or k in subject.lower() for k in ["boss", "urgent", "important", "bank"]):
-                    send_telegram_message(f"🔔 *Important Alert*\n\n*From:* {sender}\n*Subject:* {subject}\n\n{snippet[:100]}...")
-
     save_data(data)
-    mail.logout()
-    print(f"Added {new_emails} new emails to local DB.")
+    print(f"Added {total_new} total new emails to local DB.")
 
 def classify_emails_with_ai():
     if not client:
@@ -154,7 +185,7 @@ def classify_emails_with_ai():
         return
         
     data = load_data()
-    unclassified = {uid: m for uid, m in data.items() if m.get("status") == "UNCLASSIFIED"}
+    unclassified = {k: m for k, m in data.items() if m.get("status") == "UNCLASSIFIED"}
     
     if not unclassified:
         print("No new emails to classify.")
@@ -164,8 +195,8 @@ def classify_emails_with_ai():
     
     # Build a giant prompt string
     batch_text = "Emails to classify:\n\n"
-    for uid, m in unclassified.items():
-        batch_text += f"ID: {uid}\nSender: {m['sender']}\nSubject: {m['subject']}\nSnippet: {m['snippet']}\n\n"
+    for global_uid, m in unclassified.items():
+        batch_text += f"ID: {global_uid}\nAccount: {m.get('account')}\nSender: {m['sender']}\nSubject: {m['subject']}\nSnippet: {m['snippet']}\n\n"
         
     system_prompt = """
 You are an expert email assistant. You will be provided with a batch of emails.
@@ -205,13 +236,13 @@ Return strictly a JSON ARRAY:
             
         classified_count = 0
         for item in result:
-            uid = str(item.get("id"))
+            global_uid = str(item.get("id"))
             cat = item.get("category")
             decision = item.get("decision", "KEEP")
-            if uid in data:
-                data[uid]["category"] = cat
-                data[uid]["decision"] = decision
-                data[uid]["status"] = "CLASSIFIED"
+            if global_uid in data:
+                data[global_uid]["category"] = cat
+                data[global_uid]["decision"] = decision
+                data[global_uid]["status"] = "CLASSIFIED"
                 classified_count += 1
                 
         save_data(data)
@@ -220,68 +251,82 @@ Return strictly a JSON ARRAY:
     except Exception as e:
         print(f"Error classifying emails: {e}")
 
+def process_deletions_for_account(account_type, uids_to_trash):
+    if not uids_to_trash: return
+    
+    print(f"Trashing {len(uids_to_trash)} emails for {account_type}...")
+    mail = get_imap_connection(account_type)
+    if not mail: return
+    
+    if not TEST_MODE:
+        chunk_size = 500
+        for i in range(0, len(uids_to_trash), chunk_size):
+            chunk = [uid.encode('utf-8') for uid in uids_to_trash[i:i + chunk_size]]
+            chunk_str = b','.join(chunk)
+            
+            if account_type == "gmail":
+                try: mail.uid('COPY', chunk_str, '[Gmail]/Trash')
+                except:
+                    try: mail.uid('COPY', chunk_str, '[Gmail]/Bin')
+                    except: pass
+            elif account_type == "outlook":
+                try: mail.uid('COPY', chunk_str, 'Deleted Items')
+                except: pass
+            
+            mail.uid('STORE', chunk_str, '+FLAGS', '\\Deleted')
+        mail.expunge()
+        send_telegram_message(f"🗑️ *Auto-Cleanup ({account_type.upper()})*\nDeleted {len(uids_to_trash)} old clutter emails.")
+    else:
+        print(f"[TEST MODE] Skipped deletion for {account_type}.")
+        
+    mail.logout()
+
 def process_deletions():
     print("Processing time-based deletions...")
     data = load_data()
-    mail = get_imap_connection()
-    if not mail: return
-    
     now_ts = datetime.datetime.now(datetime.timezone.utc).timestamp()
     
-    uids_to_trash = []
+    uids_to_trash_gmail = []
+    uids_to_trash_outlook = []
     keys_to_delete = []
     
-    for uid, m in list(data.items()):
+    for global_uid, m in list(data.items()):
         status = m.get("status")
         cat = m.get("category")
         decision = m.get("decision", "KEEP")
+        account = m.get("account", "gmail")
+        uid = m.get("uid", global_uid) # Use the raw IMAP UID for deletion
+        
         age_hours = (now_ts - m.get("timestamp", 0)) / 3600.0
         
-        # 1. 7-day auto cleanup from JSON (168 hours)
+        # 1. 7-day auto cleanup from JSON
         if age_hours > 168:
-            keys_to_delete.append(uid)
+            keys_to_delete.append(global_uid)
             continue
             
         if status != "CLASSIFIED":
             continue
             
-        # 2. Check AI decision and apply time delays
+        # 2. Apply rules
         should_delete = False
         if decision == "TRASH":
             if cat in ["OTP", "Security", "Verification"]:
-                if age_hours > 24:
-                    should_delete = True
+                if age_hours > 24: should_delete = True
             elif cat in ["Marketing", "Social"]:
-                if age_hours > 48:
-                    should_delete = True
+                if age_hours > 48: should_delete = True
             else:
-                # If AI says TRASH for anything else, do it after 48h to be safe
-                if age_hours > 48:
-                    should_delete = True
+                if age_hours > 48: should_delete = True
             
         if should_delete:
-            uids_to_trash.append(uid)
-            keys_to_delete.append(uid)
+            if account == "gmail":
+                uids_to_trash_gmail.append(uid)
+            elif account == "outlook":
+                uids_to_trash_outlook.append(uid)
+            keys_to_delete.append(global_uid)
             
-    if uids_to_trash:
-        print(f"Found {len(uids_to_trash)} old categorized emails to trash.")
-        if not TEST_MODE:
-            chunk_size = 500
-            for i in range(0, len(uids_to_trash), chunk_size):
-                chunk = [uid.encode('utf-8') for uid in uids_to_trash[i:i + chunk_size]]
-                chunk_str = b','.join(chunk)
-                
-                try:
-                    mail.uid('COPY', chunk_str, '[Gmail]/Trash')
-                except:
-                    try: mail.uid('COPY', chunk_str, '[Gmail]/Bin')
-                    except: pass
-                
-                mail.uid('STORE', chunk_str, '+FLAGS', '\\Deleted')
-            mail.expunge()
-            send_telegram_message(f"🗑️ *Auto-Cleanup*\nDeleted {len(uids_to_trash)} old clutter emails from your inbox.")
-        else:
-            print("[TEST MODE] Skipped deletion.")
+    # Execute per account
+    process_deletions_for_account("gmail", uids_to_trash_gmail)
+    process_deletions_for_account("outlook", uids_to_trash_outlook)
 
     # Remove from JSON
     for k in keys_to_delete:
@@ -289,7 +334,6 @@ def process_deletions():
             del data[k]
             
     save_data(data)
-    mail.logout()
     print("Deletion processing complete.")
 
 def run_pipeline():
@@ -299,15 +343,12 @@ def run_pipeline():
 
 def run_daily_ai():
     print(f"--- Running Daily AI Batch at {datetime.datetime.now()} ---")
-    # Fetch new emails right before running the AI so the 8 PM batch includes everything up to the minute
     fetch_new_emails()
     classify_emails_with_ai()
-    # Immediately process deletions after classifying
     process_deletions()
 
 if __name__ == "__main__":
     import sys
-    
     if len(sys.argv) > 1:
         if sys.argv[1] == "--fetch":
             run_pipeline()
@@ -316,19 +357,13 @@ if __name__ == "__main__":
         sys.exit(0)
         
     print("MailAuto is running in background...")
-    
-    # Run fetch + cleanup strictly between 8 AM and 8 PM every 3 hours
     schedule.every().day.at("08:00").do(run_pipeline)
     schedule.every().day.at("11:00").do(run_pipeline)
     schedule.every().day.at("14:00").do(run_pipeline)
     schedule.every().day.at("17:00").do(run_pipeline)
-    
-    # Run the expensive AI Batch once a day at 8:00 PM (20:00)
     schedule.every().day.at("20:00").do(run_daily_ai)
     
-    # Run once on startup so we don't have to wait for the next scheduled time
     run_pipeline()
-    
     while True:
         schedule.run_pending()
         time.sleep(60)
