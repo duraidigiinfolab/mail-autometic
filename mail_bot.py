@@ -1,21 +1,45 @@
 import imaplib
 import email
 import os
+import json
+import time
 import requests
 import datetime
+import schedule
 from email.header import decode_header
 from dotenv import load_dotenv
+import google.generativeai as genai
+from google.generativeai import types
 
-# Load environment variables
 load_dotenv()
 
 GMAIL_USER = os.getenv("GMAIL_USER")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# For local testing, set this to True to prevent actual deletions and Telegram messages
 TEST_MODE = os.getenv("TEST_MODE", "false").lower() == "true"
+DATA_FILE = "mail_data.json"
+
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
+    client = genai.Client(api_key=GEMINI_API_KEY)
+else:
+    client = None
+
+def load_data():
+    if os.path.exists(DATA_FILE):
+        with open(DATA_FILE, "r") as f:
+            try:
+                return json.load(f)
+            except:
+                return {}
+    return {}
+
+def save_data(data):
+    with open(DATA_FILE, "w") as f:
+        json.dump(data, f, indent=4)
 
 def decode_subject(subject_bytes):
     try:
@@ -43,184 +67,264 @@ def get_email_body(msg):
 
 def send_telegram_message(message):
     if TEST_MODE:
-        print(f"[TEST MODE] Would send Telegram message:\n{message}")
+        print(f"[TEST MODE] Telegram:\n{message}")
         return
         
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": TELEGRAM_CHAT_ID,
-        "text": message,
-        "parse_mode": "Markdown"
-    }
-    
+    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"}
     try:
-        response = requests.post(url, json=payload)
-        if response.status_code == 200:
-            print("Telegram notification sent successfully.")
-        else:
-            print(f"Failed to send Telegram notification. HTTP {response.status_code}: {response.text}")
+        requests.post(url, json=payload)
     except Exception as e:
         print(f"Error sending Telegram message: {e}")
 
-def delete_emails(mail, criteria_list, description):
-    print(f"\nSearching for {description}...")
-    # Pass the criteria as separate arguments to imaplib to avoid quoting bugs
-    status, messages = mail.search(None, *criteria_list)
+def get_imap_connection():
+    try:
+        mail = imaplib.IMAP4_SSL("imap.gmail.com")
+        mail.login(GMAIL_USER, GMAIL_APP_PASSWORD)
+        mail.select("inbox")
+        return mail
+    except Exception as e:
+        print(f"IMAP Login failed: {e}")
+        return None
+
+def fetch_new_emails():
+    print("Fetching new emails...")
+    mail = get_imap_connection()
+    if not mail: return
+    
+    data = load_data()
+    now = datetime.datetime.now(datetime.timezone.utc)
+    
+    date_3d_ago = (datetime.date.today() - datetime.timedelta(days=3)).strftime("%d-%b-%Y")
+    status, messages = mail.uid('search', None, f"SINCE {date_3d_ago}")
     
     if status != "OK" or not messages[0]:
-        print(f"No emails found for {description}.")
-        return 0
-
-    email_ids = messages[0].split()
-    print(f"Found {len(email_ids)} emails to delete.")
-
-    if TEST_MODE:
-        print(f"[TEST MODE] Skipping deletion of {len(email_ids)} emails.")
-        return len(email_ids)
-
-    chunk_size = 500
-    for i in range(0, len(email_ids), chunk_size):
-        chunk = email_ids[i:i + chunk_size]
-        chunk_ids = b','.join(chunk)
-        
-        # Copy to Trash folder first, then mark original as deleted so they actually move to Trash
-        try:
-            mail.copy(chunk_ids, '[Gmail]/Trash')
-        except:
-            # Fallback for some localized Gmail accounts (like Bin)
-            try:
-                mail.copy(chunk_ids, '[Gmail]/Bin')
-            except:
-                pass
-                
-        mail.store(chunk_ids, '+FLAGS', '\\Deleted')
-    
-    print(f"Moved {len(email_ids)} emails to Trash.")
-    return len(email_ids)
-
-def process_deletions(mail):
-    print("--- STARTING DELETION TASKS ---")
-    
-    # Calculate IMAP standard dates
-    date_1d_ago = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%d-%b-%Y")
-    date_2d_ago = (datetime.date.today() - datetime.timedelta(days=2)).strftime("%d-%b-%Y")
-
-    report = []
-
-    # 1. OTPs older than 1 day (Using standard IMAP SUBJECT and BEFORE criteria)
-    c1 = delete_emails(mail, ["SUBJECT", '"OTP"', "BEFORE", date_1d_ago], "OTP emails older than 24 hours")
-    if c1 > 0: report.append(f"• {c1} OTP emails")
-    
-    c2 = delete_emails(mail, ["SUBJECT", '"verification"', "BEFORE", date_1d_ago], "Verification emails older than 24 hours")
-    if c2 > 0: report.append(f"• {c2} Verification emails")
-    
-    c3 = delete_emails(mail, ["SUBJECT", '"password"', "BEFORE", date_1d_ago], "Password emails older than 24 hours")
-    if c3 > 0: report.append(f"• {c3} Password reset emails")
-    
-    c4 = delete_emails(mail, ["SUBJECT", '"security"', "BEFORE", date_1d_ago], "Security emails older than 24 hours")
-    if c4 > 0: report.append(f"• {c4} Security emails")
-    
-    # 2. Marketing/Promotions older than 2 days (Using X-GM-RAW for category, paired with standard BEFORE)
-    c5 = delete_emails(mail, ["X-GM-RAW", "category:promotions", "BEFORE", date_2d_ago], "Marketing emails older than 48 hours")
-    if c5 > 0: report.append(f"• {c5} Marketing/Promotional emails")
-    
-    # 3. Social media older than 2 days
-    c6 = delete_emails(mail, ["X-GM-RAW", "category:social", "BEFORE", date_2d_ago], "Social media emails older than 48 hours")
-    if c6 > 0: report.append(f"• {c6} Social media emails")
-    
-    if not TEST_MODE:
-        mail.expunge()
-
-    # Send a single Telegram summary if any emails were deleted
-    if report:
-        total = sum([c1, c2, c3, c4, c5, c6])
-        msg = f"🗑️ *Trash Report*\n\nCleaned up a total of *{total}* old emails:\n" + "\n".join(report)
-        send_telegram_message(msg)
-
-def check_important_emails(mail):
-    print("\n--- STARTING NOTIFICATION TASKS ---")
-    
-    # Fetch all emails received since yesterday (Standard IMAP)
-    date_1d_ago = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%d-%b-%Y")
-    status, messages = mail.search(None, "SINCE", date_1d_ago)
-    
-    if status != "OK" or not messages[0]:
-        print("No new important or reply emails found.")
+        print("No recent emails found.")
+        mail.logout()
         return
 
-    email_ids = messages[0].split()
-    print(f"Found {len(email_ids)} candidate emails. Filtering for those received in the last 3 hours...")
-    
-    now = datetime.datetime.now(datetime.timezone.utc)
-    notified_count = 0
+    uid_list = messages[0].split()
+    new_emails = 0
 
-    for e_id in email_ids:
-        # Fetch header and body
-        res, msg_data = mail.fetch(e_id, '(RFC822)')
-        if res != "OK":
+    for e_uid in uid_list:
+        e_uid_str = e_uid.decode('utf-8')
+        if e_uid_str in data:
             continue
+            
+        res, msg_data = mail.uid('fetch', e_uid, '(RFC822)')
+        if res != "OK": continue
             
         for response_part in msg_data:
             if isinstance(response_part, tuple):
                 msg = email.message_from_bytes(response_part[1])
-                
-                # Check date
                 date_tuple = email.utils.parsedate_tz(msg.get("Date"))
-                if not date_tuple:
-                    continue
+                if not date_tuple: continue
                     
                 msg_timestamp = email.utils.mktime_tz(date_tuple)
                 msg_date = datetime.datetime.fromtimestamp(msg_timestamp, datetime.timezone.utc)
                 
-                time_diff = now - msg_date
-                
-                # If the email is older than 3 hours (10800 seconds), skip it
-                if time_diff.total_seconds() > 10800:
-                    continue
-                
                 subject = decode_subject(msg.get("Subject", ""))
                 sender = decode_subject(msg.get("From", ""))
-                date_str = msg.get("Date", "")
                 
-                # Extract a short snippet of the body
                 body = get_email_body(msg)
-                snippet = body[:200].replace('\n', ' ').replace('\r', '') + ("..." if len(body) > 200 else "")
+                snippet = body[:300].replace('\n', ' ').replace('\r', '')
                 
-                # Format Telegram message
-                telegram_msg = (
-                    f"🔔 *New Email*\n\n"
-                    f"*From:* {sender}\n"
-                    f"*Date:* {date_str}\n"
-                    f"*Subject:* {subject}\n\n"
-                    f"{snippet}"
-                )
+                data[e_uid_str] = {
+                    "timestamp": msg_timestamp,
+                    "date_str": str(msg_date),
+                    "sender": sender,
+                    "subject": subject,
+                    "snippet": snippet,
+                    "status": "UNCLASSIFIED",
+                    "category": None
+                }
+                new_emails += 1
                 
-                send_telegram_message(telegram_msg)
-                notified_count += 1
+                # Instant notification for potentially important senders (optional, simple keyword check)
+                if any(k in sender.lower() or k in subject.lower() for k in ["boss", "urgent", "important", "bank"]):
+                    send_telegram_message(f"🔔 *Important Alert*\n\n*From:* {sender}\n*Subject:* {subject}\n\n{snippet[:100]}...")
 
-    print(f"Sent {notified_count} Telegram notifications.")
-
-def main():
-    if not all([GMAIL_USER, GMAIL_APP_PASSWORD, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID]):
-        print("ERROR: Missing environment variables. Please check your .env file or GitHub Secrets.")
-        return
-
-    print("Connecting to Gmail...")
-    try:
-        mail = imaplib.IMAP4_SSL("imap.gmail.com")
-        mail.login(GMAIL_USER, GMAIL_APP_PASSWORD)
-    except Exception as e:
-        print(f"Login failed: {e}")
-        return
-
-    mail.select("inbox")
-
-    process_deletions(mail)
-    check_important_emails(mail)
-
-    mail.close()
+    save_data(data)
     mail.logout()
-    print("Done.")
+    print(f"Added {new_emails} new emails to local DB.")
+
+def classify_emails_with_ai():
+    if not client:
+        print("Gemini API not configured.")
+        return
+        
+    data = load_data()
+    unclassified = {uid: m for uid, m in data.items() if m.get("status") == "UNCLASSIFIED"}
+    
+    if not unclassified:
+        print("No new emails to classify.")
+        return
+        
+    print(f"Batch classifying {len(unclassified)} emails with Gemini...")
+    
+    # Build a giant prompt string
+    batch_text = "Emails to classify:\n\n"
+    for uid, m in unclassified.items():
+        batch_text += f"ID: {uid}\nSender: {m['sender']}\nSubject: {m['subject']}\nSnippet: {m['snippet']}\n\n"
+        
+    system_prompt = """
+You are an expert email assistant. You will be provided with a batch of emails.
+For EVERY email provided, you must output a JSON array of objects classifying them and deciding if they should be TRASHED or KEPT.
+
+Categories:
+- "OTP" (Any one-time passwords, login codes, verification codes)
+- "Security" (Password changed, new login detected)
+- "Marketing" (Newsletters, promotional offers, sales, spammy marketing)
+- "Social" (Facebook, Twitter, LinkedIn notifications)
+- "Important" (Work emails, personal conversations, bills, receipts, flights, banks)
+
+Return strictly a JSON ARRAY:
+[
+  {
+    "id": "THE_ID_PROVIDED",
+    "category": "Marketing",
+    "decision": "TRASH" // Or "KEEP"
+  }
+]
+"""
+
+    try:
+        response = client.models.generate_content(
+            model='gemini-3.6-flash',
+            contents=batch_text,
+            config=types.GenerateContentConfig(
+                system_instruction=system_prompt,
+                response_mime_type="application/json",
+                temperature=0.1
+            )
+        )
+        
+        result = json.loads(response.text)
+        if isinstance(result, dict) and "id" in result:
+            result = [result]
+            
+        classified_count = 0
+        for item in result:
+            uid = str(item.get("id"))
+            cat = item.get("category")
+            decision = item.get("decision", "KEEP")
+            if uid in data:
+                data[uid]["category"] = cat
+                data[uid]["decision"] = decision
+                data[uid]["status"] = "CLASSIFIED"
+                classified_count += 1
+                
+        save_data(data)
+        print(f"Successfully classified {classified_count} emails.")
+        
+    except Exception as e:
+        print(f"Error classifying emails: {e}")
+
+def process_deletions():
+    print("Processing time-based deletions...")
+    data = load_data()
+    mail = get_imap_connection()
+    if not mail: return
+    
+    now_ts = datetime.datetime.now(datetime.timezone.utc).timestamp()
+    
+    uids_to_trash = []
+    keys_to_delete = []
+    
+    for uid, m in list(data.items()):
+        status = m.get("status")
+        cat = m.get("category")
+        decision = m.get("decision", "KEEP")
+        age_hours = (now_ts - m.get("timestamp", 0)) / 3600.0
+        
+        # 1. 7-day auto cleanup from JSON (168 hours)
+        if age_hours > 168:
+            keys_to_delete.append(uid)
+            continue
+            
+        if status != "CLASSIFIED":
+            continue
+            
+        # 2. Check AI decision and apply time delays
+        should_delete = False
+        if decision == "TRASH":
+            if cat in ["OTP", "Security", "Verification"]:
+                if age_hours > 24:
+                    should_delete = True
+            elif cat in ["Marketing", "Social"]:
+                if age_hours > 48:
+                    should_delete = True
+            else:
+                # If AI says TRASH for anything else, do it after 48h to be safe
+                if age_hours > 48:
+                    should_delete = True
+            
+        if should_delete:
+            uids_to_trash.append(uid)
+            keys_to_delete.append(uid)
+            
+    if uids_to_trash:
+        print(f"Found {len(uids_to_trash)} old categorized emails to trash.")
+        if not TEST_MODE:
+            chunk_size = 500
+            for i in range(0, len(uids_to_trash), chunk_size):
+                chunk = [uid.encode('utf-8') for uid in uids_to_trash[i:i + chunk_size]]
+                chunk_str = b','.join(chunk)
+                
+                try:
+                    mail.uid('COPY', chunk_str, '[Gmail]/Trash')
+                except:
+                    try: mail.uid('COPY', chunk_str, '[Gmail]/Bin')
+                    except: pass
+                
+                mail.uid('STORE', chunk_str, '+FLAGS', '\\Deleted')
+            mail.expunge()
+            send_telegram_message(f"🗑️ *Auto-Cleanup*\nDeleted {len(uids_to_trash)} old clutter emails from your inbox.")
+        else:
+            print("[TEST MODE] Skipped deletion.")
+
+    # Remove from JSON
+    for k in keys_to_delete:
+        if k in data:
+            del data[k]
+            
+    save_data(data)
+    mail.logout()
+    print("Deletion processing complete.")
+
+def run_pipeline():
+    print(f"--- Running Pipeline at {datetime.datetime.now()} ---")
+    fetch_new_emails()
+    process_deletions()
+
+def run_daily_ai():
+    print(f"--- Running Daily AI Batch at {datetime.datetime.now()} ---")
+    classify_emails_with_ai()
+    # Immediately process deletions after classifying
+    process_deletions()
 
 if __name__ == "__main__":
-    main()
+    import sys
+    
+    if len(sys.argv) > 1:
+        if sys.argv[1] == "--fetch":
+            run_pipeline()
+        elif sys.argv[1] == "--ai":
+            run_daily_ai()
+        sys.exit(0)
+        
+    print("MailAuto is running in background...")
+    
+    # Run fetch + cleanup every 2 hours
+    schedule.every(2).hours.do(run_pipeline)
+    
+    # Run the expensive AI Batch once a day at midnight
+    schedule.every().day.at("00:00").do(run_daily_ai)
+    
+    # Run once on startup
+    run_pipeline()
+    run_daily_ai()
+    
+    while True:
+        schedule.run_pending()
+        time.sleep(60)
