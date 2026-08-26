@@ -299,6 +299,8 @@ def run_pipeline():
 
 def run_daily_ai():
     print(f"--- Running Daily AI Batch at {datetime.datetime.now()} ---")
+    # Fetch new emails right before running the AI so the 8 PM batch includes everything up to the minute
+    fetch_new_emails()
     classify_emails_with_ai()
     # Immediately process deletions after classifying
     process_deletions()
@@ -315,15 +317,17 @@ if __name__ == "__main__":
         
     print("MailAuto is running in background...")
     
-    # Run fetch + cleanup every 2 hours
-    schedule.every(2).hours.do(run_pipeline)
+    # Run fetch + cleanup strictly between 8 AM and 8 PM every 3 hours
+    schedule.every().day.at("08:00").do(run_pipeline)
+    schedule.every().day.at("11:00").do(run_pipeline)
+    schedule.every().day.at("14:00").do(run_pipeline)
+    schedule.every().day.at("17:00").do(run_pipeline)
     
-    # Run the expensive AI Batch once a day at midnight
-    schedule.every().day.at("00:00").do(run_daily_ai)
+    # Run the expensive AI Batch once a day at 8:00 PM (20:00)
+    schedule.every().day.at("20:00").do(run_daily_ai)
     
-    # Run once on startup
+    # Run once on startup so we don't have to wait for the next scheduled time
     run_pipeline()
-    run_daily_ai()
     
     while True:
         schedule.run_pending()
