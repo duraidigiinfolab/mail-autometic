@@ -207,42 +207,48 @@ Return strictly a JSON ARRAY:
 ]
 """
 
-    try:
-        response = client.models.generate_content(
-            model='gemini-3.6-flash',
-            contents=batch_text,
-            config=types.GenerateContentConfig(
-                system_instruction=system_prompt,
-                response_mime_type="application/json",
-                temperature=0.1
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model='gemini-1.5-flash',
+                contents=batch_text,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_prompt,
+                    response_mime_type="application/json",
+                    temperature=0.1
+                )
             )
-        )
-        
-        result = json.loads(response.text)
-        if isinstance(result, dict):
-            if "results" in result:
-                result = result.get("results", [])
-            else:
-                result = [result]
             
-        classified_count = 0
-        for item in result:
-            global_uid = str(item.get("id"))
-            cat = item.get("category")
-            decision = item.get("decision", "KEEP")
-            if global_uid in data:
-                data[global_uid]["category"] = cat
-                data[global_uid]["decision"] = decision
-                data[global_uid]["status"] = "CLASSIFIED"
-                classified_count += 1
+            result = json.loads(response.text)
+            if isinstance(result, dict):
+                if "results" in result:
+                    result = result.get("results", [])
+                else:
+                    result = [result]
                 
-        save_data(data)
-        print(f"Successfully classified {classified_count} emails.")
-        return True
-        
-    except Exception as e:
-        print(f"Error classifying emails: {e}")
-        return False
+            classified_count = 0
+            for item in result:
+                global_uid = str(item.get("id"))
+                cat = item.get("category")
+                decision = item.get("decision", "KEEP")
+                if global_uid in data:
+                    data[global_uid]["category"] = cat
+                    data[global_uid]["decision"] = decision
+                    data[global_uid]["status"] = "CLASSIFIED"
+                    classified_count += 1
+                    
+            save_data(data)
+            print(f"Successfully classified {classified_count} emails.")
+            return True
+            
+        except Exception as e:
+            print(f"Error classifying emails (Attempt {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                print("Retrying in 15 seconds...")
+                time.sleep(15)
+            else:
+                return False
 
 def process_gmail_deletions(uids_to_trash, deleted_info_list):
     if not uids_to_trash: return
