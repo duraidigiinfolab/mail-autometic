@@ -1,14 +1,13 @@
-# Gmail Auto Bot (Cloud Hosted)
+# Email Auto Bot (Cloud Hosted)
 
-This is a complete automation system that runs completely in the cloud using GitHub Actions. It will automatically log into your Gmail, delete old spam/OTPs, and send you WhatsApp notifications for important emails.
+This is a complete automation system that runs completely in the cloud using GitHub Actions. It will automatically log into your Gmail and Outlook accounts, use OpenAI to classify emails, delete old spam/OTPs, and send you Telegram notifications for important emails.
 
 Since it runs on GitHub Actions, **your computer does not need to be turned on**.
 
 ## Features
-1. **Deletes OTPs** that are older than 24 hours.
-2. **Deletes Marketing/Promotional emails** that are older than 48 hours.
-3. **Deletes Social Media emails** that are older than 48 hours.
-4. **Sends Telegram Notifications** for any new Important or Reply emails received in the last 3 hours.
+1. **Smart AI Classification**: Uses OpenAI to automatically analyze and categorize your incoming emails (OTP, Marketing, Social, Important, etc.).
+2. **AI-Driven Deletions**: OpenAI determines the category and whether an email is safe to delete. The bot then automatically cleans up OTPs older than 24 hours, and Marketing/Social emails older than 48 hours.
+3. **Sends Telegram Notifications** for emails matching keywords (boss, urgent, important, bank).
 
 ---
 
@@ -35,15 +34,18 @@ For security, you must NEVER upload your passwords directly in the code or a `.e
 
 | Name | Secret Value |
 | :--- | :--- |
-| `GMAIL_USER` | Your email (e.g., `you@gmail.com`) |
-| `GMAIL_APP_PASSWORD` | The 16-letter App Password you generated earlier |
+| `GMAIL_USER` | Your Gmail address (e.g., `you@gmail.com`) |
+| `GMAIL_APP_PASSWORD` | The 16-letter Gmail App Password |
+| `OUTLOOK_USER` | Your Outlook/Hotmail address (Optional) |
+| `OUTLOOK_PASSWORD` | Your Outlook Password (Optional) |
 | `TELEGRAM_BOT_TOKEN` | The Bot Token you got from BotFather |
 | `TELEGRAM_CHAT_ID` | The ID number you got from userinfobot |
+| `OPENAI_API_KEY` | Your OpenAI API Key for email classification |
 
 ### 4. You're Done!
 The bot is now fully active. It will automatically run:
-* **Every 3 hours** to check for new important emails and notify you on Telegram.
+* **Once a day at 7:30 AM IST** to check for new important emails and notify you on Telegram.
 * While checking, it will also quietly delete any old OTPs and marketing emails in the background.
 
 > **Testing it right now:**
-> You don't have to wait 3 hours! You can go to the **Actions** tab in your GitHub repository, click on **Mail Automation Bot** on the left, and click the **Run workflow** button to force it to run immediately.
+> You don't have to wait for the daily run! You can go to the **Actions** tab in your GitHub repository, click on **Mail Automation Bot** on the left, and click the **Run workflow** button to force it to run immediately.

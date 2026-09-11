@@ -8,8 +8,7 @@ import datetime
 import schedule
 from email.header import decode_header
 from dotenv import load_dotenv
-import google.generativeai as genai
-from google.generativeai import types
+import openai
 
 load_dotenv()
 
@@ -20,14 +19,13 @@ OUTLOOK_PASSWORD = os.getenv("OUTLOOK_PASSWORD")
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 TEST_MODE = os.getenv("TEST_MODE", "false").lower() == "true"
 DATA_FILE = "mail_data.json"
 
-if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
-    client = genai.Client(api_key=GEMINI_API_KEY)
+if OPENAI_API_KEY:
+    client = openai.OpenAI(api_key=OPENAI_API_KEY)
 else:
     client = None
 
@@ -181,7 +179,7 @@ def fetch_new_emails():
 
 def classify_emails_with_ai():
     if not client:
-        print("Gemini API not configured.")
+        print("OpenAI API not configured.")
         return
         
     data = load_data()
@@ -191,7 +189,7 @@ def classify_emails_with_ai():
         print("No new emails to classify.")
         return
         
-    print(f"Batch classifying {len(unclassified)} emails with Gemini...")
+    print(f"Batch classifying {len(unclassified)} emails with OpenAI...")
     
     # Build a giant prompt string
     batch_text = "Emails to classify:\n\n"
@@ -200,7 +198,7 @@ def classify_emails_with_ai():
         
     system_prompt = """
 You are an expert email assistant. You will be provided with a batch of emails.
-For EVERY email provided, you must output a JSON array of objects classifying them and deciding if they should be TRASHED or KEPT.
+For EVERY email provided, you must output a JSON object classifying them and deciding if they should be TRASHED or KEPT.
 
 Categories:
 - "OTP" (Any one-time passwords, login codes, verification codes)
@@ -209,30 +207,32 @@ Categories:
 - "Social" (Facebook, Twitter, LinkedIn notifications)
 - "Important" (Work emails, personal conversations, bills, receipts, flights, banks)
 
-Return strictly a JSON ARRAY:
-[
-  {
-    "id": "THE_ID_PROVIDED",
-    "category": "Marketing",
-    "decision": "TRASH" // Or "KEEP"
-  }
-]
+Return strictly a JSON object containing an array under the key "results":
+{
+  "results": [
+    {
+      "id": "THE_ID_PROVIDED",
+      "category": "Marketing",
+      "decision": "TRASH" // Or "KEEP"
+    }
+  ]
+}
 """
 
     try:
-        response = client.models.generate_content(
-            model='gemini-3.6-flash',
-            contents=batch_text,
-            config=types.GenerateContentConfig(
-                system_instruction=system_prompt,
-                response_mime_type="application/json",
-                temperature=0.1
-            )
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": batch_text}
+            ],
+            response_format={"type": "json_object"},
+            temperature=0.1
         )
         
-        result = json.loads(response.text)
-        if isinstance(result, dict) and "id" in result:
-            result = [result]
+        content = response.choices[0].message.content
+        parsed = json.loads(content)
+        result = parsed.get("results", [])
             
         classified_count = 0
         for item in result:

@@ -2,8 +2,8 @@ name: Mail Automation Bot
 
 on:
   schedule:
-    # Run every 3 hours
-    - cron: '0 */3 * * *'
+    # Run every day at 7:30 AM IST (2:00 AM UTC)
+    - cron: '0 2 * * *'
   # Allow manual triggering from the GitHub Actions tab
   workflow_dispatch:
 
@@ -27,7 +27,10 @@ jobs:
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          OUTLOOK_USER: ${{ secrets.OUTLOOK_USER }}
+          OUTLOOK_PASSWORD: ${{ secrets.OUTLOOK_PASSWORD }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           TEST_MODE: "false"
-        run: python mail_bot.py
+        run: python mail_bot.py --ai
