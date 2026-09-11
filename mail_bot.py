@@ -53,6 +53,12 @@ def decode_subject(subject_bytes):
     except Exception:
         return str(subject_bytes)
 
+def mask_otp(text):
+    """Replace standalone 4-8 digit OTP numbers with *****"""
+    import re
+    # Match 4-8 digit numbers that are standalone (not part of longer numbers)
+    return re.sub(r'\b\d{4,8}\b', '*****', text)
+
 def get_email_body(msg):
     if msg.is_multipart():
         for part in msg.walk():
@@ -143,8 +149,8 @@ def fetch_new_gmail_emails(data):
                         "timestamp": msg_timestamp,
                         "date_str": str(msg_date),
                         "sender": sender,
-                        "subject": subject,
-                        "snippet": snippet,
+                        "subject": mask_otp(subject),
+                        "snippet": mask_otp(snippet),
                         "status": "UNCLASSIFIED",
                         "category": None
                     }
