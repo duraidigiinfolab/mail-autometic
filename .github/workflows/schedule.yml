@@ -10,7 +10,7 @@ on:
       test_mode:
         description: "Run without deleting mail or sending Telegram alerts"
         required: false
-        default: "true"
+        default: "false"
         type: choice
         options:
           - "true"
@@ -19,6 +19,8 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
@@ -41,3 +43,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TEST_MODE: ${{ inputs.test_mode || 'false' }}
         run: python mail_bot.py --ai
+        
+      - name: Save processed emails database
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add mail_data.json
+          git commit -m "chore: Update processed emails database [skip ci]" || echo "No new emails to save"
+          git push
