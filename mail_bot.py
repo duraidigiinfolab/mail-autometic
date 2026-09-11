@@ -170,14 +170,14 @@ def fetch_new_emails():
 def classify_emails_with_ai():
     if not client:
         print("Gemini API not configured.")
-        return
+        return False
         
     data = load_data()
     unclassified = {k: m for k, m in data.items() if m.get("status") == "UNCLASSIFIED"}
     
     if not unclassified:
         print("No new emails to classify.")
-        return
+        return True
         
     print(f"Batch classifying {len(unclassified)} emails with Gemini...")
     
@@ -209,7 +209,7 @@ Return strictly a JSON ARRAY:
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-3.6-flash',
             contents=batch_text,
             config=types.GenerateContentConfig(
                 system_instruction=system_prompt,
@@ -238,9 +238,11 @@ Return strictly a JSON ARRAY:
                 
         save_data(data)
         print(f"Successfully classified {classified_count} emails.")
+        return True
         
     except Exception as e:
         print(f"Error classifying emails: {e}")
+        return False
 
 def process_gmail_deletions(uids_to_trash, deleted_info_list):
     if not uids_to_trash: return
@@ -340,8 +342,9 @@ def run_pipeline():
 def run_daily_ai():
     print(f"--- Running Daily AI Batch at {datetime.datetime.now()} ---")
     fetch_new_emails()
-    classify_emails_with_ai()
+    classification_succeeded = classify_emails_with_ai()
     process_deletions()
+    return classification_succeeded
 
 if __name__ == "__main__":
     import sys
@@ -349,7 +352,7 @@ if __name__ == "__main__":
         if sys.argv[1] == "--fetch":
             run_pipeline()
         elif sys.argv[1] == "--ai":
-            run_daily_ai()
+            sys.exit(0 if run_daily_ai() else 1)
         sys.exit(0)
         
     print("MailAuto is running in background...")
