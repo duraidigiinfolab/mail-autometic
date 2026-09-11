@@ -8,24 +8,23 @@ import datetime
 import schedule
 from email.header import decode_header
 from dotenv import load_dotenv
-import openai
+from google import genai
+from google.genai import types
 
 load_dotenv()
 
 GMAIL_USER = os.getenv("GMAIL_USER")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
-OUTLOOK_USER = os.getenv("OUTLOOK_USER")
-OUTLOOK_PASSWORD = os.getenv("OUTLOOK_PASSWORD")
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 TEST_MODE = os.getenv("TEST_MODE", "false").lower() == "true"
 DATA_FILE = "mail_data.json"
 
-if OPENAI_API_KEY:
-    client = openai.OpenAI(api_key=OPENAI_API_KEY)
+if GEMINI_API_KEY:
+    client = genai.Client(api_key=GEMINI_API_KEY)
 else:
     client = None
 
@@ -78,30 +77,23 @@ def send_telegram_message(message):
     except Exception as e:
         print(f"Error sending Telegram message: {e}")
 
-def get_imap_connection(account_type="gmail"):
+def get_imap_connection():
     try:
-        if account_type == "gmail":
-            if not GMAIL_USER or not GMAIL_APP_PASSWORD: return None
-            mail = imaplib.IMAP4_SSL("imap.gmail.com")
-            mail.login(GMAIL_USER, GMAIL_APP_PASSWORD)
-            mail.select("inbox")
-            return mail
-        elif account_type == "outlook":
-            if not OUTLOOK_USER or not OUTLOOK_PASSWORD: return None
-            mail = imaplib.IMAP4_SSL("outlook.office365.com")
-            mail.login(OUTLOOK_USER, OUTLOOK_PASSWORD)
-            mail.select("inbox")
-            return mail
+        if not GMAIL_USER or not GMAIL_APP_PASSWORD:
+            return None
+        mail = imaplib.IMAP4_SSL("imap.gmail.com")
+        mail.login(GMAIL_USER, GMAIL_APP_PASSWORD)
+        mail.select("inbox")
+        return mail
     except Exception as e:
-        print(f"IMAP Login failed for {account_type}: {e}")
+        print(f"IMAP Login failed for Gmail: {e}")
         return None
-    return None
 
-def fetch_new_emails_for_account(account_type, data):
-    print(f"Fetching new emails for {account_type}...")
-    mail = get_imap_connection(account_type)
+def fetch_new_gmail_emails(data):
+    print("Fetching new emails for Gmail...")
+    mail = get_imap_connection()
     if not mail: 
-        print(f"Could not connect to {account_type}. Skipping.")
+        print("Could not connect to Gmail. Skipping.")
         return 0
     
     now = datetime.datetime.now(datetime.timezone.utc)
@@ -110,7 +102,7 @@ def fetch_new_emails_for_account(account_type, data):
     try:
         status, messages = mail.uid('search', None, f"SINCE {date_3d_ago}")
         if status != "OK" or not messages[0]:
-            print(f"No recent emails found for {account_type}.")
+            print("No recent emails found for Gmail.")
             mail.logout()
             return 0
 
@@ -119,8 +111,7 @@ def fetch_new_emails_for_account(account_type, data):
 
         for e_uid in uid_list:
             e_uid_str = e_uid.decode('utf-8')
-            # Prefix UID with account type to avoid collisions between Gmail and Outlook
-            global_uid = f"{account_type}_{e_uid_str}"
+            global_uid = f"gmail_{e_uid_str}"
             
             if global_uid in data:
                 continue
@@ -144,7 +135,7 @@ def fetch_new_emails_for_account(account_type, data):
                     snippet = body[:300].replace('\n', ' ').replace('\r', '')
                     
                     data[global_uid] = {
-                        "account": account_type,
+                        "account": "gmail",
                         "uid": e_uid_str,
                         "timestamp": msg_timestamp,
                         "date_str": str(msg_date),
@@ -159,29 +150,26 @@ def fetch_new_emails_for_account(account_type, data):
                     if any(k in sender.lower() or k in subject.lower() for k in ["boss", "urgent", "important", "bank"]):
                         ist_date = msg_date + datetime.timedelta(hours=5, minutes=30)
                         time_str = ist_date.strftime('%I:%M %p, %d %b %Y (IST)')
-                        send_telegram_message(f"🔔 *Important Alert ({account_type.upper()})*\n\n*From:* {sender}\n*Time:* {time_str}\n*Subject:* {subject}\n\n{snippet[:100]}...")
+                        send_telegram_message(f"🔔 *Important Alert (GMAIL)*\n\n*From:* {sender}\n*Time:* {time_str}\n*Subject:* {subject}\n\n{snippet[:100]}...")
 
         mail.logout()
         return new_emails
     except Exception as e:
-        print(f"Error fetching {account_type}: {e}")
+        print(f"Error fetching Gmail: {e}")
         try: mail.logout()
         except: pass
         return 0
 
 def fetch_new_emails():
     data = load_data()
-    total_new = 0
-    
-    total_new += fetch_new_emails_for_account("gmail", data)
-    total_new += fetch_new_emails_for_account("outlook", data)
+    total_new = fetch_new_gmail_emails(data)
     
     save_data(data)
     print(f"Added {total_new} total new emails to local DB.")
 
 def classify_emails_with_ai():
     if not client:
-        print("OpenAI API not configured.")
+        print("Gemini API not configured.")
         return
         
     data = load_data()
@@ -191,7 +179,7 @@ def classify_emails_with_ai():
         print("No new emails to classify.")
         return
         
-    print(f"Batch classifying {len(unclassified)} emails with OpenAI...")
+    print(f"Batch classifying {len(unclassified)} emails with Gemini...")
     
     # Build a giant prompt string
     batch_text = "Emails to classify:\n\n"
@@ -200,7 +188,7 @@ def classify_emails_with_ai():
         
     system_prompt = """
 You are an expert email assistant. You will be provided with a batch of emails.
-For EVERY email provided, you must output a JSON object classifying them and deciding if they should be TRASHED or KEPT.
+For EVERY email provided, you must output a JSON array of objects classifying them and deciding if they should be TRASHED or KEPT.
 
 Categories:
 - "OTP" (Any one-time passwords, login codes, verification codes)
@@ -209,32 +197,33 @@ Categories:
 - "Social" (Facebook, Twitter, LinkedIn notifications)
 - "Important" (Work emails, personal conversations, bills, receipts, flights, banks)
 
-Return strictly a JSON object containing an array under the key "results":
-{
-  "results": [
-    {
-      "id": "THE_ID_PROVIDED",
-      "category": "Marketing",
-      "decision": "TRASH" // Or "KEEP"
-    }
-  ]
-}
+Return strictly a JSON ARRAY:
+[
+  {
+    "id": "THE_ID_PROVIDED",
+    "category": "Marketing",
+    "decision": "TRASH" // Or "KEEP"
+  }
+]
 """
 
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": batch_text}
-            ],
-            response_format={"type": "json_object"},
-            temperature=0.1
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=batch_text,
+            config=types.GenerateContentConfig(
+                system_instruction=system_prompt,
+                response_mime_type="application/json",
+                temperature=0.1
+            )
         )
         
-        content = response.choices[0].message.content
-        parsed = json.loads(content)
-        result = parsed.get("results", [])
+        result = json.loads(response.text)
+        if isinstance(result, dict):
+            if "results" in result:
+                result = result.get("results", [])
+            else:
+                result = [result]
             
         classified_count = 0
         for item in result:
@@ -253,11 +242,11 @@ Return strictly a JSON object containing an array under the key "results":
     except Exception as e:
         print(f"Error classifying emails: {e}")
 
-def process_deletions_for_account(account_type, uids_to_trash, deleted_info_list):
+def process_gmail_deletions(uids_to_trash, deleted_info_list):
     if not uids_to_trash: return
     
-    print(f"Trashing {len(uids_to_trash)} emails for {account_type}...")
-    mail = get_imap_connection(account_type)
+    print(f"Trashing {len(uids_to_trash)} emails for Gmail...")
+    mail = get_imap_connection()
     if not mail: return
     
     if not TEST_MODE:
@@ -266,26 +255,22 @@ def process_deletions_for_account(account_type, uids_to_trash, deleted_info_list
             chunk = [uid.encode('utf-8') for uid in uids_to_trash[i:i + chunk_size]]
             chunk_str = b','.join(chunk)
             
-            if account_type == "gmail":
-                try: mail.uid('COPY', chunk_str, '[Gmail]/Trash')
-                except:
-                    try: mail.uid('COPY', chunk_str, '[Gmail]/Bin')
-                    except: pass
-            elif account_type == "outlook":
-                try: mail.uid('COPY', chunk_str, 'Deleted Items')
+            try: mail.uid('COPY', chunk_str, '[Gmail]/Trash')
+            except:
+                try: mail.uid('COPY', chunk_str, '[Gmail]/Bin')
                 except: pass
             
             mail.uid('STORE', chunk_str, '+FLAGS', '\\Deleted')
         mail.expunge()
         
-        msg = f"🗑️ *Auto-Cleanup ({account_type.upper()})*\nDeleted {len(uids_to_trash)} old clutter emails:\n\n"
+        msg = f"🗑️ *Auto-Cleanup (GMAIL)*\nDeleted {len(uids_to_trash)} old clutter emails:\n\n"
         details_str = "\n".join(deleted_info_list)
         if len(details_str) > 3000:
             details_str = details_str[:3000] + "\n... (truncated)"
             
         send_telegram_message(msg + details_str)
     else:
-        print(f"[TEST MODE] Skipped deletion for {account_type}.")
+        print("[TEST MODE] Skipped deletion for Gmail.")
         
     mail.logout()
 
@@ -294,10 +279,8 @@ def process_deletions():
     data = load_data()
     now_ts = datetime.datetime.now(datetime.timezone.utc).timestamp()
     
-    uids_to_trash_gmail = []
-    uids_to_trash_outlook = []
-    deleted_info_gmail = []
-    deleted_info_outlook = []
+    uids_to_trash = []
+    deleted_info = []
     keys_to_delete = []
     
     for global_uid, m in list(data.items()):
@@ -306,6 +289,9 @@ def process_deletions():
         decision = m.get("decision", "KEEP")
         account = m.get("account", "gmail")
         uid = m.get("uid", global_uid) # Use the raw IMAP UID for deletion
+
+        if account != "gmail":
+            continue
         
         age_hours = (now_ts - m.get("timestamp", 0)) / 3600.0
         
@@ -332,17 +318,11 @@ def process_deletions():
             subject_short = m.get('subject', 'No Subject')[:40]
             info_str = f"• {sender_short} - {subject_short}"
             
-            if account == "gmail":
-                uids_to_trash_gmail.append(uid)
-                deleted_info_gmail.append(info_str)
-            elif account == "outlook":
-                uids_to_trash_outlook.append(uid)
-                deleted_info_outlook.append(info_str)
+            uids_to_trash.append(uid)
+            deleted_info.append(info_str)
             keys_to_delete.append(global_uid)
             
-    # Execute per account
-    process_deletions_for_account("gmail", uids_to_trash_gmail, deleted_info_gmail)
-    process_deletions_for_account("outlook", uids_to_trash_outlook, deleted_info_outlook)
+    process_gmail_deletions(uids_to_trash, deleted_info)
 
     # Remove from JSON
     for k in keys_to_delete:

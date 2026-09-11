@@ -1,12 +1,12 @@
 # Email Auto Bot (Cloud Hosted)
 
-This is a complete automation system that runs completely in the cloud using GitHub Actions. It will automatically log into your Gmail and Outlook accounts, use OpenAI to classify emails, delete old spam/OTPs, and send you Telegram notifications for important emails.
+This is a complete automation system that runs completely in the cloud using GitHub Actions. It logs into your Gmail account, uses Gemini to classify emails, deletes old spam/OTPs, and sends Telegram notifications for important emails.
 
 Since it runs on GitHub Actions, **your computer does not need to be turned on**.
 
 ## Features
-1. **Smart AI Classification**: Uses OpenAI to automatically analyze and categorize your incoming emails (OTP, Marketing, Social, Important, etc.).
-2. **AI-Driven Deletions**: OpenAI determines the category and whether an email is safe to delete. The bot then automatically cleans up OTPs older than 24 hours, and Marketing/Social emails older than 48 hours.
+1. **Smart AI Classification**: Uses Gemini to automatically analyze and categorize your incoming emails (OTP, Marketing, Social, Important, etc.).
+2. **AI-Driven Deletions**: Gemini determines the category and whether an email is safe to delete. The bot then automatically cleans up OTPs older than 24 hours, and Marketing/Social emails older than 48 hours.
 3. **Sends Telegram Notifications** for emails matching keywords (boss, urgent, important, bank).
 
 ---
@@ -36,11 +36,9 @@ For security, you must NEVER upload your passwords directly in the code or a `.e
 | :--- | :--- |
 | `GMAIL_USER` | Your Gmail address (e.g., `you@gmail.com`) |
 | `GMAIL_APP_PASSWORD` | The 16-letter Gmail App Password |
-| `OUTLOOK_USER` | Your Outlook/Hotmail address (Optional) |
-| `OUTLOOK_PASSWORD` | Your Outlook Password (Optional) |
 | `TELEGRAM_BOT_TOKEN` | The Bot Token you got from BotFather |
 | `TELEGRAM_CHAT_ID` | The ID number you got from userinfobot |
-| `OPENAI_API_KEY` | Your OpenAI API Key for email classification |
+| `GEMINI_API_KEY` | Your Gemini API key for email classification |
 
 ### 4. You're Done!
 The bot is now fully active. It will automatically run:
