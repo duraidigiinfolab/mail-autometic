@@ -157,7 +157,9 @@ def fetch_new_emails_for_account(account_type, data):
                     new_emails += 1
                     
                     if any(k in sender.lower() or k in subject.lower() for k in ["boss", "urgent", "important", "bank"]):
-                        send_telegram_message(f"🔔 *Important Alert ({account_type.upper()})*\n\n*From:* {sender}\n*Subject:* {subject}\n\n{snippet[:100]}...")
+                        ist_date = msg_date + datetime.timedelta(hours=5, minutes=30)
+                        time_str = ist_date.strftime('%I:%M %p, %d %b %Y (IST)')
+                        send_telegram_message(f"🔔 *Important Alert ({account_type.upper()})*\n\n*From:* {sender}\n*Time:* {time_str}\n*Subject:* {subject}\n\n{snippet[:100]}...")
 
         mail.logout()
         return new_emails
@@ -251,7 +253,7 @@ Return strictly a JSON object containing an array under the key "results":
     except Exception as e:
         print(f"Error classifying emails: {e}")
 
-def process_deletions_for_account(account_type, uids_to_trash):
+def process_deletions_for_account(account_type, uids_to_trash, deleted_info_list):
     if not uids_to_trash: return
     
     print(f"Trashing {len(uids_to_trash)} emails for {account_type}...")
@@ -275,7 +277,13 @@ def process_deletions_for_account(account_type, uids_to_trash):
             
             mail.uid('STORE', chunk_str, '+FLAGS', '\\Deleted')
         mail.expunge()
-        send_telegram_message(f"🗑️ *Auto-Cleanup ({account_type.upper()})*\nDeleted {len(uids_to_trash)} old clutter emails.")
+        
+        msg = f"🗑️ *Auto-Cleanup ({account_type.upper()})*\nDeleted {len(uids_to_trash)} old clutter emails:\n\n"
+        details_str = "\n".join(deleted_info_list)
+        if len(details_str) > 3000:
+            details_str = details_str[:3000] + "\n... (truncated)"
+            
+        send_telegram_message(msg + details_str)
     else:
         print(f"[TEST MODE] Skipped deletion for {account_type}.")
         
@@ -288,6 +296,8 @@ def process_deletions():
     
     uids_to_trash_gmail = []
     uids_to_trash_outlook = []
+    deleted_info_gmail = []
+    deleted_info_outlook = []
     keys_to_delete = []
     
     for global_uid, m in list(data.items()):
@@ -318,15 +328,21 @@ def process_deletions():
                 if age_hours > 48: should_delete = True
             
         if should_delete:
+            sender_short = m.get('sender', 'Unknown')[:30]
+            subject_short = m.get('subject', 'No Subject')[:40]
+            info_str = f"• {sender_short} - {subject_short}"
+            
             if account == "gmail":
                 uids_to_trash_gmail.append(uid)
+                deleted_info_gmail.append(info_str)
             elif account == "outlook":
                 uids_to_trash_outlook.append(uid)
+                deleted_info_outlook.append(info_str)
             keys_to_delete.append(global_uid)
             
     # Execute per account
-    process_deletions_for_account("gmail", uids_to_trash_gmail)
-    process_deletions_for_account("outlook", uids_to_trash_outlook)
+    process_deletions_for_account("gmail", uids_to_trash_gmail, deleted_info_gmail)
+    process_deletions_for_account("outlook", uids_to_trash_outlook, deleted_info_outlook)
 
     # Remove from JSON
     for k in keys_to_delete:
