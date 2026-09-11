@@ -48,6 +48,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add mail_data.json
+          git add -f mail_data.json
           git commit -m "chore: Update processed emails database [skip ci]" || echo "No new emails to save"
           git push
