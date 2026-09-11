@@ -207,48 +207,64 @@ Return strictly a JSON ARRAY:
 ]
 """
 
+    models_to_try = ['gemini-1.5-flash', 'gemini-1.5-flash-latest', 'gemini-1.5-pro', 'gemini-1.0-pro', 'gemini-pro']
+    
+    response = None
     max_retries = 3
+    
     for attempt in range(max_retries):
-        try:
-            response = client.models.generate_content(
-                model='gemini-1.5-flash',
-                contents=batch_text,
-                config=types.GenerateContentConfig(
-                    system_instruction=system_prompt,
-                    response_mime_type="application/json",
-                    temperature=0.1
+        for model_name in models_to_try:
+            try:
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=batch_text,
+                    config=types.GenerateContentConfig(
+                        system_instruction=system_prompt,
+                        response_mime_type="application/json",
+                        temperature=0.1
+                    )
                 )
-            )
-            
-            result = json.loads(response.text)
-            if isinstance(result, dict):
-                if "results" in result:
-                    result = result.get("results", [])
-                else:
-                    result = [result]
+                break # Model succeeded
+            except Exception as e:
+                print(f"Model {model_name} failed (Attempt {attempt+1}): {e}")
+                time.sleep(2)
                 
-            classified_count = 0
-            for item in result:
-                global_uid = str(item.get("id"))
-                cat = item.get("category")
-                decision = item.get("decision", "KEEP")
-                if global_uid in data:
-                    data[global_uid]["category"] = cat
-                    data[global_uid]["decision"] = decision
-                    data[global_uid]["status"] = "CLASSIFIED"
-                    classified_count += 1
-                    
-            save_data(data)
-            print(f"Successfully classified {classified_count} emails.")
-            return True
+        if response:
+            break
+        
+        if attempt < max_retries - 1:
+            print("All models failed this round. Retrying in 15 seconds...")
+            time.sleep(15)
             
-        except Exception as e:
-            print(f"Error classifying emails (Attempt {attempt + 1}/{max_retries}): {e}")
-            if attempt < max_retries - 1:
-                print("Retrying in 15 seconds...")
-                time.sleep(15)
+    if not response:
+        print("Error: Could not classify emails. All models and retries failed.")
+        return False
+        
+    try:
+        result = json.loads(response.text)
+        if isinstance(result, dict):
+            if "results" in result:
+                result = result.get("results", [])
             else:
-                return False
+                result = [result]
+            
+        classified_count = 0
+        for item in result:
+            global_uid = str(item.get("id"))
+            cat = item.get("category")
+            decision = item.get("decision", "KEEP")
+            if global_uid in data:
+                data[global_uid]["category"] = cat
+                data[global_uid]["decision"] = decision
+                data[global_uid]["status"] = "CLASSIFIED"
+                classified_count += 1
+                
+        save_data(data)
+        print(f"Successfully classified {classified_count} emails.")
+        return True
+    except Exception as e:
+        print(f"Failed to parse or save AI response: {e}")
+        return False
 
 def process_gmail_deletions(uids_to_trash, deleted_info_list):
     if not uids_to_trash: return
