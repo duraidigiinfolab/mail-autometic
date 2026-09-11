@@ -344,8 +344,8 @@ def process_deletions():
         
         age_hours = (now_ts - m.get("timestamp", 0)) / 3600.0
         
-        # 1. 7-day auto cleanup from JSON
-        if age_hours > 168:
+        # 1. 30-day auto cleanup from JSON (1 month old data)
+        if age_hours > 720:
             keys_to_delete.append(global_uid)
             continue
             
