@@ -24,7 +24,10 @@ TEST_MODE = os.getenv("TEST_MODE", "false").lower() == "true"
 DATA_FILE = "mail_data.json"
 
 if GEMINI_API_KEY:
-    client = genai.Client(api_key=GEMINI_API_KEY)
+    client = genai.Client(
+        api_key=GEMINI_API_KEY,
+        http_options={"api_version": "v1"}
+    )
 else:
     client = None
 
@@ -207,7 +210,7 @@ Return strictly a JSON ARRAY:
 ]
 """
 
-    models_to_try = ['gemini-1.5-flash', 'gemini-1.5-flash-latest', 'gemini-1.5-pro', 'gemini-1.0-pro', 'gemini-pro']
+    models_to_try = ['gemini-1.5-flash', 'gemini-1.5-pro']
     
     response = None
     max_retries = 3
