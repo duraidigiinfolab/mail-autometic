@@ -210,7 +210,23 @@ Return strictly a JSON ARRAY:
 ]
 """
 
-    models_to_try = ['gemini-1.5-flash', 'gemini-1.5-pro']
+    # Try versioned names first (required for stable v1 API),
+    # then fall back to dynamically discovering available models
+    models_to_try = ['gemini-1.5-flash-001', 'gemini-1.5-pro-001', 'gemini-1.0-pro-001']
+    
+    # Dynamically discover models if static list fails
+    try:
+        available = [m.name.replace("models/", "") for m in client.models.list()
+                     if hasattr(m, 'supported_actions') and 'generateContent' in (m.supported_actions or [])]
+        if available:
+            # Prefer flash models for speed/cost
+            flash = [m for m in available if 'flash' in m]
+            others = [m for m in available if 'flash' not in m]
+            discovered = flash + others
+            print(f"Discovered models: {discovered[:5]}")
+            models_to_try = discovered[:5] + models_to_try
+    except Exception as e:
+        print(f"Could not list models: {e}")
     
     response = None
     max_retries = 3
