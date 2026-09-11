@@ -4,8 +4,17 @@ on:
   schedule:
     # Run every day at 7:30 AM IST (2:00 AM UTC)
     - cron: '0 2 * * *'
-  # Allow manual triggering from the GitHub Actions tab
+  # Manual runs default to safe mode: no mail is deleted and no Telegram alert is sent.
   workflow_dispatch:
+    inputs:
+      test_mode:
+        description: "Run without deleting mail or sending Telegram alerts"
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
 
 jobs:
   run-bot:
@@ -30,5 +39,5 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          TEST_MODE: "false"
+          TEST_MODE: ${{ inputs.test_mode || 'false' }}
         run: python mail_bot.py --ai
