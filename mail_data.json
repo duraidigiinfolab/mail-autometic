@@ -131,18 +131,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28194": {
-        "account": "gmail",
-        "uid": "28194",
-        "timestamp": 1789016755,
-        "date_str": "2026-09-10 05:05:55+00:00",
-        "sender": "Fibe <notification@info.fibe.in>",
-        "subject": "Get the funds you need without selling your",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta charset=\"utf-8\"/><meta content=\"width=device-width, initial-scale=1\" name=\"viewport\"/><meta name=\"x-",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28195": {
         "account": "gmail",
         "uid": "28195",
@@ -203,18 +191,6 @@
         "category": "Marketing",
         "decision": "TRASH"
     },
-    "gmail_28203": {
-        "account": "gmail",
-        "uid": "28203",
-        "timestamp": 1789100131,
-        "date_str": "2026-09-11 04:15:31+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "301282 is the OTP to login to iLens.",
-        "snippet": "301282 is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28204": {
         "account": "gmail",
         "uid": "28204",
@@ -249,18 +225,6 @@
         "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
         "status": "CLASSIFIED",
         "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28207": {
-        "account": "gmail",
-        "uid": "28207",
-        "timestamp": 1789108498,
-        "date_str": "2026-09-11 06:34:58+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "117174 is the OTP to login to iLens.",
-        "snippet": "117174 is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
         "decision": "TRASH"
     },
     "gmail_28208": {
@@ -382,5 +346,65 @@
         "status": "CLASSIFIED",
         "category": "Marketing",
         "decision": "TRASH"
+    },
+    "gmail_28218": {
+        "account": "gmail",
+        "uid": "28218",
+        "timestamp": 1789162584,
+        "date_str": "2026-09-11 21:36:24+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "TM - VKYC @ Aditya Birla Group",
+        "snippet": "Hi Rakesh,  Your customer service and sales experience could align with this Video KYC role at Aditya Birla Group. If you're interested in utilising your skills in a financial services context, you can apply now or view the job description for more details.  TM - VKYC Aditya Birla Group Tamil ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28219": {
+        "account": "gmail",
+        "uid": "28219",
+        "timestamp": 1789184813,
+        "date_str": "2026-09-12 03:46:53+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11% YTM with 69 days Muthoot Capital",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28220": {
+        "account": "gmail",
+        "uid": "28220",
+        "timestamp": 1789187282,
+        "date_str": "2026-09-12 04:28:02+00:00",
+        "sender": "Fibe <notification@info.fibe.in>",
+        "subject": "A smarter way to access funds without selling your",
+        "snippet": "<!DOCTYPE html>  <html dir=\"ltr\" lang=\"en\" xmlns=\"http://www.w3.org/*****/xhtml\"><head><meta charset=\"utf-8\"/><meta content=\"width=device-width, initial-scale=1\" name=\"viewport\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28221": {
+        "account": "gmail",
+        "uid": "28221",
+        "timestamp": 1789191325,
+        "date_str": "2026-09-12 05:35:25+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  Cash Withdrawal of Rs. 4,000.00 has been made at an ATM using your Debit Card linked to Account XX806 on 12-Sep-26. Info: NFS*CASH WDL*62.  The Available Balance in your Account is Rs. 40,461.28.  In case you have not done this transaction, please ",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28222": {
+        "account": "gmail",
+        "uid": "28222",
+        "timestamp": 1789193143,
+        "date_str": "2026-09-12 06:05:43+00:00",
+        "sender": "\"HDFC Bank\" <information@mailers.hdfcbank.bank.in>",
+        "subject": "\u26a0\ufe0f Non-maintenance charges may apply on A/c XX2661",
+        "snippet": "Check your account details and take action if required\ufe0f    ---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t13.mailers.hdfcbank.bank.in/r/?id=t487cf943-bd82-4a71-8aa7-320d94b5fa74,*****,3f4aa4&p1=%40JPzlPK%2BN",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
     }
 }
