@@ -2,8 +2,8 @@ name: Mail Automation Bot
 
 on:
   schedule:
-    # Run every day at 7:30 AM IST (2:00 AM UTC)
-    - cron: '0 2 * * *'
+    # Run every day at 1:00 AM IST (7:30 PM UTC previous day)
+    - cron: '30 19 * * *'
   # Manual runs default to safe mode: no mail is deleted and no Telegram alert is sent.
   workflow_dispatch:
     inputs:

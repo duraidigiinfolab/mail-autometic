@@ -159,7 +159,9 @@ def fetch_new_gmail_emails(data):
                     if any(k in sender.lower() or k in subject.lower() for k in ["boss", "urgent", "important", "bank"]):
                         ist_date = msg_date + datetime.timedelta(hours=5, minutes=30)
                         time_str = ist_date.strftime('%I:%M %p, %d %b %Y (IST)')
-                        send_telegram_message(f"🔔 *Important Alert (GMAIL)*\n\n*From:* {sender}\n*Time:* {time_str}\n*Subject:* {subject}\n\n{snippet[:100]}...")
+                        safe_subject = mask_otp(subject)
+                        safe_snippet = mask_otp(snippet[:100])
+                        send_telegram_message(f"🔔 *Important Alert (GMAIL)*\n\n*From:* {sender}\n*Time:* {time_str}\n*Subject:* {safe_subject}\n\n{safe_snippet}...")
 
         mail.logout()
         return new_emails
