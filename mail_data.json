@@ -167,66 +167,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28201": {
-        "account": "gmail",
-        "uid": "28201",
-        "timestamp": 1789059123,
-        "date_str": "2026-09-10 16:52:03+00:00",
-        "sender": "\"Tata CLiQ Fashion\" <info@fashionnotification.tatacliq.com>",
-        "subject": "INSIDE: The Festive Home Edit\ud83d\udc9b",
-        "snippet": "Tata CLiQs   https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjQ5OTV9AAwAAAAAAuCih4NHCN2tuKCj17D0fJfA3bJscOG97jbhf_WieTBaXEEKZvJ2qVWeYctX72GZZIa9U8d9ez2ULXb9WODu2VnUwHrke4rb_b3CIgTE  MEN      https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjQ5OTV9AAwAAAAAAuCih4NIga0otrsTA",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28202": {
-        "account": "gmail",
-        "uid": "28202",
-        "timestamp": 1789098619,
-        "date_str": "2026-09-11 03:50:19+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live Now: Earn 0.25% additional returns on ALL bonds!",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28204": {
-        "account": "gmail",
-        "uid": "28204",
-        "timestamp": 1789101582,
-        "date_str": "2026-09-11 04:39:42+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "\ud83d\udecd\ufe0f Flat 2% Back on Flipkart \u2013 Just for You!",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28205": {
-        "account": "gmail",
-        "uid": "28205",
-        "timestamp": 1789104292,
-        "date_str": "2026-09-11 05:24:52+00:00",
-        "sender": "\"SingleDebt\" <info@singledebt.in>",
-        "subject": "This Ganesh Chaturthi, Take the First Step Towards Financial\r\n Freedom",
-        "snippet": "  [ https://singledebt.in/blog/ganesh-chaturthi-managing-debt/ ]  This Ganesh Chaturthi, Take the First Step Towards Financial Freedom  \"Debt can become an obstacle when multiple EMIs, credit card dues and rising repayments feel difficult to manage. Learn practical financial lessons from Ganes",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28206": {
-        "account": "gmail",
-        "uid": "28206",
-        "timestamp": 1789106615,
-        "date_str": "2026-09-11 06:03:35+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "\ud83d\udcf1 Get the new iPhone Duo with instant EMIs",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28208": {
         "account": "gmail",
         "uid": "28208",
@@ -249,18 +189,6 @@
         "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
         "status": "CLASSIFIED",
         "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28210": {
-        "account": "gmail",
-        "uid": "28210",
-        "timestamp": 1789112778,
-        "date_str": "2026-09-11 07:46:18+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "116057 is the OTP to login to iLens.",
-        "snippet": "116057 is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
         "decision": "TRASH"
     },
     "gmail_28211": {
@@ -286,18 +214,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28213": {
-        "account": "gmail",
-        "uid": "28213",
-        "timestamp": 1789117212,
-        "date_str": "2026-09-11 09:00:12+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "652088 is the OTP to login to iLens.",
-        "snippet": "652088 is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_28214": {
         "account": "gmail",
@@ -406,5 +322,113 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_28223": {
+        "account": "gmail",
+        "uid": "28223",
+        "timestamp": 1789196678,
+        "date_str": "2026-09-12 07:04:38+00:00",
+        "sender": "Team OneCard <notify@getonecard.app>",
+        "subject": "OneCard Weekly Drops | Tech Essentials",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28224": {
+        "account": "gmail",
+        "uid": "28224",
+        "timestamp": 1789206436,
+        "date_str": "2026-09-12 09:47:16+00:00",
+        "sender": "digibank Connect <digibankconnect@dbs.com>",
+        "subject": "Study abroad payments, remitted seamlessly with Asia\u2019s Safest Bank",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28225": {
+        "account": "gmail",
+        "uid": "28225",
+        "timestamp": 1789210210,
+        "date_str": "2026-09-12 10:50:10+00:00",
+        "sender": "Team OneCard <notify@getonecard.app>",
+        "subject": "\u2708\ufe0f Flat \u20b999 Flight Fee + 10% Uncapped OFF Hotels!",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28226": {
+        "account": "gmail",
+        "uid": "28226",
+        "timestamp": 1789214025,
+        "date_str": "2026-09-12 11:53:45+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  A purchase of Rs. 325.71 has been made using your Debit Card linked to ICICI Bank Account XX806 on 12-Sep-26. Info: VPS*SM AGENCIES.  The Available Balance in your account is Rs. 40,135.57.  In case you have not done this transaction, please call o",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28227": {
+        "account": "gmail",
+        "uid": "28227",
+        "timestamp": 1789227075,
+        "date_str": "2026-09-12 15:31:15+00:00",
+        "sender": "ICICI Prudential Life",
+        "subject": "Missed the fund launch? You can still invest",
+        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                              ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28228": {
+        "account": "gmail",
+        "uid": "28228",
+        "timestamp": 1789229902,
+        "date_str": "2026-09-12 16:18:22+00:00",
+        "sender": "ICICI Prudential Life",
+        "subject": "Secure your child\u2019s future, starting today!",
+        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                               ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28229": {
+        "account": "gmail",
+        "uid": "28229",
+        "timestamp": 1789241591,
+        "date_str": "2026-09-12 19:33:11+00:00",
+        "sender": "ICICI Prudential Life Insurance",
+        "subject": "Stay ahead of rising education costs.",
+        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                               ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28230": {
+        "account": "gmail",
+        "uid": "28230",
+        "timestamp": 1789276912,
+        "date_str": "2026-09-13 05:21:52+00:00",
+        "sender": "\"Nippon Life India Asset Management Limited\" <nimfupdates@campaign1.nipponindia.email>",
+        "subject": "\u2708\ufe0f From Wanderlust to Well-Planned Goals. Start Your SIP.",
+        "snippet": "---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t2.campaign1.nipponindia.email/r/?id=t54050b11,1d23fa,b3a18&e=cDE9JTQwMU5GN2kwVDlYS1pZTVBTV3hkRW1GJTJGME5qeVZQNW44MUhsT0ZONEhhSnNRJTNE&s=jac2qucBfI2l81LQGFdujqIj20",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28231": {
+        "account": "gmail",
+        "uid": "28231",
+        "timestamp": 1789279939,
+        "date_str": "2026-09-13 06:12:19+00:00",
+        "sender": "Fibe <notification@info.fibe.in>",
+        "subject": "Grab the chance to get a higher credit limit!",
+        "snippet": "<!DOCTYPE html>  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"telephone=no\" name=\"format-detection\"/><title>) Limit_enhancement_16Mar</title><!--[if (mso 16)]>     <st",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
