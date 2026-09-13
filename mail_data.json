@@ -179,30 +179,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28209": {
-        "account": "gmail",
-        "uid": "28209",
-        "timestamp": 1789111775,
-        "date_str": "2026-09-11 07:29:35+00:00",
-        "sender": "Fibe <notification@info.fibe.in>",
-        "subject": "Urgent: Unlock Your Credit Limit in One Click!",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28211": {
-        "account": "gmail",
-        "uid": "28211",
-        "timestamp": 1789114559,
-        "date_str": "2026-09-11 08:15:59+00:00",
-        "sender": "CRED",
-        "subject": "Priority Pass. all you need to know | CRED protect",
-        "snippet": "                                                                                                                                      you're at the Frankfurt airport.                                                                                  you spend your waiting time at the lounge, courtesy ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28212": {
         "account": "gmail",
         "uid": "28212",
@@ -214,18 +190,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28214": {
-        "account": "gmail",
-        "uid": "28214",
-        "timestamp": 1789134500,
-        "date_str": "2026-09-11 13:48:20+00:00",
-        "sender": "bigbasket",
-        "subject": "Modaks & Morya \ud83c\udf3a Recipe Contest & More \u2728",
-        "snippet": "Emailer          Big Ears, Bigger Blessings!   The thunderous rhythm of  dhol-tasha will soon echo through the streets, signalling the grand arrival of our beloved Bappa. Homes are getting ready to glow with festive lights, fragrant marigolds, and joyful evening  aartis. This Ganesh Chaturthi, l",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28215": {
         "account": "gmail",
@@ -250,18 +214,6 @@
         "status": "CLASSIFIED",
         "category": "Security",
         "decision": "KEEP"
-    },
-    "gmail_28217": {
-        "account": "gmail",
-        "uid": "28217",
-        "timestamp": 1789139167,
-        "date_str": "2026-09-11 15:06:07+00:00",
-        "sender": "AI Inner Circle <aiinnercircle@mail.beehiiv.com>",
-        "subject": "OpenAI's New Voice Model Lets You Interrupt It \ud83c\udf99\ufe0f",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/36266006-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28218": {
         "account": "gmail",
@@ -427,6 +379,66 @@
         "sender": "Fibe <notification@info.fibe.in>",
         "subject": "Grab the chance to get a higher credit limit!",
         "snippet": "<!DOCTYPE html>  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"telephone=no\" name=\"format-detection\"/><title>) Limit_enhancement_16Mar</title><!--[if (mso 16)]>     <st",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28232": {
+        "account": "gmail",
+        "uid": "28232",
+        "timestamp": 1789286370,
+        "date_str": "2026-09-13 07:59:30+00:00",
+        "sender": "service@icicisecurities.com",
+        "subject": "Mutual Fund Account Statement from 01-Aug-***** to 31-Aug-*****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28233": {
+        "account": "gmail",
+        "uid": "28233",
+        "timestamp": 1789303531,
+        "date_str": "2026-09-13 12:45:31+00:00",
+        "sender": "ICICI Prudential Life",
+        "subject": "Secure your child\u2019s future, starting today!",
+        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                               ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28234": {
+        "account": "gmail",
+        "uid": "28234",
+        "timestamp": 1789305341,
+        "date_str": "2026-09-13 13:15:41+00:00",
+        "sender": "ICICI Prudential Life",
+        "subject": "Missed the fund launch? You can still invest",
+        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                              ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28235": {
+        "account": "gmail",
+        "uid": "28235",
+        "timestamp": 1789321913,
+        "date_str": "2026-09-13 17:51:53+00:00",
+        "sender": "ICICI Prudential Life Insurance <service@iciciprulife.com>",
+        "subject": "#InsuranceBasics: 5 Disclosures That Matter Most | 3-Min Video\r\n Guide",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28236": {
+        "account": "gmail",
+        "uid": "28236",
+        "timestamp": 1789324089,
+        "date_str": "2026-09-13 18:28:09+00:00",
+        "sender": "ICICI Prudential Life Insurance",
+        "subject": "Astronaut? Scientist? Engineer?",
+        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                               ",
         "status": "CLASSIFIED",
         "category": "Marketing",
         "decision": "TRASH"
