@@ -635,30 +635,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28312": {
-        "account": "gmail",
-        "uid": "28312",
-        "timestamp": 1789713128,
-        "date_str": "2026-09-18 06:32:08+00:00",
-        "sender": "IPRU <service@iciciprulife.com>",
-        "subject": "Fulfilling the Promise of Protection | 99.3% Claim Settlement Ratio\r\n (FY2026)",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28314": {
-        "account": "gmail",
-        "uid": "28314",
-        "timestamp": 1789716739,
-        "date_str": "2026-09-18 07:32:19+00:00",
-        "sender": "bigbasket",
-        "subject": "Chaat, But Different \ud83c\udf36\ufe0f Recipe Contest & More \ud83e\udd57",
-        "snippet": "Emailer          The Chaat Lab   Chaat is proof that simple ingredients become legendary when texture and spice collide. Whether you live for the rush of an ice-cold  pani puri or want a wholesome snack that doesn't sacrifice flavour, this week\u2019s edition is for you. Discover playful new pani puri",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28315": {
         "account": "gmail",
         "uid": "28315",
@@ -682,18 +658,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28317": {
-        "account": "gmail",
-        "uid": "28317",
-        "timestamp": 1789717607,
-        "date_str": "2026-09-18 07:46:47+00:00",
-        "sender": "Fibe <notification@info.fibe.in>",
-        "subject": "It\u2019s Been a While \u2014",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28318": {
         "account": "gmail",
@@ -731,18 +695,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28322": {
-        "account": "gmail",
-        "uid": "28322",
-        "timestamp": 1789724502,
-        "date_str": "2026-09-18 09:41:42+00:00",
-        "sender": "BSE INVESTOR PROTECTION FUND <mailers@bseindia.in>",
-        "subject": "Let Ganpati Bappa Guide Your Investments.",
-        "snippet": ".",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28323": {
         "account": "gmail",
         "uid": "28323",
@@ -766,18 +718,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28325": {
-        "account": "gmail",
-        "uid": "28325",
-        "timestamp": 1789729908,
-        "date_str": "2026-09-18 11:11:48+00:00",
-        "sender": "Superhuman ",
-        "subject": "\ud83d\udc40",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/7292170a-ccba-4da9-bd9b-fe4e99d99979/Sponsor_Memoket__2_.png?t=1789643049) Follow image link: (https://memoket.ai/?utm_source=newsletter&utm_medium=sponsorship&utm_campaign",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28326": {
         "account": "gmail",
@@ -826,30 +766,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28330": {
-        "account": "gmail",
-        "uid": "28330",
-        "timestamp": 1789741300,
-        "date_str": "2026-09-18 14:21:40+00:00",
-        "sender": "Market Charcha by Angel One",
-        "subject": "\ud83d\udd3b Weekly Breakdown Deepens | Yatharth Surges, BEML Lands \u20b95,400 Cr Order",
-        "snippet": "                                                                                                           18 September, *****                                                                                                                                 ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28331": {
-        "account": "gmail",
-        "uid": "28331",
-        "timestamp": 1789744000,
-        "date_str": "2026-09-18 15:06:40+00:00",
-        "sender": "AI Inner Circle <aiinnercircle@mail.beehiiv.com>",
-        "subject": "A ChatGPT co-creator built an AI that cannot hallucinate \ud83e\udde0",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28332": {
         "account": "gmail",
@@ -1075,6 +991,54 @@
         "sender": "reports@loans.icici.bank.in",
         "subject": "Mortgage Loan Application 7782203753: Query Assigned",
         "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28351": {
+        "account": "gmail",
+        "uid": "28351",
+        "timestamp": 1789884599,
+        "date_str": "2026-09-20 06:09:59+00:00",
+        "sender": "ICICI Prudential Life Insurance <service@iciciprulife.com>",
+        "subject": "Annual Premium Paid Certificate for Tax Filing",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28352": {
+        "account": "gmail",
+        "uid": "28352",
+        "timestamp": 1789884938,
+        "date_str": "2026-09-20 06:15:38+00:00",
+        "sender": "ChatGPT <noreply@email.openai.com>",
+        "subject": "4 new image styles to try",
+        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>   <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <!-- Hint clients that we explicitly support light/dark rendering. -->   <meta n",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28353": {
+        "account": "gmail",
+        "uid": "28353",
+        "timestamp": 1789890881,
+        "date_str": "2026-09-20 07:54:41+00:00",
+        "sender": "Fibe <notification@info.fibe.in>",
+        "subject": "Urgent: Unlock Your Credit Limit in One Click!",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28354": {
+        "account": "gmail",
+        "uid": "28354",
+        "timestamp": 1789940061,
+        "date_str": "2026-09-20 21:34:21+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "FMCG @ Aanzara corporate",
+        "snippet": "Hi Rakesh,  Aanzara Corporate is urgently hiring for a Field Sales role in FMCG, with a pay range of \u20b930,000 - \u20b940,000 per month. If you're interested in a new opportunity and have sales experience, feel free to apply now or review the job description to learn more.  FMCG Aanzara corporate Nagercoil",
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
