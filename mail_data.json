@@ -935,18 +935,6 @@
         "category": "Security",
         "decision": "KEEP"
     },
-    "gmail_28356": {
-        "account": "gmail",
-        "uid": "28356",
-        "timestamp": 1789962358,
-        "date_str": "2026-09-21 03:45:58+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live now: Earn 11% YTM with 3-month Muthoot MCred",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28358": {
         "account": "gmail",
         "uid": "28358",
@@ -971,18 +959,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28361": {
-        "account": "gmail",
-        "uid": "28361",
-        "timestamp": 1789975527,
-        "date_str": "2026-09-21 07:25:27+00:00",
-        "sender": "Team Policybazaar",
-        "subject": "Never miss premium payments - Setup Auto-debit today!! (Policy No : K4786093)",
-        "snippet": "                                                                                                                                                                                                                                                                               ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28362": {
         "account": "gmail",
         "uid": "28362",
@@ -1006,18 +982,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28364": {
-        "account": "gmail",
-        "uid": "28364",
-        "timestamp": 1789983557,
-        "date_str": "2026-09-21 09:39:17+00:00",
-        "sender": "Policybazaar Two-Wheeler",
-        "subject": "Two-Wheeler Insurance Expired! Renew Today",
-        "snippet": "                                                                                                                                                                                                                                                                                  ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28368": {
         "account": "gmail",
@@ -1055,42 +1019,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28372": {
-        "account": "gmail",
-        "uid": "28372",
-        "timestamp": 1789996269,
-        "date_str": "2026-09-21 13:11:09+00:00",
-        "sender": "Superhuman ",
-        "subject": "\ud83d\udc40",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/f0c31015-8efe-49eb-920c-0125d408d3c6/Sponsor_Profound.png?t=1789729874) Follow image link: (https://www.tryprofound.com/webinars/marketing-team-future?utm_source=superhuman",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28373": {
-        "account": "gmail",
-        "uid": "28373",
-        "timestamp": 1789996588,
-        "date_str": "2026-09-21 13:16:28+00:00",
-        "sender": "ICICI Prudential Life Insurance",
-        "subject": "Stay ahead of rising education costs.",
-        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                               ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28374": {
-        "account": "gmail",
-        "uid": "28374",
-        "timestamp": 1789997231,
-        "date_str": "2026-09-21 13:27:11+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "Secure your child\u2019s future, starting today!",
-        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                               ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28375": {
         "account": "gmail",
         "uid": "28375",
@@ -1102,30 +1030,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28376": {
-        "account": "gmail",
-        "uid": "28376",
-        "timestamp": 1790000860,
-        "date_str": "2026-09-21 14:27:40+00:00",
-        "sender": "digibank Connect <digibankconnect@dbs.com>",
-        "subject": "Enjoy Delightful offers on your favourite brands",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28377": {
-        "account": "gmail",
-        "uid": "28377",
-        "timestamp": 1790004076,
-        "date_str": "2026-09-21 15:21:16+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "Missed the fund launch? You can still invest",
-        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                              ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28378": {
         "account": "gmail",
@@ -1163,18 +1067,6 @@
         "category": "Marketing",
         "decision": "TRASH"
     },
-    "gmail_28381": {
-        "account": "gmail",
-        "uid": "28381",
-        "timestamp": 1790052641,
-        "date_str": "2026-09-22 04:50:41+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28382": {
         "account": "gmail",
         "uid": "28382",
@@ -1186,18 +1078,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28383": {
-        "account": "gmail",
-        "uid": "28383",
-        "timestamp": 1790054618,
-        "date_str": "2026-09-22 05:23:38+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_28384": {
         "account": "gmail",
@@ -1211,18 +1091,6 @@
         "category": "Marketing",
         "decision": "TRASH"
     },
-    "gmail_28385": {
-        "account": "gmail",
-        "uid": "28385",
-        "timestamp": 1790066143,
-        "date_str": "2026-09-22 08:35:43+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28386": {
         "account": "gmail",
         "uid": "28386",
@@ -1234,18 +1102,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28387": {
-        "account": "gmail",
-        "uid": "28387",
-        "timestamp": 1790073898,
-        "date_str": "2026-09-22 10:44:58+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_28388": {
         "account": "gmail",
@@ -1343,18 +1199,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28396": {
-        "account": "gmail",
-        "uid": "28396",
-        "timestamp": 1790082756,
-        "date_str": "2026-09-22 13:12:36+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28397": {
         "account": "gmail",
         "uid": "28397",
@@ -1415,18 +1259,6 @@
         "category": "Marketing",
         "decision": "TRASH"
     },
-    "gmail_28402": {
-        "account": "gmail",
-        "uid": "28402",
-        "timestamp": 1790088677,
-        "date_str": "2026-09-22 14:51:17+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28403": {
         "account": "gmail",
         "uid": "28403",
@@ -1447,6 +1279,162 @@
         "sender": "ICICI Prudential Life Insurance",
         "subject": "Astronaut? Scientist? Engineer?",
         "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                               ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28405": {
+        "account": "gmail",
+        "uid": "28405",
+        "timestamp": 1790135314,
+        "date_str": "2026-09-23 03:48:34+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11.75% YTM with 3-month Midland Microfin",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28406": {
+        "account": "gmail",
+        "uid": "28406",
+        "timestamp": 1790136978,
+        "date_str": "2026-09-23 04:16:18+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28407": {
+        "account": "gmail",
+        "uid": "28407",
+        "timestamp": 1790139300,
+        "date_str": "2026-09-23 04:55:00+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28408": {
+        "account": "gmail",
+        "uid": "28408",
+        "timestamp": 1790143912,
+        "date_str": "2026-09-23 06:11:52+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28409": {
+        "account": "gmail",
+        "uid": "28409",
+        "timestamp": 1790147016,
+        "date_str": "2026-09-23 07:03:36+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28410": {
+        "account": "gmail",
+        "uid": "28410",
+        "timestamp": 1790152482,
+        "date_str": "2026-09-23 08:34:42+00:00",
+        "sender": "CRED",
+        "subject": "being creditworthy pays",
+        "snippet": "                                                                        the amount on your credit card statement is the amount you pay. no extra charges.                                                                                                                                                   ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28411": {
+        "account": "gmail",
+        "uid": "28411",
+        "timestamp": 1790160028,
+        "date_str": "2026-09-23 10:40:28+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28412": {
+        "account": "gmail",
+        "uid": "28412",
+        "timestamp": 1790165256,
+        "date_str": "2026-09-23 12:07:36+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28413": {
+        "account": "gmail",
+        "uid": "28413",
+        "timestamp": 1790167418,
+        "date_str": "2026-09-23 12:43:38+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28414": {
+        "account": "gmail",
+        "uid": "28414",
+        "timestamp": 1790168081,
+        "date_str": "2026-09-23 12:54:41+00:00",
+        "sender": "Team OneCard <notify@getonecard.app>",
+        "subject": "OneCard Weekly Drops | Fresh Drops Edition",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28415": {
+        "account": "gmail",
+        "uid": "28415",
+        "timestamp": 1790169221,
+        "date_str": "2026-09-23 13:13:41+00:00",
+        "sender": "Superhuman ",
+        "subject": "\ud83e\uddbe",
+        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/42d30e00-2d54-4d74-b0ea-35ec64fe1ae1/Sponsor_WorkOS_-_Daily__10_.png?t=1790075985) Follow image link: (https://workos.com/docs/pipes/relay?utm_source=superhuman&utm_medium=",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28416": {
+        "account": "gmail",
+        "uid": "28416",
+        "timestamp": 1790177216,
+        "date_str": "2026-09-23 15:26:56+00:00",
+        "sender": "digibank Connect <digibankconnect@dbs.com>",
+        "subject": "Important notice: Scheduled Maintenance activity on\r\n 27-September-*****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28417": {
+        "account": "gmail",
+        "uid": "28417",
+        "timestamp": 1790199227,
+        "date_str": "2026-09-23 21:33:47+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "Team Lead @ Vision group of companies",
+        "snippet": "Hi Rakesh,  Your customer service and communication skills could be a great match for this Team Lead role at Vision Group of Companies. This position offers competitive pay, cell phone reimbursement, and the flexibility to work from home. If you're interested in leading a team, feel free to apply no",
         "status": "CLASSIFIED",
         "category": "Marketing",
         "decision": "TRASH"
