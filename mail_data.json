@@ -1295,18 +1295,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28419": {
-        "account": "gmail",
-        "uid": "28419",
-        "timestamp": 1790221617,
-        "date_str": "2026-09-24 03:46:57+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live now: Earn 11% YTM with 36 days Navi Finserv ",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28421": {
         "account": "gmail",
         "uid": "28421",
@@ -1318,18 +1306,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28423": {
-        "account": "gmail",
-        "uid": "28423",
-        "timestamp": 1790239061,
-        "date_str": "2026-09-24 08:37:41+00:00",
-        "sender": "Fibe <notification@info.fibe.in>",
-        "subject": "It\u2019s Been a While \u2014",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28425": {
         "account": "gmail",
@@ -1354,90 +1330,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28428": {
-        "account": "gmail",
-        "uid": "28428",
-        "timestamp": 1790255706,
-        "date_str": "2026-09-24 13:15:06+00:00",
-        "sender": "Superhuman ",
-        "subject": "\ud83e\uddec",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e31e45f9-1b5b-42e4-*****-e50e2623f5bd/Sponsor_Bolter.png?t=1790160913) Follow image link: (https://bolter.chat/?utm_source=Superhuman&utm_medium=NL&utm_campaign=Sept24) Cap",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28429": {
-        "account": "gmail",
-        "uid": "28429",
-        "timestamp": 1790257842,
-        "date_str": "2026-09-24 13:50:42+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "\u2708\ufe0f Unlocking: The Perfect Travel Pack!",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28430": {
-        "account": "gmail",
-        "uid": "28430",
-        "timestamp": 1790258223,
-        "date_str": "2026-09-24 13:57:03+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "Momentum and Value stocks together!",
-        "snippet": "ICICI Pru Signature Assure                                                                                                                                                                                                                                                    ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28431": {
-        "account": "gmail",
-        "uid": "28431",
-        "timestamp": 1790258252,
-        "date_str": "2026-09-24 13:57:32+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "Momentum and Value stocks together!",
-        "snippet": "ICICI Pru Signature Assure                                                                                                                                                                                                                                                    ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28432": {
-        "account": "gmail",
-        "uid": "28432",
-        "timestamp": 1790258600,
-        "date_str": "2026-09-24 14:03:20+00:00",
-        "sender": "Market Charcha by Angel One",
-        "subject": "\u26a0\ufe0f 23,100 Breaks, VIX Jumps 23% | PB Fintech Crash & US Yields Above 5%",
-        "snippet": "                                                                                                           24 September, *****                                                                                                                                 ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28433": {
-        "account": "gmail",
-        "uid": "28433",
-        "timestamp": 1790260933,
-        "date_str": "2026-09-24 14:42:13+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "\u2708\ufe0f Unlocking: The Perfect Travel Pack!",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28434": {
-        "account": "gmail",
-        "uid": "28434",
-        "timestamp": 1790261198,
-        "date_str": "2026-09-24 14:46:38+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "Momentum and Value stocks together!",
-        "snippet": "ICICI Pru Signature Assure                                                                                                                                                                                                                                                    ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28435": {
         "account": "gmail",
@@ -1475,42 +1367,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28438": {
-        "account": "gmail",
-        "uid": "28438",
-        "timestamp": 1790314631,
-        "date_str": "2026-09-25 05:37:11+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
-    "gmail_28439": {
-        "account": "gmail",
-        "uid": "28439",
-        "timestamp": 1790316926,
-        "date_str": "2026-09-25 06:15:26+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
-    "gmail_28440": {
-        "account": "gmail",
-        "uid": "28440",
-        "timestamp": 1790317033,
-        "date_str": "2026-09-25 06:17:13+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28441": {
         "account": "gmail",
         "uid": "28441",
@@ -1546,18 +1402,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28444": {
-        "account": "gmail",
-        "uid": "28444",
-        "timestamp": 1790319589,
-        "date_str": "2026-09-25 06:59:49+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_28445": {
         "account": "gmail",
@@ -1631,18 +1475,6 @@
         "category": "Marketing",
         "decision": "TRASH"
     },
-    "gmail_28451": {
-        "account": "gmail",
-        "uid": "28451",
-        "timestamp": 1790328916,
-        "date_str": "2026-09-25 09:35:16+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28452": {
         "account": "gmail",
         "uid": "28452",
@@ -1679,18 +1511,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28455": {
-        "account": "gmail",
-        "uid": "28455",
-        "timestamp": 1790332611,
-        "date_str": "2026-09-25 10:36:51+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28456": {
         "account": "gmail",
         "uid": "28456",
@@ -1726,18 +1546,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28459": {
-        "account": "gmail",
-        "uid": "28459",
-        "timestamp": 1790337624,
-        "date_str": "2026-09-25 12:00:24+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_28460": {
         "account": "gmail",
@@ -1834,5 +1642,137 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_28468": {
+        "account": "gmail",
+        "uid": "28468",
+        "timestamp": 1790394500,
+        "date_str": "2026-09-26 03:48:20+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11.75% YTM with 70 days Kanakadurga Finance",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28469": {
+        "account": "gmail",
+        "uid": "28469",
+        "timestamp": 1790402300,
+        "date_str": "2026-09-26 05:58:20+00:00",
+        "sender": "BSE INVESTOR PROTECTION FUND <mailers@bseindia.in>",
+        "subject": "Participate in AI Reel making competition during World Investor\r\n Week ***** and win exciting prizes",
+        "snippet": "Dear Investor, We are pleased to announce the AI Reel-Making Competition\u00a0on the occasion of World Investor Week (WIW) ***** which is celebrated in India 05-11 October, *****.  \ud83c\udf1f WIN THE \u00a0PRIZES  The 5 best reels will be WINNERS.\u00a0  TOP \u00a02 Winners will receive Cash Prize (Vouchers) \u2013 Rs. 10,000/- ea",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28470": {
+        "account": "gmail",
+        "uid": "28470",
+        "timestamp": 1790405602,
+        "date_str": "2026-09-26 06:53:22+00:00",
+        "sender": "InstaMoney <noreply@lendenclub.com>",
+        "subject": "Action Required: Your InstaMoney EMI is Due Soon",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28471": {
+        "account": "gmail",
+        "uid": "28471",
+        "timestamp": 1790406022,
+        "date_str": "2026-09-26 07:00:22+00:00",
+        "sender": "Team OneCard <notify@getonecard.app>",
+        "subject": "OneCard Weekly Drops | Fresh Drops Edition",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28472": {
+        "account": "gmail",
+        "uid": "28472",
+        "timestamp": 1790407906,
+        "date_str": "2026-09-26 07:31:46+00:00",
+        "sender": "digibank Connect <digibankconnect@dbs.com>",
+        "subject": "RBI Retail Direct: Easy Access to Government Securities",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28473": {
+        "account": "gmail",
+        "uid": "28473",
+        "timestamp": 1790408658,
+        "date_str": "2026-09-26 07:44:18+00:00",
+        "sender": "Team Policybazaar",
+        "subject": "Never miss premium payments - Setup Auto-debit today!! (Policy No : K4786093)",
+        "snippet": "                                                                                                                                                                                                                                                                               ",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28474": {
+        "account": "gmail",
+        "uid": "28474",
+        "timestamp": 1790411311,
+        "date_str": "2026-09-26 08:28:31+00:00",
+        "sender": "BSE INVESTOR PROTECTION FUND <mailers@bseindia.in>",
+        "subject": "Participate in AI Reel making competition during World Investor\r\n Week ***** and win exciting prizes",
+        "snippet": "Dear Investor, We are pleased to announce the AI Reel-Making Competition\u00a0on the occasion of World Investor Week (WIW) ***** which is celebrated in India 05-11 October, *****.  \ud83c\udf1f WIN THE \u00a0PRIZES  The 5 best reels will be WINNERS.\u00a0  TOP \u00a02 Winners will receive Cash Prize (Vouchers) \u2013 Rs. 10,000/- ea",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28475": {
+        "account": "gmail",
+        "uid": "28475",
+        "timestamp": 1790413904,
+        "date_str": "2026-09-26 09:11:44+00:00",
+        "sender": "communications@nsdl.co.in",
+        "subject": "When 'Later' Finally Arrived: NSDL Newsletter - The Financial\r\n Kaleidoscope - September *****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28476": {
+        "account": "gmail",
+        "uid": "28476",
+        "timestamp": 1790417609,
+        "date_str": "2026-09-26 10:13:29+00:00",
+        "sender": "Fibe <notification@info.fibe.in>",
+        "subject": "Urgent: Unlock Your Credit Limit in One Click!",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28477": {
+        "account": "gmail",
+        "uid": "28477",
+        "timestamp": 1790437508,
+        "date_str": "2026-09-26 15:45:08+00:00",
+        "sender": "digibank Connect <digibankconnect@dbs.com>",
+        "subject": "Zero bank fee. Seamless study abroad payments",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28478": {
+        "account": "gmail",
+        "uid": "28478",
+        "timestamp": 1790458385,
+        "date_str": "2026-09-26 21:33:05+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "Mail and chat support @ Excel maritime & logistics private limited",
+        "snippet": "Hi Rakesh,  Your customer service experience and communication skills could be a strong match for this Mail and Chat Support role. Excel Maritime & Logistics offers paid time off and a provident fund. If you're interested in resolving customer inquiries and issues, you can apply now or view the job ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
