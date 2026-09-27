@@ -1367,18 +1367,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28441": {
-        "account": "gmail",
-        "uid": "28441",
-        "timestamp": 1790318969,
-        "date_str": "2026-09-25 06:49:29+00:00",
-        "sender": "ChatGPT <noreply@email.openai.com>",
-        "subject": "4 new image styles to try",
-        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>   <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <!-- Hint clients that we explicitly support light/dark rendering. -->   <meta n",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28442": {
         "account": "gmail",
         "uid": "28442",
@@ -1451,54 +1439,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28449": {
-        "account": "gmail",
-        "uid": "28449",
-        "timestamp": 1790326645,
-        "date_str": "2026-09-25 08:57:25+00:00",
-        "sender": "bigbasket",
-        "subject": "Chutney Tales \ud83c\udf36\ufe0f Recipe Contest & More \ud83d\ude0b",
-        "snippet": "Emailer          Powered by Chutney   True to its root word ch\u0101\u1e6dn\u0101  (\"to lick\"), a great chutney leaves you chasing every last drop on the plate. Whether pounded with sea salt into a fiery thecha or sizzled in hot mustard oil, this little dollop gives every meal its pulse. This World  Chutney Da",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28450": {
-        "account": "gmail",
-        "uid": "28450",
-        "timestamp": 1790327232,
-        "date_str": "2026-09-25 09:07:12+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "Every market dip is a chance to grow",
-        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                              ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28452": {
-        "account": "gmail",
-        "uid": "28452",
-        "timestamp": 1790328979,
-        "date_str": "2026-09-25 09:36:19+00:00",
-        "sender": "ICICI Prudential Life Insurance",
-        "subject": "Every market dip is a chance to grow",
-        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                              ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28453": {
-        "account": "gmail",
-        "uid": "28453",
-        "timestamp": 1790330156,
-        "date_str": "2026-09-25 09:55:56+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "Every market dip is a chance to grow",
-        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                              ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28454": {
         "account": "gmail",
         "uid": "28454",
@@ -1547,18 +1487,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28460": {
-        "account": "gmail",
-        "uid": "28460",
-        "timestamp": 1790342132,
-        "date_str": "2026-09-25 13:15:32+00:00",
-        "sender": "Superhuman ",
-        "subject": "\ud83d\udef0\ufe0f",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/062acb27-1ae5-43ab-bb00-ff70e52a387e/Sponsor_You.com_-_Daily__13_.png?t=1790249659) Follow image link: (https://you.com/resources/why-api-latency-alone-is-a-misleading-metr",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28461": {
         "account": "gmail",
         "uid": "28461",
@@ -1583,18 +1511,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28463": {
-        "account": "gmail",
-        "uid": "28463",
-        "timestamp": 1790344714,
-        "date_str": "2026-09-25 13:58:34+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "0 Flight Fees. 100% Best Hotel Rates \ud83c\udf0d",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28464": {
         "account": "gmail",
         "uid": "28464",
@@ -1618,18 +1534,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28466": {
-        "account": "gmail",
-        "uid": "28466",
-        "timestamp": 1790350033,
-        "date_str": "2026-09-25 15:27:13+00:00",
-        "sender": "AI Inner Circle <aiinnercircle@mail.beehiiv.com>",
-        "subject": "\ud83c\udfc6 Claude Opus 5.5 + the free guide to use it",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28467": {
         "account": "gmail",
@@ -1773,6 +1677,114 @@
         "snippet": "Hi Rakesh,  Your customer service experience and communication skills could be a strong match for this Mail and Chat Support role. Excel Maritime & Logistics offers paid time off and a provident fund. If you're interested in resolving customer inquiries and issues, you can apply now or view the job ",
         "status": "CLASSIFIED",
         "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28479": {
+        "account": "gmail",
+        "uid": "28479",
+        "timestamp": 1790483014,
+        "date_str": "2026-09-27 04:23:34+00:00",
+        "sender": "notifications_jiofiber@jio.com",
+        "subject": "Last day to pay your bill for JioAirFiber connection with\r\n JioFixedVoice Number +914652317160",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28480": {
+        "account": "gmail",
+        "uid": "28480",
+        "timestamp": 1790490149,
+        "date_str": "2026-09-27 06:22:29+00:00",
+        "sender": "ChatGPT <noreply@email.openai.com>",
+        "subject": "Your photos, edited with ChatGPT",
+        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>   <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <!-- Hint clients that we explicitly support light/dark rendering. -->   <meta n",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28481": {
+        "account": "gmail",
+        "uid": "28481",
+        "timestamp": 1790490789,
+        "date_str": "2026-09-27 06:33:09+00:00",
+        "sender": "digibank Connect <digibankconnect@dbs.com>",
+        "subject": "Are you investing your money to make it work harder for you?",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28482": {
+        "account": "gmail",
+        "uid": "28482",
+        "timestamp": 1790495409,
+        "date_str": "2026-09-27 07:50:09+00:00",
+        "sender": "SBM One Credit Card <notify@getonecard.app>",
+        "subject": "Incorrect PIN entered on your OneCard app",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Security",
+        "decision": "KEEP"
+    },
+    "gmail_28483": {
+        "account": "gmail",
+        "uid": "28483",
+        "timestamp": 1790499951,
+        "date_str": "2026-09-27 09:05:51+00:00",
+        "sender": "Fibe <notification@info.fibe.in>",
+        "subject": "Stay verified, stay ",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
+        "status": "CLASSIFIED",
+        "category": "Security",
+        "decision": "KEEP"
+    },
+    "gmail_28484": {
+        "account": "gmail",
+        "uid": "28484",
+        "timestamp": 1790500132,
+        "date_str": "2026-09-27 09:08:52+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 773100080109 Approved",
+        "snippet": "Dear UMA  MAHESWARAN M,   Congratulations! Your ICICI Bank Mortgage Loan Application number 773100080109 has been approved.  In case of any query you can contact your Relationship Manager SHAJI S(*****) on 9715919471. Alternatively you can also track your application status on click https://l",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28485": {
+        "account": "gmail",
+        "uid": "28485",
+        "timestamp": 1790480297,
+        "date_str": "2026-09-27 03:38:17+00:00",
+        "sender": "Federal Bank",
+        "subject": "Migrate to Federal Bank FASTag Today \u2013 Zero Cost, Zero Hassle",
+        "snippet": "<!DOCTYPE html> <html> <head> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <!--[if !mso]><!-- --><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" /><!--<![endif]--> <style type=\"text/css\">html, body { min-width:260px; min-height:100%; pa",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28486": {
+        "account": "gmail",
+        "uid": "28486",
+        "timestamp": 1790508886,
+        "date_str": "2026-09-27 11:34:46+00:00",
+        "sender": "Team OneCard <notify@getonecard.app>",
+        "subject": "\u20b90 Convenience Fee Flights",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28487": {
+        "account": "gmail",
+        "uid": "28487",
+        "timestamp": 1790516358,
+        "date_str": "2026-09-27 13:39:18+00:00",
+        "sender": "YouTube <no-reply@youtube.com>",
+        "subject": "Quarterly reminder about YouTube\u2019s Terms of Service, Community Guidelines and Privacy Policy\r\n",
+        "snippet": "This email is a quarterly reminder that your use of YouTube is subject to   the Terms of Service   <https://c.gle/AAuDWvmF4fUObAmuvKBs_y2nS6wgLzzpQWeo5Y671_NGGAfVCV7WoBzRvqyuyZX_hclKkRP5O9DBtcRVoOr1Vi5qNShLQk2h2SBk7vMxeCrA1ympGxwrbf6ShJFZgI4aVmkvJ544gRWK4r7XbmyR_oVK>,   Community Guidelines   <h",
+        "status": "CLASSIFIED",
+        "category": "Social",
         "decision": "TRASH"
     }
 }
