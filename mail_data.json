@@ -1631,30 +1631,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28489": {
-        "account": "gmail",
-        "uid": "28489",
-        "timestamp": 1790565831,
-        "date_str": "2026-09-28 03:23:51+00:00",
-        "sender": "Traders Watch by Angel One <mailer@angelbroking.in>",
-        "subject": "\ud83d\udca5 \u20b94,000 Cr Welspun Order, \u20b9636 Cr BESS Win & Nifty at Range Floor",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28490": {
-        "account": "gmail",
-        "uid": "28490",
-        "timestamp": 1790567371,
-        "date_str": "2026-09-28 03:49:31+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live now: Earn 11% YTM with 26 days U GRO Capital",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28493": {
         "account": "gmail",
         "uid": "28493",
@@ -1666,30 +1642,6 @@
         "status": "CLASSIFIED",
         "category": "Security",
         "decision": "KEEP"
-    },
-    "gmail_28495": {
-        "account": "gmail",
-        "uid": "28495",
-        "timestamp": 1790574265,
-        "date_str": "2026-09-28 05:44:25+00:00",
-        "sender": "Affinity <marketing@engage.affinity.studio>",
-        "subject": "Welcome to Affinity",
-        "snippet": " Your all-in-one creative app is ready. Let\u2019s get started.    (  )   (  )    (  )  **********************************  **********************************      ( ?lid=n0xm7tq02whj )   ----------------------------------      ( ?lid=3pi0e008nx90 )   -----------------------",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28496": {
-        "account": "gmail",
-        "uid": "28496",
-        "timestamp": 1790576192,
-        "date_str": "2026-09-28 06:16:32+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "\ud83d\udd25 Secret Hack: Stack Up to 2% Back on Top Brands!",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28499": {
         "account": "gmail",
@@ -1703,18 +1655,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28500": {
-        "account": "gmail",
-        "uid": "28500",
-        "timestamp": 1790583988,
-        "date_str": "2026-09-28 08:26:28+00:00",
-        "sender": "ICICI Prudential Life Insurance",
-        "subject": "Stay ahead of rising education costs.",
-        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                               ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28501": {
         "account": "gmail",
         "uid": "28501",
@@ -1726,42 +1666,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28502": {
-        "account": "gmail",
-        "uid": "28502",
-        "timestamp": 1790597022,
-        "date_str": "2026-09-28 12:03:42+00:00",
-        "sender": "Marketing Standup \u2013 Zain Kahn",
-        "subject": "\ud83c\udfce\ufe0f McLaren's biggest rebrand in decades",
-        "snippet": "---------- View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254cd97d-*****-4ea0-bdf6-b1a699b65259/Superhuman_Group_1000005225__1_.png?t=1784099967) Caption:   **Welcome back.** There\u2019s another high-intent ad channel on the ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28503": {
-        "account": "gmail",
-        "uid": "28503",
-        "timestamp": 1790599406,
-        "date_str": "2026-09-28 12:43:26+00:00",
-        "sender": "BSE INVESTOR PROTECTION FUND <mailers@bseindia.in>",
-        "subject": "Participate in World Investor Week ***** Quiz by BSE Investors\r\n Protection Fund and win exciting Cash Prizes",
-        "snippet": ".",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28504": {
-        "account": "gmail",
-        "uid": "28504",
-        "timestamp": 1790601014,
-        "date_str": "2026-09-28 13:10:14+00:00",
-        "sender": "Superhuman ",
-        "subject": "\ud83e\uddbe",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/082cc6ea-6a36-4de0-815b-41d82d056574/Sponsor_Stack_ai__4_.png?t=1790331983) Follow image link: (https://www.stackai.com/demo?utm_source=partner-superhuman&utm_medium=sponso",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28505": {
         "account": "gmail",
@@ -2026,5 +1930,209 @@
         "status": "CLASSIFIED",
         "category": "Marketing",
         "decision": "TRASH"
+    },
+    "gmail_28527": {
+        "account": "gmail",
+        "uid": "28527",
+        "timestamp": 1790735487,
+        "date_str": "2026-09-30 02:31:27+00:00",
+        "sender": "Affinity <marketing@engage.affinity.studio>",
+        "subject": "\u25b6\ufe0f",
+        "snippet": "Affinity just got its biggest update yet. See what\u2019s new in action.   (  )   (  )    (  )      facebook  ( https://l.engage.affinity.studio/ss/c/u001.ctiXCf4FsAglcJojFekd-J4Cx0ppKD-HWw6fpmlcoFDhzpWzEaoYUrKOLrBSHpYf/4uh/KOm6P89LSCiVmSzBawpdQg/t0/h001.WPyuGnqfbnzD3mM5m-GWwQe8QBYVrIcm4pY0k",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28528": {
+        "account": "gmail",
+        "uid": "28528",
+        "timestamp": 1790736571,
+        "date_str": "2026-09-30 02:49:31+00:00",
+        "sender": "notifications_jiofiber@jio.com",
+        "subject": "Services barred for JioAirFiber connection with JioFixedVoice\r\n Number +914652317160",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28529": {
+        "account": "gmail",
+        "uid": "28529",
+        "timestamp": 1790739029,
+        "date_str": "2026-09-30 03:30:29+00:00",
+        "sender": "Traders Watch by Angel One <mailer@angelbroking.in>",
+        "subject": "\ud83d\udca5 Oversold \u2260 Reversal | RSI 26.7, Banking Breadth at Extreme Weakness",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28530": {
+        "account": "gmail",
+        "uid": "28530",
+        "timestamp": 1790740008,
+        "date_str": "2026-09-30 03:46:48+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live: 0.25% additional - Earn 11.5% YTM with 90 days Best Finance",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28531": {
+        "account": "gmail",
+        "uid": "28531",
+        "timestamp": 1790748921,
+        "date_str": "2026-09-30 06:15:21+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28532": {
+        "account": "gmail",
+        "uid": "28532",
+        "timestamp": 1790751799,
+        "date_str": "2026-09-30 07:03:19+00:00",
+        "sender": "InstaMoney <noreply@lendenclub.com>",
+        "subject": "Action Required: Your InstaMoney EMI is Due Soon",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28533": {
+        "account": "gmail",
+        "uid": "28533",
+        "timestamp": 1790771195,
+        "date_str": "2026-09-30 12:26:35+00:00",
+        "sender": "digibank Connect <digibankconnect@dbs.com>",
+        "subject": "\ud83d\udee1\ufe0f Fraud Awareness: Beware of Courier Delivery Scams",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Security",
+        "decision": "KEEP"
+    },
+    "gmail_28534": {
+        "account": "gmail",
+        "uid": "28534",
+        "timestamp": 1790774118,
+        "date_str": "2026-09-30 13:15:18+00:00",
+        "sender": "Superhuman ",
+        "subject": "\ud83e\uddf8",
+        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/4e61fe28-*****-40e2-b4c3-98486f4cae67/Sponsor_Rippling.png?t=1790681664) Follow image link: (https://rippling.registration.goldcast.io/webinar/03043c41-2bd3-*****-*****-c12d9a",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28535": {
+        "account": "gmail",
+        "uid": "28535",
+        "timestamp": 1790781086,
+        "date_str": "2026-09-30 15:11:26+00:00",
+        "sender": "Team OneCard <notify@getonecard.app>",
+        "subject": "\ud83d\uddd3\ufe0f OneCard Weekly Drops | All the Cool Things Edition",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28536": {
+        "account": "gmail",
+        "uid": "28536",
+        "timestamp": 1790781566,
+        "date_str": "2026-09-30 15:19:26+00:00",
+        "sender": "Market Charcha by Angel One",
+        "subject": "\ud83d\udca5 75% Adroit Listing, \u20b93,500+ Cr L&T Orders & 508 MW KPI Deal",
+        "snippet": "                                                                                                           30 September, *****                                                                                                                                 ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28537": {
+        "account": "gmail",
+        "uid": "28537",
+        "timestamp": 1790787520,
+        "date_str": "2026-09-30 16:58:40+00:00",
+        "sender": "\"HDFC Bank\" <information@mailers.hdfcbank.bank.in>",
+        "subject": "\u26a0\ufe0f Non-maintenance charges may apply on A/c XX2661",
+        "snippet": "Check your account details and take action if required\ufe0f    ---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t13.mailers.hdfcbank.bank.in/r/?id=tcb968b70-d492-477f-bc19-ef0a5feb8636,56ef1f,44bda4&p1=%409nE8zyxOtc",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28538": {
+        "account": "gmail",
+        "uid": "28538",
+        "timestamp": 1790788992,
+        "date_str": "2026-09-30 17:23:12+00:00",
+        "sender": "Team OneCard <notify@getonecard.app>",
+        "subject": "Fraudproof: Tokenization Scam",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Security",
+        "decision": "KEEP"
+    },
+    "gmail_28539": {
+        "account": "gmail",
+        "uid": "28539",
+        "timestamp": 1790791518,
+        "date_str": "2026-09-30 18:05:18+00:00",
+        "sender": "notifications_jiofiber@jio.com",
+        "subject": "Payment received for JioAirFiber connection with JioFixedVoice\r\n Number +914652317160",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28540": {
+        "account": "gmail",
+        "uid": "28540",
+        "timestamp": 1790792111,
+        "date_str": "2026-09-30 18:15:11+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Disbursement confirmation for your ICICI Bank Ltd Mortgage Loan\r\n Application Number 7782203753",
+        "snippet": "Dear ANTONY  KISHORE,  We are pleased to inform you that an amount of Rs. *****/- is disbursed towards your ICICI Bank Mortgage Loan Application number 7782203753 (Loan account number \"\").  Kindly collect the disbursement cheque post submission of pending documents if any.  For any further d",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28541": {
+        "account": "gmail",
+        "uid": "28541",
+        "timestamp": 1790792114,
+        "date_str": "2026-09-30 18:15:14+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Disbursement confirmation for your ICICI Bank Ltd Mortgage Loan\r\n Application Number 7782203753",
+        "snippet": "Dear ANTONY  KISHORE,  We are pleased to inform you that an amount of Rs. *****/- is disbursed towards your ICICI Bank Mortgage Loan Application number 7782203753 (Loan account number \"\").  Kindly collect the disbursement cheque post submission of pending documents if any.  For any further d",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28542": {
+        "account": "gmail",
+        "uid": "28542",
+        "timestamp": 1790793246,
+        "date_str": "2026-09-30 18:34:06+00:00",
+        "sender": "ICICI Bank <services@custcomm.icici.bank.in>",
+        "subject": "A new companion for smarter money choices",
+        "snippet": "Explain it to me like I\u2019m 10  Learn how AI, along with an advisor, can simplify finance, in this edition of The Orange Book  Read Now <https://lnk.custcomm.icici.bank.in/vtrack?clientid=*****&ul= VgYJXQEFCQxLB0lKUQ5XEA5WCghYVkNCVVpLDncBD1NdDUpWXglMH0QC&ml=VAYJUAADRARLAQwMCVcDHw==&sl=IU5zGWZhR",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28543": {
+        "account": "gmail",
+        "uid": "28543",
+        "timestamp": 1790801137,
+        "date_str": "2026-09-30 20:45:37+00:00",
+        "sender": "<customernotification@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank account",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-*****-1\" /> <meta charset=\"UTF-8\"> <style>     @import url",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
     }
 }
