@@ -2099,42 +2099,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28565": {
-        "account": "gmail",
-        "uid": "28565",
-        "timestamp": 1790912910,
-        "date_str": "2026-10-02 03:48:30+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live now: Earn 11% YTM with 3 months Navi Finserv",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28566": {
-        "account": "gmail",
-        "uid": "28566",
-        "timestamp": 1790922644,
-        "date_str": "2026-10-02 06:30:44+00:00",
-        "sender": "Fibe <notification@info.fibe.in>",
-        "subject": "It\u2019s Been a While \u2014",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28567": {
-        "account": "gmail",
-        "uid": "28567",
-        "timestamp": 1790923866,
-        "date_str": "2026-10-02 06:51:06+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "\ud83d\udecd\ufe0f Big Sale + Extra 2% Back on Flipkart? Yes, Please!",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28568": {
         "account": "gmail",
         "uid": "28568",
@@ -2159,66 +2123,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28570": {
-        "account": "gmail",
-        "uid": "28570",
-        "timestamp": 1790928215,
-        "date_str": "2026-10-02 08:03:35+00:00",
-        "sender": "digibank Connect <digibankconnect@dbs.com>",
-        "subject": "Enjoy Delightful offers on your favourite brands",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28571": {
-        "account": "gmail",
-        "uid": "28571",
-        "timestamp": 1790935476,
-        "date_str": "2026-10-02 10:04:36+00:00",
-        "sender": "Fibe <notification@info.fibe.in>",
-        "subject": "Stay verified, stay ",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28572": {
-        "account": "gmail",
-        "uid": "28572",
-        "timestamp": 1790945760,
-        "date_str": "2026-10-02 12:56:00+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "Momentum and Value stocks together!",
-        "snippet": "ICICI Pru Signature Assure                                                                                                                                                                                                                                                    ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28573": {
-        "account": "gmail",
-        "uid": "28573",
-        "timestamp": 1790946969,
-        "date_str": "2026-10-02 13:16:09+00:00",
-        "sender": "Superhuman ",
-        "subject": "\ud83d\udc71",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/765b6058-f041-*****-*****-adad56403c5f/Sponsor_Vanta__3_.png?t=1790843511) Follow image link: (https://www.vanta.com/webinars/inside-the-builder-renaissance-is-your-startup-p",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28574": {
-        "account": "gmail",
-        "uid": "28574",
-        "timestamp": 1790955989,
-        "date_str": "2026-10-02 15:46:29+00:00",
-        "sender": "AI Inner Circle <aiinnercircle@mail.beehiiv.com>",
-        "subject": "OpenAI dots work all day, and you set the rules",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28575": {
         "account": "gmail",
         "uid": "28575",
@@ -2230,18 +2134,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28576": {
-        "account": "gmail",
-        "uid": "28576",
-        "timestamp": 1790976732,
-        "date_str": "2026-10-02 21:32:12+00:00",
-        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
-        "subject": "Customer Service Support @ ModSquad",
-        "snippet": "Hi Rakesh,  Your customer service background and communication skills could be a great match for this Customer Service Support role at ModSquad. If you're interested in remote work and tackling inquiries for top global brands, you can apply now or view the job description for more details.  Cust",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28577": {
         "account": "gmail",
@@ -2407,6 +2299,66 @@
         "sender": "Google <google-noreply@google.com>",
         "subject": "Reminder about Google's Terms of Service",
         "snippet": "rakeshannadurairk@gmail.com  Hello rakesh,  Laws in India require us to remind you about the rules for using Google   products regularly. These include the   <https://c.gle/AAuDWvnLnvmFafGObLQObeCXlSkg5mdo84ly4jiFMrVOvBcHHAfWsxjrta74KQ12bFqToZmGGAO2PHH4uigzGExLna1o0UsMp6vfyjlfrJXfDma5Ikldvilfa",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28591": {
+        "account": "gmail",
+        "uid": "28591",
+        "timestamp": 1791067491,
+        "date_str": "2026-10-03 22:44:51+00:00",
+        "sender": "\"Tata CLiQ Fashion\" <info@fashionnotification.tatacliq.com>",
+        "subject": "Don't Start Shopping Without This\ud83d\udc40",
+        "snippet": "Tata CLiQ https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjUwMTh9AAwAAAAAA0_Y9p2vqMVWzLyHEjvuqDGsBIKjl9hYKL400dai9i6hN_XQZqoiaVwttz57nfoO560YJBx7Tu5XRLMjE-FpJFbdFYYPqsQI2l3IblAQ9-w   https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjUwMTh9AAwAAAAAA0_Y9p2wu-FvXRbZRCrJpKetwbA",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28592": {
+        "account": "gmail",
+        "uid": "28592",
+        "timestamp": 1791093951,
+        "date_str": "2026-10-04 06:05:51+00:00",
+        "sender": "Fibe <notification@info.fibe.in>",
+        "subject": "Urgent: Unlock Your Credit Limit in One Click!",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28593": {
+        "account": "gmail",
+        "uid": "28593",
+        "timestamp": 1791096280,
+        "date_str": "2026-10-04 06:44:40+00:00",
+        "sender": "Paytm",
+        "subject": "Your Paytm Statement - September *****",
+        "snippet": " \t \t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t \t\t \t\t\t \t\t\t\t \t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t\t#PaytmKaro \t\t\t\t\t\t\t \t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28594": {
+        "account": "gmail",
+        "uid": "28594",
+        "timestamp": 1791096330,
+        "date_str": "2026-10-04 06:45:30+00:00",
+        "sender": "ICICI Prudential Life",
+        "subject": "Missed the fund launch? You can still invest",
+        "snippet": "ICICI Pru SmartKid Assure Plan                                                                                                                                                                                                                                              ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28595": {
+        "account": "gmail",
+        "uid": "28595",
+        "timestamp": 1791100745,
+        "date_str": "2026-10-04 07:59:05+00:00",
+        "sender": "alerts <alerts@hdfcbank.bank.in>",
+        "subject": "Account update for your HDFC Bank A / c",
+        "snippet": "<html><body><form><Div><p style='padding:2% 0px 0px;'>Dear Customer, <br/><br/>Your payment (Auto Pay) from HDFC Bank A/c No.XXXXXXXXXX2661 to HDB FINANCIAL SERVICES LTD failed due to insufficient funds. <br/><br/>Please note: ACH return charges will apply and to be recovered later. <br/><br/>If you",
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
