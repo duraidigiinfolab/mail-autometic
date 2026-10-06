@@ -2135,30 +2135,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28577": {
-        "account": "gmail",
-        "uid": "28577",
-        "timestamp": 1790984458,
-        "date_str": "2026-10-02 23:40:58+00:00",
-        "sender": "\"Just WhatsApp. We will Take It From There.\" <lifeline@iciciprulife.com>",
-        "subject": "Need Policy Assistance Anytime, Anywhere? Just WhatsApp Us!",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28578": {
-        "account": "gmail",
-        "uid": "28578",
-        "timestamp": 1790999298,
-        "date_str": "2026-10-03 03:48:18+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live now: Earn 11.75% YTM with 47 days Midland Microfin",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28579": {
         "account": "gmail",
         "uid": "28579",
@@ -2182,18 +2158,6 @@
         "status": "CLASSIFIED",
         "category": "OTP",
         "decision": "KEEP"
-    },
-    "gmail_28581": {
-        "account": "gmail",
-        "uid": "28581",
-        "timestamp": 1791007889,
-        "date_str": "2026-10-03 06:11:29+00:00",
-        "sender": "ChatGPT <noreply@email.openai.com>",
-        "subject": "4 new image styles to try",
-        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>               <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <meta name=\"color-scheme\" content=\"light dark only\">   <meta nam",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28582": {
         "account": "gmail",
@@ -2303,18 +2267,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28591": {
-        "account": "gmail",
-        "uid": "28591",
-        "timestamp": 1791067491,
-        "date_str": "2026-10-03 22:44:51+00:00",
-        "sender": "\"Tata CLiQ Fashion\" <info@fashionnotification.tatacliq.com>",
-        "subject": "Don't Start Shopping Without This\ud83d\udc40",
-        "snippet": "Tata CLiQ https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjUwMTh9AAwAAAAAA0_Y9p2vqMVWzLyHEjvuqDGsBIKjl9hYKL400dai9i6hN_XQZqoiaVwttz57nfoO560YJBx7Tu5XRLMjE-FpJFbdFYYPqsQI2l3IblAQ9-w   https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjUwMTh9AAwAAAAAA0_Y9p2wu-FvXRbZRCrJpKetwbA",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28592": {
         "account": "gmail",
         "uid": "28592",
@@ -2362,5 +2314,185 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_28596": {
+        "account": "gmail",
+        "uid": "28596",
+        "timestamp": 1791164903,
+        "date_str": "2026-10-05 01:48:23+00:00",
+        "sender": "\"Zerodha\" <noreply-coin@qmailer.zerodha.net>",
+        "subject": "Coin by Zerodha \u2014 Updates \u2014 05-10-*****",
+        "snippet": "<!doctype html> <html>     <head>         <meta charset=\"utf-8\" />         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />         <title>Coin ver 3.0</title>         <style>             body {                 font-family: HelveticaNeue, Helvetica, arial, sans-serif; ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28597": {
+        "account": "gmail",
+        "uid": "28597",
+        "timestamp": 1791172008,
+        "date_str": "2026-10-05 03:46:48+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11% YTM with 90 days IIFL Samasta ",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28598": {
+        "account": "gmail",
+        "uid": "28598",
+        "timestamp": 1791175814,
+        "date_str": "2026-10-05 04:50:14+00:00",
+        "sender": "Team OneCard <notify@getonecard.app>",
+        "subject": "Quick Tip: Save More Before You Checkout! \ud83d\udca1",
+        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28599": {
+        "account": "gmail",
+        "uid": "28599",
+        "timestamp": 1791178229,
+        "date_str": "2026-10-05 05:30:29+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28600": {
+        "account": "gmail",
+        "uid": "28600",
+        "timestamp": 1791178823,
+        "date_str": "2026-10-05 05:40:23+00:00",
+        "sender": "Google <no-reply@accounts.google.com>",
+        "subject": "Security alert",
+        "snippet": "[image: Google] A selfie video was added to your account   rakeshannadurairk@gmail.com If you didn\u2019t add a selfie for sign-in, someone might be using your account. Check and secure your account now. Check activity <https://accounts.google.com/AccountChooser?Email=rakeshannadurairk@gmail.com&",
+        "status": "CLASSIFIED",
+        "category": "Security",
+        "decision": "KEEP"
+    },
+    "gmail_28601": {
+        "account": "gmail",
+        "uid": "28601",
+        "timestamp": 1791185318,
+        "date_str": "2026-10-05 07:28:38+00:00",
+        "sender": "BSE INVESTOR PROTECTION FUND <mailers@bseindia.in>",
+        "subject": "Participate in World Investor Week ***** Quiz by BSE Investors\r\n Protection Fund and win exciting Cash Prizes",
+        "snippet": ".",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28602": {
+        "account": "gmail",
+        "uid": "28602",
+        "timestamp": 1791185439,
+        "date_str": "2026-10-05 07:30:39+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28603": {
+        "account": "gmail",
+        "uid": "28603",
+        "timestamp": 1791200961,
+        "date_str": "2026-10-05 11:49:21+00:00",
+        "sender": "service@icicisecurities.com",
+        "subject": "Next MF SIP will be triggered on 06-Oct-*****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28604": {
+        "account": "gmail",
+        "uid": "28604",
+        "timestamp": 1791204418,
+        "date_str": "2026-10-05 12:46:58+00:00",
+        "sender": "customernotification@icici.bank.in",
+        "subject": "Welcome to iMobile",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28605": {
+        "account": "gmail",
+        "uid": "28605",
+        "timestamp": 1791204800,
+        "date_str": "2026-10-05 12:53:20+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  Cash Withdrawal of Rs. 6,000.00 has been made at an ATM using your Debit Card linked to Account XX806 on 05-Oct-26. Info: CAM*25012SRY*CA.  The Available Balance in your Account is Rs. 5,836.99.  In case you have not done this transaction, please c",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28606": {
+        "account": "gmail",
+        "uid": "28606",
+        "timestamp": 1791205672,
+        "date_str": "2026-10-05 13:07:52+00:00",
+        "sender": "Superhuman ",
+        "subject": "\u270c\ufe0f",
+        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/a0f956ef-3f2c-4e7b-9f5a-873353440f8c/Sponsor_AWS__11_.png?t=1790945106) Follow image link: (https://srv.buysellads.com/ads/long/x/TCUWM2IPTTTTTT4D4OXNWTTTTTTDNSRR2VTTTTTTE4",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28607": {
+        "account": "gmail",
+        "uid": "28607",
+        "timestamp": 1791222317,
+        "date_str": "2026-10-05 17:45:17+00:00",
+        "sender": "service@icicisecurities.com",
+        "subject": "Statement of accounts for funds from 21-Sep-***** to 27-Sep-*****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28608": {
+        "account": "gmail",
+        "uid": "28608",
+        "timestamp": 1791227758,
+        "date_str": "2026-10-05 19:15:58+00:00",
+        "sender": "\"Tata CLiQ Fashion\" <info@fashionnotification.tatacliq.com>",
+        "subject": "Mark The Date. Thank Us Later.\ud83d\ude0c",
+        "snippet": "Tata CLiQ  https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjUwMjB9AAwAAAAAA1adicGE5jUNEHbchRkILgcUVKyG2KrZek8IYnSseDOYmiuVa3I2WFogqN3tZwbmiPl3wZvBbJ_Ou-bcswWAub5gw-nD8AoADjZaPsaPpg  MEN      https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjUwMjB9AAwAAAAAA1adicGFnFbCjkicjd",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28609": {
+        "account": "gmail",
+        "uid": "28609",
+        "timestamp": 1791232312,
+        "date_str": "2026-10-05 20:31:52+00:00",
+        "sender": "\"Estatement\" <estatement@icici.bank.in>",
+        "subject": "ICICI Bank Statement from September 01, ***** to September 30, *****\r\n for XXXXXXXX7806",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28610": {
+        "account": "gmail",
+        "uid": "28610",
+        "timestamp": 1791235908,
+        "date_str": "2026-10-05 21:31:48+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "Assistant Store Manager @ Reliance Jio Infocomm Limited India",
+        "snippet": "Hi Rakesh,  Your customer service and sales experience could be a good match for this Assistant Store Manager role. Reliance Jio Infocomm Limited offers a competitive salary and benefits package, including health insurance and a provident fund. Interested in leading a team? Apply now or view the job",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
