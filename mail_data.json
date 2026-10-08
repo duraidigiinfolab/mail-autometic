@@ -1,76 +1,4 @@
 {
-    "gmail_28162": {
-        "account": "gmail",
-        "uid": "28162",
-        "timestamp": 1788837235,
-        "date_str": "2026-09-08 03:13:55+00:00",
-        "sender": "\"ICICI Prudential Mutual Fund\" <enq_P@camsonline.com>",
-        "subject": "Folio 33587524 - Processing of systematic Purchase in ICICI Prudential Mutual Fund",
-        "snippet": "<HTML><BODY> <FONT face=\"Verdana, Arial, Helvetica\" size=-1>      <!DOCTYPE html> <html lang=\"en\">   <head>     <meta charset=\"UTF-8\" />     <title>ICIC</title>   </head>   <body>     <!-- partial:index.partial.html -->     <!DOCTYPE html>     <html       lang=\"en\"       xmlns=\"http:",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28165": {
-        "account": "gmail",
-        "uid": "28165",
-        "timestamp": 1788848934,
-        "date_str": "2026-09-08 06:28:54+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Mortgage Loan Application 7782203171 Approved",
-        "snippet": "Dear BENNIS  RAJASUNDARAM,   Congratulations! Your ICICI Bank Mortgage Loan Application number 7782203171 has been approved.  In case of any query you can contact your Relationship Manager SHAJI S(90032882) on 9715919471. Alternatively you can also track your application status on click https://",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28166": {
-        "account": "gmail",
-        "uid": "28166",
-        "timestamp": 1788848935,
-        "date_str": "2026-09-08 06:28:55+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Mortgage Loan Application 7782203171 Approved",
-        "snippet": "Dear REKHA  S,   Congratulations! Your ICICI Bank Mortgage Loan Application number 7782203171 has been approved.  In case of any query you can contact your Relationship Manager SHAJI S(90032882) on 9715919471. Alternatively you can also track your application status on click https://loans.icici.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28168": {
-        "account": "gmail",
-        "uid": "28168",
-        "timestamp": 1788850641,
-        "date_str": "2026-09-08 06:57:21+00:00",
-        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
-        "subject": "Transaction alert for your ICICI Bank debit card",
-        "snippet": "Dear Customer,  Greetings from ICICI Bank.  Cash Withdrawal of Rs. 200.00 has been made at an ATM using your Debit Card linked to Account XX806 on 08-Sep-26. Info: CAM*60951SRY*CA.  The Available Balance in your Account is Rs. 4,868.28.  In case you have not done this transaction, please cal",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28170": {
-        "account": "gmail",
-        "uid": "28170",
-        "timestamp": 1788860616,
-        "date_str": "2026-09-08 09:43:36+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Request has been approved",
-        "snippet": "Your modification request has been approved, kindly get in touch with your relationship manager ",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28173": {
-        "account": "gmail",
-        "uid": "28173",
-        "timestamp": 1788875212,
-        "date_str": "2026-09-08 13:46:52+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Login - Mortgage Loan Application number 773100060691 - NIVIN KUMAR\r\n ANGUS",
-        "snippet": "Dear Partner,     Mortgage Loan Application number 773100060691 of NIVIN KUMAR ANGUS submitted by you is received in TN Thirunelveli Madurai Road.    You can check the status on Link https://bit.ly/35rp3ay    Sincerely, Team ICICI Bank  This is a system-generated e-mail. Please do not reply ",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
     "gmail_28177": {
         "account": "gmail",
         "uid": "28177",
@@ -2387,18 +2315,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28611": {
-        "account": "gmail",
-        "uid": "28611",
-        "timestamp": 1791253899,
-        "date_str": "2026-10-06 02:31:39+00:00",
-        "sender": "Affinity <marketing@engage.affinity.studio>",
-        "subject": "What if Affinity did the busywork?",
-        "snippet": "New automation tools give you more time for the creative.    (  )   (  )    (  )      facebook  ( https://l.engage.affinity.studio/ss/c/u001.ctiXCf4FsAglcJojFekd-J4Cx0ppKD-HWw6fpmlcoFBfG7yo7sIW4QblTJ-K7PmK/4un/ObxRXjXlTQyOQ8tl0GjdKQ/t0/h001.lXCcZ1K3ormsZ-QZ3b3TLIYRxfa65y3hHd9AjTSLF98 ) ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28612": {
         "account": "gmail",
         "uid": "28612",
@@ -2411,18 +2327,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28613": {
-        "account": "gmail",
-        "uid": "28613",
-        "timestamp": 1791263038,
-        "date_str": "2026-10-06 05:03:58+00:00",
-        "sender": "Stable Money <announcements@stablemoney.in>",
-        "subject": "Big B turns 84 on 11 October",
-        "snippet": "<!DOCTYPE html>  <html lang=\"en\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:v=\"urn:schemas-microsoft-com:vml\"> <head> <title></title> <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"/> <meta content=\"width=device-width,initial-scale=1\" name=\"viewport\"/> <!--[if ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28614": {
         "account": "gmail",
         "uid": "28614",
@@ -2434,18 +2338,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28615": {
-        "account": "gmail",
-        "uid": "28615",
-        "timestamp": 1791272222,
-        "date_str": "2026-10-06 07:37:02+00:00",
-        "sender": "ICICI Bank <services@custcomm.icici.bank.in>",
-        "subject": "Update your iMobile app for a new experience!",
-        "snippet": "New iMobile Home Screen is here  Explore an experience that's simple, secure & seamless  Know More <https://lnk.custcomm.icici.bank.in/vtrack?clientid=*****&ul= VgYJXQEFCQxLB0lKUQ5XEA5WCghYVkNCVVpLDncBD1NdDUpWXglMH0QC&ml=VAcAVQMLRARLAQwLBVEEHw==&sl=IU5zGWZhRGd6YklUXg4cABNEEAVWX1seXVBQBl5IAFNaC",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28616": {
         "account": "gmail",
@@ -2483,18 +2375,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28619": {
-        "account": "gmail",
-        "uid": "28619",
-        "timestamp": 1791280682,
-        "date_str": "2026-10-06 09:58:02+00:00",
-        "sender": "Policybazaar Two-Wheeler",
-        "subject": "Two-Wheeler Insurance Expired! Renew Today",
-        "snippet": "                                                                                                                                                                                                                                                                                  ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28620": {
         "account": "gmail",
         "uid": "28620",
@@ -2506,18 +2386,6 @@
         "status": "CLASSIFIED",
         "category": "OTP",
         "decision": "KEEP"
-    },
-    "gmail_28621": {
-        "account": "gmail",
-        "uid": "28621",
-        "timestamp": 1791282852,
-        "date_str": "2026-10-06 10:34:12+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "Deal of the Week | Samsung Galaxy A27 5G",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28622": {
         "account": "gmail",
@@ -2543,66 +2411,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28624": {
-        "account": "gmail",
-        "uid": "28624",
-        "timestamp": 1791290007,
-        "date_str": "2026-10-06 12:33:27+00:00",
-        "sender": "Marketing Standup \u2013 Zain Kahn",
-        "subject": "\ud83e\udd1d A $110B media merger",
-        "snippet": "---------- View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254cd97d-*****-4ea0-bdf6-b1a699b65259/Superhuman_Group_1000005225__1_.png?t=1784099967) Caption:   **Welcome back.** A new merger has brought some of America\u2019s big",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28625": {
-        "account": "gmail",
-        "uid": "28625",
-        "timestamp": 1791292225,
-        "date_str": "2026-10-06 13:10:25+00:00",
-        "sender": "ICICI Life",
-        "subject": "Momentum and Value stocks together!",
-        "snippet": "ICICI Life Signature Assure                                                                                                                                                                                                                                                   ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28626": {
-        "account": "gmail",
-        "uid": "28626",
-        "timestamp": 1791293521,
-        "date_str": "2026-10-06 13:32:01+00:00",
-        "sender": "ICICI Bank <services@custcomm.icici.bank.in>",
-        "subject": "Now transfer up to USD 100,000 overseas",
-        "snippet": "Overseas money transfer limit increased to USD 100,000  Experience seamless transfers now using ICICI Bank Money2World  Transfer Now <https://lnk.custcomm.icici.bank.in/vtrack?clientid=*****&ul= VgYJXQEFCQxLB0lKUQ5XEA5WCghYVkNCVVpLDncBD1NdDUpWXglMH0QC&ml=VAYJXQIFRARLAQ0BA1YHHw==&sl=IU5zGWZhRG",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28627": {
-        "account": "gmail",
-        "uid": "28627",
-        "timestamp": 1791296577,
-        "date_str": "2026-10-06 14:22:57+00:00",
-        "sender": "digibank Connect <digibankconnect@dbs.com>",
-        "subject": "NFO Live: ICICI Prudential Contra Fund",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28628": {
-        "account": "gmail",
-        "uid": "28628",
-        "timestamp": 1791299276,
-        "date_str": "2026-10-06 15:07:56+00:00",
-        "sender": "AI Inner Circle <aiinnercircle@mail.beehiiv.com>",
-        "subject": "OpenAI is putting ads inside ChatGPT image generation \ud83d\udce2",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28629": {
         "account": "gmail",
         "uid": "28629",
@@ -2614,18 +2422,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28630": {
-        "account": "gmail",
-        "uid": "28630",
-        "timestamp": 1791309023,
-        "date_str": "2026-10-06 17:50:23+00:00",
-        "sender": "\"Tata CLiQ Fashion\" <shop@fashioncollections.tatacliq.com>",
-        "subject": "\u20b91,600* In Offers. Gone Soon. \ud83d\udc40",
-        "snippet": "Tata CLiQ  https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjUwMjF9AAwAAAAAA1vRiTggnMbqTpW5Q3VdbZ4WBqTlTB1tXKgWZQttSWjTJFCgKKN2vccgzhgh_njNOuV-WiWs-Fsj2SwCxHN5PSzwpzAANxzwGqvMZLSRuw  MEN      https://click.styleupdate.tatacliq.com/?qs=ABB7InYiOjEsImQiOjUwMjF9AAwAAAAAA1vRiTghI8jPmxC2GW",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28631": {
         "account": "gmail",
@@ -2649,42 +2445,6 @@
         "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
         "status": "CLASSIFIED",
         "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28633": {
-        "account": "gmail",
-        "uid": "28633",
-        "timestamp": 1791347178,
-        "date_str": "2026-10-07 04:26:18+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
-    "gmail_28634": {
-        "account": "gmail",
-        "uid": "28634",
-        "timestamp": 1791349854,
-        "date_str": "2026-10-07 05:10:54+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
-    "gmail_28635": {
-        "account": "gmail",
-        "uid": "28635",
-        "timestamp": 1791355333,
-        "date_str": "2026-10-07 06:42:13+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
         "decision": "TRASH"
     },
     "gmail_28636": {
@@ -2734,18 +2494,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28640": {
-        "account": "gmail",
-        "uid": "28640",
-        "timestamp": 1791365353,
-        "date_str": "2026-10-07 09:29:13+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_28641": {
         "account": "gmail",
@@ -2818,5 +2566,257 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_28647": {
+        "account": "gmail",
+        "uid": "28647",
+        "timestamp": 1791431737,
+        "date_str": "2026-10-08 03:55:37+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11% YTM with 60 days bond ",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28648": {
+        "account": "gmail",
+        "uid": "28648",
+        "timestamp": 1791435838,
+        "date_str": "2026-10-08 05:03:58+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  A purchase of Rs. 200.00 has been made using your Debit Card linked to ICICI Bank Account XX806 on 08-Oct-26. Info: VPS*SRI VENKADE.  The Available Balance in your account is Rs. 3,710.99.  In case you have not done this transaction, please call on",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28649": {
+        "account": "gmail",
+        "uid": "28649",
+        "timestamp": 1791436259,
+        "date_str": "2026-10-08 05:10:59+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 773100090100 Approved",
+        "snippet": "Dear AKASH  M,   Congratulations! Your ICICI Bank Mortgage Loan Application number 773100090100 has been approved.  In case of any query you can contact your Relationship Manager SIVAKUMAR A R(*****) on 9790604866. Alternatively you can also track your application status on click https://loan",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28650": {
+        "account": "gmail",
+        "uid": "28650",
+        "timestamp": 1791436260,
+        "date_str": "2026-10-08 05:11:00+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 773100090100 Approved",
+        "snippet": "Dear MOHAN  CHELLAIAN,   Congratulations! Your ICICI Bank Mortgage Loan Application number 773100090100 has been approved.  In case of any query you can contact your Relationship Manager SIVAKUMAR A R(*****) on 9790604866. Alternatively you can also track your application status on click http",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28651": {
+        "account": "gmail",
+        "uid": "28651",
+        "timestamp": 1791438270,
+        "date_str": "2026-10-08 05:44:30+00:00",
+        "sender": "Affinity <marketing@engage.affinity.studio>",
+        "subject": "What ",
+        "snippet": " You signed up for a reason. Here\u2019s why it\u2019s time to open Affinity.    (  )   (  )    (  )  **********************************  **********************************      ( ?lid=j4hiqro91j0b )   ----------------------------------      ( ?lid=t7c0kxvvdu2y )   --------------",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28652": {
+        "account": "gmail",
+        "uid": "28652",
+        "timestamp": 1791440534,
+        "date_str": "2026-10-08 06:22:14+00:00",
+        "sender": "info@sbmbank.co.in",
+        "subject": "Your SBM Bank Fixed Deposit Receipt",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28653": {
+        "account": "gmail",
+        "uid": "28653",
+        "timestamp": 1791446972,
+        "date_str": "2026-10-08 08:09:32+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28654": {
+        "account": "gmail",
+        "uid": "28654",
+        "timestamp": 1791449420,
+        "date_str": "2026-10-08 08:50:20+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28655": {
+        "account": "gmail",
+        "uid": "28655",
+        "timestamp": 1791449535,
+        "date_str": "2026-10-08 08:52:15+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 7782204966: Query Assigned",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28656": {
+        "account": "gmail",
+        "uid": "28656",
+        "timestamp": 1791449748,
+        "date_str": "2026-10-08 08:55:48+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28657": {
+        "account": "gmail",
+        "uid": "28657",
+        "timestamp": 1791459008,
+        "date_str": "2026-10-08 11:30:08+00:00",
+        "sender": "\"nse_alerts\" <nse_alerts@nse.co.in>",
+        "subject": "Funds/Securities Balance",
+        "snippet": "<html>  <head></head>  <body> \t<p>Dear Investor,</p> \t<p>With reference to NSE circulars NSE/INSP/***** dated December 17, *****, and NSE/INSP/***** dated December 28, *****, Trading members are required to upload clients' securities balance on a daily basis.</p> \t<p>Further, with reference to ",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28658": {
+        "account": "gmail",
+        "uid": "28658",
+        "timestamp": 1791462709,
+        "date_str": "2026-10-08 12:31:49+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28659": {
+        "account": "gmail",
+        "uid": "28659",
+        "timestamp": 1791462878,
+        "date_str": "2026-10-08 12:34:38+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Succesful Payment By SHAJ VEERARAJAN",
+        "snippet": "Dear RAKESH ANNADURAI, Fee payment for case 773100098171 has been done by SHAJ VEERARAJAN successfully, please process the case further.  Sincerely,  Team ICICI Bank   This is a system-generated e-mail. Please do not reply to this e-mail. ",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28660": {
+        "account": "gmail",
+        "uid": "28660",
+        "timestamp": 1791465961,
+        "date_str": "2026-10-08 13:26:01+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 7782204966: Query Resolved",
+        "snippet": "Dear MUTHU MANI,  Please find below the details of the query which has been resolved:  Customer Name: SELVARAJ PILLAI Application No.: 7782204966  Category: Underwriting  Sub Category: Raise Internally   Sub Category Details: Clarification required Title :STO QUERIES  Assigned User: *****",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28661": {
+        "account": "gmail",
+        "uid": "28661",
+        "timestamp": 1791466761,
+        "date_str": "2026-10-08 13:39:21+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Request has been approved",
+        "snippet": "Your modification request has been approved, kindly get in touch with your relationship manager ",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28662": {
+        "account": "gmail",
+        "uid": "28662",
+        "timestamp": 1791476278,
+        "date_str": "2026-10-08 16:17:58+00:00",
+        "sender": "Google Play <googleplaypromo-noreply@google.com>",
+        "subject": "Your Play Points are waiting on PC \ud83c\udf1f",
+        "snippet": "<https://c.gle/AAuDWvlHm5S_HEWZAxYv5fU-7epxVaJAdaLD25nFe7C-M6jNKKhC7U7XQWIxtAiTyHQQ-pcDJF98w9FgtmDxElg99CcsnqMTIvkXiwqXxg1_eGX9szkgpaFQ8NK87LDv8ilwLL1FAA-rzGkhHaHKVA_n1Q5shJEFJbCBgpJlsXIAPZ4abcLJFgTCXwuRPMHKMIOjm7JhC9VaGFCa_nEazEcodtnLYk1sY4F9qOG9ut0z>  <https://c.gle/AAuDWvkXXzHH0QbVvKwqAqD19mfiR",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28663": {
+        "account": "gmail",
+        "uid": "28663",
+        "timestamp": 1791477780,
+        "date_str": "2026-10-08 16:43:00+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Succesful Payment By SHAJ VEERARAJAN",
+        "snippet": "Dear RAKESH ANNADURAI, Fee payment for case 773100098171 has been done by SHAJ VEERARAJAN successfully, please process the case further.  Sincerely,  Team ICICI Bank   This is a system-generated e-mail. Please do not reply to this e-mail. ",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28664": {
+        "account": "gmail",
+        "uid": "28664",
+        "timestamp": 1791485652,
+        "date_str": "2026-10-08 18:54:12+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 773100083424 Approved",
+        "snippet": "Dear SUBHASH SANKARARAMAN VIJAYA KUMARI,   Congratulations! Your ICICI Bank Mortgage Loan Application number 773100083424 has been approved.  In case of any query you can contact your Relationship Manager SHAJI S(*****) on 9715919471. Alternatively you can also track your application status o",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28665": {
+        "account": "gmail",
+        "uid": "28665",
+        "timestamp": 1791485654,
+        "date_str": "2026-10-08 18:54:14+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 773100083424 Approved",
+        "snippet": "Dear SOMASUNDARI  T,   Congratulations! Your ICICI Bank Mortgage Loan Application number 773100083424 has been approved.  In case of any query you can contact your Relationship Manager SHAJI S(*****) on 9715919471. Alternatively you can also track your application status on click https://loan",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28666": {
+        "account": "gmail",
+        "uid": "28666",
+        "timestamp": 1791495147,
+        "date_str": "2026-10-08 21:32:27+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "Process Executive @ preyfox technology",
+        "snippet": "Hi Rakesh,  Your customer service and sales experience could be a good match for this Process Executive role. Preyfox Technology offers a work-from-home opportunity with training provided. If you're detail-oriented and have good typing skills, you can apply now or view the job description for more",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28667": {
+        "account": "gmail",
+        "uid": "28667",
+        "timestamp": 1791496686,
+        "date_str": "2026-10-08 21:58:06+00:00",
+        "sender": "ICICI Life Insurance <service@iciciprulife.com>",
+        "subject": "\ud83c\udfc6 Your Trust. Our Honour. iProtect Smart Plus \u2014 Product of the Year *****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
