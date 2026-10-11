@@ -1,52 +1,4 @@
 {
-    "gmail_28208": {
-        "account": "gmail",
-        "uid": "28208",
-        "timestamp": 1789110461,
-        "date_str": "2026-09-11 07:07:41+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Request has been approved",
-        "snippet": "Your modification request has been approved, kindly get in touch with your relationship manager ",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28212": {
-        "account": "gmail",
-        "uid": "28212",
-        "timestamp": 1789116898,
-        "date_str": "2026-09-11 08:54:58+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Mortgage Loan Application 773100060691 Approved",
-        "snippet": "Dear A NIVIN  KUMAR,   Congratulations! Your ICICI Bank Mortgage Loan Application number 773100060691 has been approved.  In case of any query you can contact your Relationship Manager SHAJI S(90032882) on 9715919471. Alternatively you can also track your application status on click https://loan",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28215": {
-        "account": "gmail",
-        "uid": "28215",
-        "timestamp": 1789138501,
-        "date_str": "2026-09-11 14:55:01+00:00",
-        "sender": "Google <no-reply@accounts.google.com>",
-        "subject": "Your Google Account was recovered successfully",
-        "snippet": "This is a copy of a security alert sent to duraidigiinfolab@gmail.com. rakeshannadurairk@gmail.com is the recovery email for this account. If you don't recognize this account, remove <https://accounts.google.com/AccountDisavow?adt=AOX8kiokstuga5I9ELzouLC5KLfwuDpUEwn5RI0eUfObJOeuKdD46TpKdPcQwIcynD",
-        "status": "CLASSIFIED",
-        "category": "Security",
-        "decision": "KEEP"
-    },
-    "gmail_28216": {
-        "account": "gmail",
-        "uid": "28216",
-        "timestamp": 1789138501,
-        "date_str": "2026-09-11 14:55:01+00:00",
-        "sender": "Google <no-reply@accounts.google.com>",
-        "subject": "Security alert for duraidigiinfolab@gmail.com",
-        "snippet": "This is a copy of a security alert sent to duraidigiinfolab@gmail.com. rakeshannadurairk@gmail.com is the recovery email for this account. If you don't recognize this account, remove <https://accounts.google.com/AccountDisavow?adt=AOX8kirLD746-affXwxWbgYIXEl5Kw2lLDUaUZFRbWH7vUWLfTEzIxdKHWzPSf1xUv",
-        "status": "CLASSIFIED",
-        "category": "Security",
-        "decision": "KEEP"
-    },
     "gmail_28221": {
         "account": "gmail",
         "uid": "28221",
@@ -2615,18 +2567,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28670": {
-        "account": "gmail",
-        "uid": "28670",
-        "timestamp": 1791517922,
-        "date_str": "2026-10-09 03:52:02+00:00",
-        "sender": "ICICI Life Insurance <service@iciciprulife.com>",
-        "subject": "Har Kal Aasaan with ICICI Life Insurance",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28673": {
         "account": "gmail",
         "uid": "28673",
@@ -2675,18 +2615,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28678": {
-        "account": "gmail",
-        "uid": "28678",
-        "timestamp": 1791531497,
-        "date_str": "2026-10-09 07:38:17+00:00",
-        "sender": "Fibe <notification@info.fibe.in>",
-        "subject": "Urgent: Unlock Your Credit Limit in One Click!",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28679": {
         "account": "gmail",
         "uid": "28679",
@@ -2698,30 +2626,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28680": {
-        "account": "gmail",
-        "uid": "28680",
-        "timestamp": 1791543475,
-        "date_str": "2026-10-09 10:57:55+00:00",
-        "sender": "\"Nippon Life India Asset Management Limited\" <nimfupdates@campaign1.nipponindia.email>",
-        "subject": "From K-pop beats \ud83c\udfb6 to vibrant celebrations \u2708\ufe0f Plan your South Korea dream with an SIP",
-        "snippet": "---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t2.campaign1.nipponindia.email/r/?id=t5dca70e2,1daf4f,bdd5c&e=cDE9JTQwdkppRU5DM3lzWWlEcHElMkZIblklMkYxMWhwUkFMSiUyRmdJSiUyRnU3QkMlMkJoQmxkaEElM0Q&s=tX8ZUzaZNcKiEcf",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28681": {
-        "account": "gmail",
-        "uid": "28681",
-        "timestamp": 1791544660,
-        "date_str": "2026-10-09 11:17:40+00:00",
-        "sender": "\"Tata CLiQ Fashion\" <info@fashionnotification.tatacliq.com>",
-        "subject": "10X Style. Maximum Cart Energy. \u26a1",
-        "snippet": "Tata CLiQ https://click.styleupdate.tatacliq.com/?qs=ABp7ImQiOjUwMjQsInQiOjQwNTksInMiOjEyfQAMAAAAAANp-kLylXk9D-jSmuqg_bFZQtw47sy4H8PlfZ7OokV3v8Ph-OQW7B8e5PeGY1wxe-KLERerkJsS-FTwUzABU1KmZ_HlRoipo9HiLjXYA4k   https://click.styleupdate.tatacliq.com/?qs=ABp7ImQiOjUwMjQsInQiOjQwNTksInMiOjEyfQAMAAAAAAN",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28682": {
         "account": "gmail",
@@ -2746,18 +2650,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28684": {
-        "account": "gmail",
-        "uid": "28684",
-        "timestamp": 1791559739,
-        "date_str": "2026-10-09 15:28:59+00:00",
-        "sender": "AI Inner Circle <aiinnercircle@mail.beehiiv.com>",
-        "subject": "\ud83e\udd16 Grok Bot now writes your morning news",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28685": {
         "account": "gmail",
@@ -2842,5 +2734,41 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_28692": {
+        "account": "gmail",
+        "uid": "28692",
+        "timestamp": 1791704555,
+        "date_str": "2026-10-11 07:42:35+00:00",
+        "sender": "service@icicisecurities.com",
+        "subject": "Statement of accounts for funds from 28-Sep-***** to 04-Oct-*****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28693": {
+        "account": "gmail",
+        "uid": "28693",
+        "timestamp": 1791705012,
+        "date_str": "2026-10-11 07:50:12+00:00",
+        "sender": "service@icicisecurities.com",
+        "subject": "Mutual Fund Account Statement from 01-Sep-***** to 30-Sep-*****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28694": {
+        "account": "gmail",
+        "uid": "28694",
+        "timestamp": 1791754237,
+        "date_str": "2026-10-11 21:30:37+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "Telecalling @ Vision Group of Companies",
+        "snippet": "Hi Rakesh,  Your customer service and sales experience could be a good match for this telecalling role. Vision Group of Companies offers a hybrid remote schedule, cell phone reimbursement, and paid sick time. If you're interested, feel free to apply now or review the job description to learn more.  ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
