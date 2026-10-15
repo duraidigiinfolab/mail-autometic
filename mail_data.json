@@ -1,16 +1,4 @@
 {
-    "gmail_28253": {
-        "account": "gmail",
-        "uid": "28253",
-        "timestamp": 1789479873,
-        "date_str": "2026-09-15 13:44:33+00:00",
-        "sender": "\"HDFC Bank\" <information@mailers.hdfcbank.bank.in>",
-        "subject": "\u26a0\ufe0f Non-maintenance charges may apply on A/c XX2661",
-        "snippet": "Check your account details and take action if required\ufe0f    ---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t13.mailers.hdfcbank.bank.in/r/?id=t3b1eb422-d0d1-4dc3-*****-4366a989c367,5301a7,403a4a&p1=%40WW7ZIEC%2B",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
     "gmail_28259": {
         "account": "gmail",
         "uid": "28259",
@@ -2699,18 +2687,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28715": {
-        "account": "gmail",
-        "uid": "28715",
-        "timestamp": 1791865513,
-        "date_str": "2026-10-13 04:25:13+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live now: Earn 11.75% YTM with 53 days bond ",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28716": {
         "account": "gmail",
         "uid": "28716",
@@ -2723,18 +2699,6 @@
         "category": "OTP",
         "decision": "KEEP"
     },
-    "gmail_28717": {
-        "account": "gmail",
-        "uid": "28717",
-        "timestamp": 1791868783,
-        "date_str": "2026-10-13 05:19:43+00:00",
-        "sender": "\"SingleDebt\" <info@singledebt.in>",
-        "subject": "Nine Days of Navratri, One Goal \u2013 Freedom From Debt and Recovery Harassment",
-        "snippet": "  [ https://singledebt.in/blog/navratri-debt-recovery-harassment/ ]  Nine Days of Navratri, One Goal \u2013 Freedom From Debt and Recovery Harassment  Navratri brings families together, but financial stress can make it harder to enjoy those moments. India\u2019s household debt stood at 41.3% of GDP as o",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28718": {
         "account": "gmail",
         "uid": "28718",
@@ -2746,66 +2710,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28719": {
-        "account": "gmail",
-        "uid": "28719",
-        "timestamp": 1791870273,
-        "date_str": "2026-10-13 05:44:33+00:00",
-        "sender": "Affinity <marketing@engage.affinity.studio>",
-        "subject": "Get up and running in Affinity",
-        "snippet": "Short video lessons to help you start creating fast ( &lid=cd9vuegsf1zh )   ( ?lid=si1jres9u6xf )   ( &lid=0r8o21aksy1b )  ( ?lid=32hk5mfg1dw1 ) ( &lid=xgmmf424nv20 )   ( ?lid=1sdtyptczf2h )  ( &lid=25aje9q087lr )  ( ?lid=sxrbjobpk12u )     ( &lid=qsygvk6wpklu )  ( ?lid=nj183",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28720": {
-        "account": "gmail",
-        "uid": "28720",
-        "timestamp": 1791876975,
-        "date_str": "2026-10-13 07:36:15+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Earn 0.25% additional returns on 15th October! ",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28721": {
-        "account": "gmail",
-        "uid": "28721",
-        "timestamp": 1791880084,
-        "date_str": "2026-10-13 08:28:04+00:00",
-        "sender": "\"Nippon Life India Asset Management Limited\" <nimfupdates@campaign1.nipponindia.email>",
-        "subject": "From Seoul\u2019s vibrant streets \ud83c\udf06 to unforgettable experiences \u2708\ufe0f Plan your getaway with an SIP",
-        "snippet": "---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t2.campaign1.nipponindia.email/r/?id=t601cf66c,1dc4a3,bed88&e=cDE9JTQwSyUyRk5CaUN5UEl4ZkU1cHVzWjk0S3JSUVc1WVcwT3pMZnVhcTl2WFh3S21BJTNE&s=433QGv5fEfLMKLWTMuX_jxbUMi",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28722": {
-        "account": "gmail",
-        "uid": "28722",
-        "timestamp": 1791883886,
-        "date_str": "2026-10-13 09:31:26+00:00",
-        "sender": "ICICI Life Insurance",
-        "subject": "Does your family have adequate life cover?",
-        "snippet": "ICICI Life iProtect Smart Plus                                                                                                                                                                                                                                                ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28723": {
-        "account": "gmail",
-        "uid": "28723",
-        "timestamp": 1791903867,
-        "date_str": "2026-10-13 15:04:27+00:00",
-        "sender": "AI Inner Circle <aiinnercircle@mail.beehiiv.com>",
-        "subject": "The AI race now has three runners",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28724": {
         "account": "gmail",
@@ -2843,18 +2747,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28727": {
-        "account": "gmail",
-        "uid": "28727",
-        "timestamp": 1791961279,
-        "date_str": "2026-10-14 07:01:19+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28728": {
         "account": "gmail",
         "uid": "28728",
@@ -2891,18 +2783,6 @@
         "category": "Marketing",
         "decision": "TRASH"
     },
-    "gmail_28731": {
-        "account": "gmail",
-        "uid": "28731",
-        "timestamp": 1791973688,
-        "date_str": "2026-10-14 10:28:08+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_28732": {
         "account": "gmail",
         "uid": "28732",
@@ -2925,18 +2805,6 @@
         "snippet": "ICICI Life iProtect Smart Plus                                                                                                                                                                                                                                                ",
         "status": "CLASSIFIED",
         "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28734": {
-        "account": "gmail",
-        "uid": "28734",
-        "timestamp": 1791983667,
-        "date_str": "2026-10-14 13:14:27+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
         "decision": "TRASH"
     },
     "gmail_28735": {
@@ -2974,5 +2842,125 @@
         "status": "CLASSIFIED",
         "category": "Marketing",
         "decision": "TRASH"
+    },
+    "gmail_28738": {
+        "account": "gmail",
+        "uid": "28738",
+        "timestamp": 1792036270,
+        "date_str": "2026-10-15 03:51:10+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live Now: Earn 0.25% additional returns on ALL bonds!",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28739": {
+        "account": "gmail",
+        "uid": "28739",
+        "timestamp": 1792037896,
+        "date_str": "2026-10-15 04:18:16+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28740": {
+        "account": "gmail",
+        "uid": "28740",
+        "timestamp": 1792050314,
+        "date_str": "2026-10-15 07:45:14+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 7781639182: Query Assigned",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28741": {
+        "account": "gmail",
+        "uid": "28741",
+        "timestamp": 1792051208,
+        "date_str": "2026-10-15 08:00:08+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_28742": {
+        "account": "gmail",
+        "uid": "28742",
+        "timestamp": 1792055290,
+        "date_str": "2026-10-15 09:08:10+00:00",
+        "sender": "nse_alerts@nse.co.in",
+        "subject": "Funds/Securities Balance",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28743": {
+        "account": "gmail",
+        "uid": "28743",
+        "timestamp": 1792056740,
+        "date_str": "2026-10-15 09:32:20+00:00",
+        "sender": "HDFC Bank <information@hdfcbank.bank.in>",
+        "subject": "Important notice: Maintain the required Average Minimum Balance to avoid charges",
+        "snippet": "Hello, If your email software can't display HTML emails. You can view the newsletter by clicking here: https://trkp.aclemails.com/c/v/2/v1/*****/c9f63f47e2ac8d72.e752d12b47e5d82a.9b8f13a3dc499a0239306e8e9030.9e5f6380a92cff279ab3.2cb7.7a1c8463d096.06e6fa2ab61c.bdeeceea0fed.4b5108939ba9.b5fd/eyJhbW",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28744": {
+        "account": "gmail",
+        "uid": "28744",
+        "timestamp": 1792071639,
+        "date_str": "2026-10-15 13:40:39+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 7782205925: Query Assigned",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28745": {
+        "account": "gmail",
+        "uid": "28745",
+        "timestamp": 1792077040,
+        "date_str": "2026-10-15 15:10:40+00:00",
+        "sender": "Market Charcha by Angel One",
+        "subject": "\ud83d\udca5 Nifty\u2019s V-Shaped Recovery | \u20b930,200 Cr Jio IPO, Emmvee Growth & Yes Bank Shock",
+        "snippet": "                                                                                                           15 October, *****                                                                                                                                 ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28746": {
+        "account": "gmail",
+        "uid": "28746",
+        "timestamp": 1792079578,
+        "date_str": "2026-10-15 15:52:58+00:00",
+        "sender": "\"HDFC Bank\" <information@mailers.hdfcbank.bank.in>",
+        "subject": "\u26a0\ufe0f Non-maintenance charges may apply on A/c XX2661",
+        "snippet": "Check your account details and take action if required\ufe0f    ---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t13.mailers.hdfcbank.bank.in/r/?id=t9bb2e2d0-*****-425d-86b3-cc332dac4ffe,5ad049,4930b4&p1=%40ZVxhhiEBG0",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28747": {
+        "account": "gmail",
+        "uid": "28747",
+        "timestamp": 1792101958,
+        "date_str": "2026-10-15 22:05:58+00:00",
+        "sender": "SBM Bank India <info@sbmbank.co.in>",
+        "subject": "This is a scheduled downtime notification",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
     }
 }
