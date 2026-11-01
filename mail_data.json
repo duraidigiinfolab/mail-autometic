@@ -1,40 +1,4 @@
 {
-    "gmail_28568": {
-        "account": "gmail",
-        "uid": "28568",
-        "timestamp": 1790926533,
-        "date_str": "2026-10-02 07:35:33+00:00",
-        "sender": "\"ICICI Prudential Life Insurance Co. Ltd.\" <service@iciciprulife.com>",
-        "subject": "Never miss another premium due date",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28569": {
-        "account": "gmail",
-        "uid": "28569",
-        "timestamp": 1790926967,
-        "date_str": "2026-10-02 07:42:47+00:00",
-        "sender": "\"nse_alerts\" <nse_alerts@nse.co.in>",
-        "subject": "Funds/Securities Balance",
-        "snippet": "<html>  <head></head>  <body> \t<p>Dear Investor,</p> \t<p>With reference to NSE circulars NSE/INSP/***** dated December 17, *****, and NSE/INSP/***** dated December 28, *****, Trading members are required to upload clients' securities balance on a daily basis.</p> \t<p>Further, with reference to ",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28575": {
-        "account": "gmail",
-        "uid": "28575",
-        "timestamp": 1790962807,
-        "date_str": "2026-10-02 17:40:07+00:00",
-        "sender": "Interactive Brokers Client Services <donotreply@interactivebrokers.com>",
-        "subject": "Monthly Activity Statement for September *****",
-        "snippet": "Dear Client,  Your Monthly Activity Statement for September ***** is now available for account U********.  To view your statement, log in to Portal ( https://www.interactivebrokers.com/sso/Login?action=RM_STATEMENTS ) and select the Performance & Reports > Statements menu.   Interactive Broker",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
     "gmail_28579": {
         "account": "gmail",
         "uid": "28579",
@@ -2591,18 +2555,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28971": {
-        "account": "gmail",
-        "uid": "28971",
-        "timestamp": 1793330606,
-        "date_str": "2026-10-30 03:23:26+00:00",
-        "sender": "Traders Watch by Angel One",
-        "subject": "\u26a1 Nifty Rallies Over 1% | Power Grid Capex Set to Cross \u20b940,000 Cr, CONCOR Bags \u20b9486 Cr Wagon Order, Birlasoft Profit Jumps 37.5%",
-        "snippet": "Traders Watch Index Performance \u2022 Demand at lower levels finally came to the fore today, with NIFTY surging by over 200 points. Following a muted start and some initial hesitation, buyers stepped in aggressively, triggering a sharp upward move. Despite a brief spell of sideways price action around m",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28972": {
         "account": "gmail",
         "uid": "28972",
@@ -2626,18 +2578,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_28974": {
-        "account": "gmail",
-        "uid": "28974",
-        "timestamp": 1793335423,
-        "date_str": "2026-10-30 04:43:43+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live now: Earn 11% YTM with 3 months bond ",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28975": {
         "account": "gmail",
@@ -2699,18 +2639,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28980": {
-        "account": "gmail",
-        "uid": "28980",
-        "timestamp": 1793361599,
-        "date_str": "2026-10-30 11:59:59+00:00",
-        "sender": "ChatGPT <noreply@email.openai.com>",
-        "subject": "Draft a personal thank-you with ChatGPT",
-        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>               <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <meta name=\"color-scheme\" content=\"light dark only\">   <meta nam",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28981": {
         "account": "gmail",
         "uid": "28981",
@@ -2734,18 +2662,6 @@
         "status": "CLASSIFIED",
         "category": "Security",
         "decision": "KEEP"
-    },
-    "gmail_28983": {
-        "account": "gmail",
-        "uid": "28983",
-        "timestamp": 1793374422,
-        "date_str": "2026-10-30 15:33:42+00:00",
-        "sender": "\"AI Inner Circle\" <aiinnercircle@mail.beehiiv.com>",
-        "subject": "You can now text your ChatGPT dot \ud83d\udcac",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_28984": {
         "account": "gmail",
@@ -2878,5 +2794,185 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_28995": {
+        "account": "gmail",
+        "uid": "28995",
+        "timestamp": 1793495827,
+        "date_str": "2026-11-01 01:17:07+00:00",
+        "sender": "Team Policybazaar",
+        "subject": "Premium payment reminder - PayNow (Policy No : K4786093)",
+        "snippet": "                                                                                                                                                                                                                                              Attention! Safeguard your fami",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28996": {
+        "account": "gmail",
+        "uid": "28996",
+        "timestamp": 1793496226,
+        "date_str": "2026-11-01 01:23:46+00:00",
+        "sender": "InstaMoney <noreply@instamoney.app>",
+        "subject": "Your Instamoney Loan is Closed! Download Your NDC",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_28997": {
+        "account": "gmail",
+        "uid": "28997",
+        "timestamp": 1793499282,
+        "date_str": "2026-11-01 02:14:42+00:00",
+        "sender": "communications@nsdl.co.in",
+        "subject": "The Long Road: What Marathons Teach Us About Investing - The\r\n Financial Kaleidoscope - October *****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28998": {
+        "account": "gmail",
+        "uid": "28998",
+        "timestamp": 1793504408,
+        "date_str": "2026-11-01 03:40:08+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11% YTM with 3 months bond ",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_28999": {
+        "account": "gmail",
+        "uid": "28999",
+        "timestamp": 1793510708,
+        "date_str": "2026-11-01 05:25:08+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  A purchase of Rs. 534.00 has been made using your Debit Card linked to ICICI Bank Account XX806 on 01-Nov-26. Info: VPS*ANANTHA DEP.  The Available Balance in your account is Rs. 36,951.18.  In case you have not done this transaction, please call o",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29000": {
+        "account": "gmail",
+        "uid": "29000",
+        "timestamp": 1793511865,
+        "date_str": "2026-11-01 05:44:25+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  A purchase of Rs. 200.00 has been made using your Debit Card linked to ICICI Bank Account XX806 on 01-Nov-26. Info: VPS*C RAJARAM  .  The Available Balance in your account is Rs. 36,406.18.  In case you have not done this transaction, please call o",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29001": {
+        "account": "gmail",
+        "uid": "29001",
+        "timestamp": 1793513771,
+        "date_str": "2026-11-01 06:16:11+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  A purchase of Rs. 518.00 has been made using your Debit Card linked to ICICI Bank Account XX806 on 01-Nov-26. Info: VIN*PAY Flipkar.  The Available Balance in your account is Rs. 35,818.18.  In case you have not done this transaction, please call o",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29002": {
+        "account": "gmail",
+        "uid": "29002",
+        "timestamp": 1793516448,
+        "date_str": "2026-11-01 07:00:48+00:00",
+        "sender": "Team Policybazaar",
+        "subject": "[Important] #PayNow for your policy renewal - (Reference Id - 795005979)",
+        "snippet": "                                                                                                                                                                                                                                                   Hi Rakesh  Annadurai, Conti",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29003": {
+        "account": "gmail",
+        "uid": "29003",
+        "timestamp": 1793518028,
+        "date_str": "2026-11-01 07:27:08+00:00",
+        "sender": "Stable Money <announcements@stablemoney.in>",
+        "subject": "rakesh, updates for the month of November",
+        "snippet": "<!DOCTYPE html>  <html lang=\"en\"><head><meta charset=\"utf-8\"/><meta content=\"width=device-width\" name=\"viewport\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"light dark\" name=\"color-scheme\"/><meta content=\"light dark\" name=\"supported-color-schemes\"/><meta name=\"x-apple-dis",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29004": {
+        "account": "gmail",
+        "uid": "29004",
+        "timestamp": 1793534102,
+        "date_str": "2026-11-01 11:55:02+00:00",
+        "sender": "service@icicisecurities.com",
+        "subject": "Next MF SIP will be triggered on 06-Nov-*****",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29005": {
+        "account": "gmail",
+        "uid": "29005",
+        "timestamp": 1793534158,
+        "date_str": "2026-11-01 11:55:58+00:00",
+        "sender": "ChatGPT <noreply@email.openai.com>",
+        "subject": "4 new image styles to try",
+        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>               <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <meta name=\"color-scheme\" content=\"light dark only\">   <meta nam",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29006": {
+        "account": "gmail",
+        "uid": "29006",
+        "timestamp": 1793539721,
+        "date_str": "2026-11-01 13:28:41+00:00",
+        "sender": "SBM One Credit Card <statement@getonecard.app>",
+        "subject": "SBM One Credit Card statement for October *****",
+        "snippet": "null",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29007": {
+        "account": "gmail",
+        "uid": "29007",
+        "timestamp": 1793539728,
+        "date_str": "2026-11-01 13:28:48+00:00",
+        "sender": "CRED",
+        "subject": "Important : New bill for your SBM BANK INDIA LIMITED card XXXX-***** is here",
+        "snippet": "                                                                                                                                                                                                                        Rakesh,                                                                             ",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29008": {
+        "account": "gmail",
+        "uid": "29008",
+        "timestamp": 1793545554,
+        "date_str": "2026-11-01 15:05:54+00:00",
+        "sender": "Angel One <donotreply@angelone.in>",
+        "subject": "Alert! Your Angel One trading account may become dormant",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29009": {
+        "account": "gmail",
+        "uid": "29009",
+        "timestamp": 1793568503,
+        "date_str": "2026-11-01 21:28:23+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "Cashier @ Unlimited V Mart Retail Ltd",
+        "snippet": "Hi Rakesh,  Your customer service and sales experience could be a good match for this Cashier role at Unlimited V Mart Retail Ltd. With your communication skills and customer-focused background, you could excel in this position. If you're interested, you can apply now or view the job description for",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
