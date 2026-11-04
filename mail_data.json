@@ -1,28 +1,4 @@
 {
-    "gmail_28593": {
-        "account": "gmail",
-        "uid": "28593",
-        "timestamp": 1791096280,
-        "date_str": "2026-10-04 06:44:40+00:00",
-        "sender": "Paytm",
-        "subject": "Your Paytm Statement - September *****",
-        "snippet": " \t \t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t\t \t\t \t\t \t\t\t \t\t\t\t \t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t\t#PaytmKaro \t\t\t\t\t\t\t \t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28595": {
-        "account": "gmail",
-        "uid": "28595",
-        "timestamp": 1791100745,
-        "date_str": "2026-10-04 07:59:05+00:00",
-        "sender": "alerts <alerts@hdfcbank.bank.in>",
-        "subject": "Account update for your HDFC Bank A / c",
-        "snippet": "<html><body><form><Div><p style='padding:2% 0px 0px;'>Dear Customer, <br/><br/>Your payment (Auto Pay) from HDFC Bank A/c No.XXXXXXXXXX2661 to HDB FINANCIAL SERVICES LTD failed due to insufficient funds. <br/><br/>Please note: ACH return charges will apply and to be recovered later. <br/><br/>If you",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
     "gmail_28599": {
         "account": "gmail",
         "uid": "28599",
@@ -2627,30 +2603,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_28997": {
-        "account": "gmail",
-        "uid": "28997",
-        "timestamp": 1793499282,
-        "date_str": "2026-11-01 02:14:42+00:00",
-        "sender": "communications@nsdl.co.in",
-        "subject": "The Long Road: What Marathons Teach Us About Investing - The\r\n Financial Kaleidoscope - October *****",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_28998": {
-        "account": "gmail",
-        "uid": "28998",
-        "timestamp": 1793504408,
-        "date_str": "2026-11-01 03:40:08+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live now: Earn 11% YTM with 3 months bond ",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_28999": {
         "account": "gmail",
         "uid": "28999",
@@ -2699,18 +2651,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29003": {
-        "account": "gmail",
-        "uid": "29003",
-        "timestamp": 1793518028,
-        "date_str": "2026-11-01 07:27:08+00:00",
-        "sender": "Stable Money <announcements@stablemoney.in>",
-        "subject": "rakesh, updates for the month of November",
-        "snippet": "<!DOCTYPE html>  <html lang=\"en\"><head><meta charset=\"utf-8\"/><meta content=\"width=device-width\" name=\"viewport\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"light dark\" name=\"color-scheme\"/><meta content=\"light dark\" name=\"supported-color-schemes\"/><meta name=\"x-apple-dis",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29004": {
         "account": "gmail",
         "uid": "29004",
@@ -2722,18 +2662,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29005": {
-        "account": "gmail",
-        "uid": "29005",
-        "timestamp": 1793534158,
-        "date_str": "2026-11-01 11:55:58+00:00",
-        "sender": "ChatGPT <noreply@email.openai.com>",
-        "subject": "4 new image styles to try",
-        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>               <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <meta name=\"color-scheme\" content=\"light dark only\">   <meta nam",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29006": {
         "account": "gmail",
@@ -2771,18 +2699,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29009": {
-        "account": "gmail",
-        "uid": "29009",
-        "timestamp": 1793568503,
-        "date_str": "2026-11-01 21:28:23+00:00",
-        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
-        "subject": "Cashier @ Unlimited V Mart Retail Ltd",
-        "snippet": "Hi Rakesh,  Your customer service and sales experience could be a good match for this Cashier role at Unlimited V Mart Retail Ltd. With your communication skills and customer-focused background, you could excel in this position. If you're interested, you can apply now or view the job description for",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29010": {
         "account": "gmail",
         "uid": "29010",
@@ -2807,18 +2723,6 @@
         "category": "Marketing",
         "decision": "TRASH"
     },
-    "gmail_29012": {
-        "account": "gmail",
-        "uid": "29012",
-        "timestamp": 1793593133,
-        "date_str": "2026-11-02 04:18:53+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_29013": {
         "account": "gmail",
         "uid": "29013",
@@ -2831,18 +2735,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29014": {
-        "account": "gmail",
-        "uid": "29014",
-        "timestamp": 1793599900,
-        "date_str": "2026-11-02 06:11:40+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_29015": {
         "account": "gmail",
         "uid": "29015",
@@ -2853,18 +2745,6 @@
         "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">  <html dir=\"ltr\" lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"x-apple-disable-message-reformatting\"/><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><meta content=\"",
         "status": "CLASSIFIED",
         "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29016": {
-        "account": "gmail",
-        "uid": "29016",
-        "timestamp": 1793601793,
-        "date_str": "2026-11-02 06:43:13+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
         "decision": "TRASH"
     },
     "gmail_29017": {
@@ -2890,30 +2770,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29019": {
-        "account": "gmail",
-        "uid": "29019",
-        "timestamp": 1793609614,
-        "date_str": "2026-11-02 08:53:34+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
-    "gmail_29020": {
-        "account": "gmail",
-        "uid": "29020",
-        "timestamp": 1793618121,
-        "date_str": "2026-11-02 11:15:21+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_29021": {
         "account": "gmail",
@@ -3022,5 +2878,185 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_29030": {
+        "account": "gmail",
+        "uid": "29030",
+        "timestamp": 1793676819,
+        "date_str": "2026-11-03 03:33:39+00:00",
+        "sender": "notifications.alerts@crifhighmark.com",
+        "subject": "Your CRIF Consumer Credit Score is generated through INNOFIN\r\n SOLUTIONS PVT LTD",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29031": {
+        "account": "gmail",
+        "uid": "29031",
+        "timestamp": 1793678245,
+        "date_str": "2026-11-03 03:57:25+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11% YTM with 90 days bond ",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29032": {
+        "account": "gmail",
+        "uid": "29032",
+        "timestamp": 1793681403,
+        "date_str": "2026-11-03 04:50:03+00:00",
+        "sender": "InstaMoney <noreply@instamoney.app>",
+        "subject": "RAKESH ANNADURAI, Your InstaMoney Loan Approved and is under",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29033": {
+        "account": "gmail",
+        "uid": "29033",
+        "timestamp": 1793683584,
+        "date_str": "2026-11-03 05:26:24+00:00",
+        "sender": "ICICI LIFE INSURANCE <Renewals@icicilife.com>",
+        "subject": "Thank You for Your Premium Payment | Acknowledgement Inside",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29034": {
+        "account": "gmail",
+        "uid": "29034",
+        "timestamp": 1793691131,
+        "date_str": "2026-11-03 07:32:11+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "TRASH"
+    },
+    "gmail_29035": {
+        "account": "gmail",
+        "uid": "29035",
+        "timestamp": 1793693325,
+        "date_str": "2026-11-03 08:08:45+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "TRASH"
+    },
+    "gmail_29036": {
+        "account": "gmail",
+        "uid": "29036",
+        "timestamp": 1793695993,
+        "date_str": "2026-11-03 08:53:13+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "TRASH"
+    },
+    "gmail_29037": {
+        "account": "gmail",
+        "uid": "29037",
+        "timestamp": 1793707078,
+        "date_str": "2026-11-03 11:57:58+00:00",
+        "sender": "Affinity <marketing@engage.affinity.studio>",
+        "subject": "Affinity for iPad is here ",
+        "snippet": "Professional creative power in one app, now on iPad ( &lid=tboa8qw9hyl1 )   ( ?lid=av7pep0kofqe )   ( &lid=ll0t1x61s18z )  ( ?lid=hl9uce0o9zjx ) ( &lid=bx60qdedbfxg )   ( ?lid=xy7htghezpp4 )  **********************************  **********************************    ( &lid=gf1kr",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29038": {
+        "account": "gmail",
+        "uid": "29038",
+        "timestamp": 1793712451,
+        "date_str": "2026-11-03 13:27:31+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "TRASH"
+    },
+    "gmail_29039": {
+        "account": "gmail",
+        "uid": "29039",
+        "timestamp": 1793716259,
+        "date_str": "2026-11-03 14:30:59+00:00",
+        "sender": "Market Charcha by Angel One",
+        "subject": "\ud83d\udcc8 Nifty Reclaims 23,800, Eyes 24,000 | GRSE Wins \u20b932,000 Cr Navy Contract, Amara Raja Approves \u20b92,320 Cr Capex",
+        "snippet": "                                                                                                           03 November, *****                                                                                                                                 ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29040": {
+        "account": "gmail",
+        "uid": "29040",
+        "timestamp": 1793717645,
+        "date_str": "2026-11-03 14:54:05+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  A purchase of Rs. 1,892.00 has been made using your Debit Card linked to ICICI Bank Account XX806 on 03-Nov-26. Info: VPS*HARISH GOPA.  The Available Balance in your account is Rs. 21,197.72.  In case you have not done this transaction, please call",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29041": {
+        "account": "gmail",
+        "uid": "29041",
+        "timestamp": 1793721770,
+        "date_str": "2026-11-03 16:02:50+00:00",
+        "sender": "\"Estatement\" <estatement@icici.bank.in>",
+        "subject": "ICICI Bank Statement from October 01, ***** to October 31, ***** for\r\n XXXXXXXX7806",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29042": {
+        "account": "gmail",
+        "uid": "29042",
+        "timestamp": 1793721962,
+        "date_str": "2026-11-03 16:06:02+00:00",
+        "sender": "\"AI Inner Circle\" <aiinnercircle@mail.beehiiv.com>",
+        "subject": "AI now finishes 80% of real-life chores \ud83d\udccb",
+        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29043": {
+        "account": "gmail",
+        "uid": "29043",
+        "timestamp": 1793722660,
+        "date_str": "2026-11-03 16:17:40+00:00",
+        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
+        "subject": "Transaction alert for your ICICI Bank debit card",
+        "snippet": "Dear Customer,  Greetings from ICICI Bank.  A purchase of Rs. 2,346.00 has been made using your Debit Card linked to ICICI Bank Account XX806 on 03-Nov-26. Info: VPS*POTHYS SUPE.  The Available Balance in your account is Rs. 18,851.72.  In case you have not done this transaction, please call",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29044": {
+        "account": "gmail",
+        "uid": "29044",
+        "timestamp": 1793741923,
+        "date_str": "2026-11-03 21:38:43+00:00",
+        "sender": "\"ICICI Direct\" <service@icicisecurities.com>",
+        "subject": "Everything you trade now on one screen",
+        "snippet": "<!DOCTYPE html> <html lang=\"en\">  <head> \t<meta http-equiv=\"Content-Type\" content=\"text/html\" charset=\"utf-8\"> \t<meta name=\"viewport\" content=\"width=device-width; initial-scale=1.0; \"> \t<!-- Subject: Everything you trade now on one screen --> \t<title>Your Trading Experience, Made More Seamless</titl",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
