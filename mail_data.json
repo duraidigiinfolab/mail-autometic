@@ -1,28 +1,4 @@
 {
-    "gmail_28686": {
-        "account": "gmail",
-        "uid": "28686",
-        "timestamp": 1791614256,
-        "date_str": "2026-10-10 06:37:36+00:00",
-        "sender": "Google Play <googleplay-noreply@google.com>",
-        "subject": "Quarterly reminder about Google Play terms and policies",
-        "snippet": "Hello Google Play user,  This email is a quarterly reminder that your use of Google Play and the   apps, games, music, movies, books, magazines, or other digital content or   services available through it is subject to the Google Play Terms of   Service   <https://c.gle/AAuDWvlqwUxs-HGt9Xpqges",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28691": {
-        "account": "gmail",
-        "uid": "28691",
-        "timestamp": 1791634804,
-        "date_str": "2026-10-10 12:20:04+00:00",
-        "sender": "\"alert @ icici . bank . in\" <alert@icici.bank.in>",
-        "subject": "Transaction alert for your ICICI Bank debit card",
-        "snippet": "Dear Customer,  Greetings from ICICI Bank.  A purchase of Rs. 300.00 has been made using your Debit Card linked to ICICI Bank Account XX806 on 10-Oct-26. Info: VPS*SASIRVATHAM.  The Available Balance in your account is Rs. 664.16.  In case you have not done this transaction, please call on 1",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
     "gmail_28692": {
         "account": "gmail",
         "uid": "28692",
@@ -2807,18 +2783,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29113": {
-        "account": "gmail",
-        "uid": "29113",
-        "timestamp": 1794020406,
-        "date_str": "2026-11-07 03:00:06+00:00",
-        "sender": "ICICI Life Insurance <service@icicilife.com>",
-        "subject": "25 years of trust. Making your tomorrow easier.",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29114": {
         "account": "gmail",
         "uid": "29114",
@@ -2878,18 +2842,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29119": {
-        "account": "gmail",
-        "uid": "29119",
-        "timestamp": 1794032720,
-        "date_str": "2026-11-07 06:25:20+00:00",
-        "sender": "\"Zype\" <notification@mailer.getzype.com>",
-        "subject": "RAKESH, get a fresh Zype loan offer today",
-        "snippet": "<!doctype html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:Wo",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29120": {
         "account": "gmail",
@@ -2951,30 +2903,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29125": {
-        "account": "gmail",
-        "uid": "29125",
-        "timestamp": 1794039353,
-        "date_str": "2026-11-07 08:15:53+00:00",
-        "sender": "Team OneCard <notify@getonecard.app>",
-        "subject": "Say goodbye to hidden surcharges on all bill payments.",
-        "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/*****/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, in",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29126": {
-        "account": "gmail",
-        "uid": "29126",
-        "timestamp": 1794043828,
-        "date_str": "2026-11-07 09:30:28+00:00",
-        "sender": "ICICI Life Insurance",
-        "subject": "Pension security + Market growth + Tax benefits",
-        "snippet": "ICICI Life Signature Pension plan                                                                                                                                                                                                                                             ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29127": {
         "account": "gmail",
         "uid": "29127",
@@ -2986,30 +2914,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29128": {
-        "account": "gmail",
-        "uid": "29128",
-        "timestamp": 1794052354,
-        "date_str": "2026-11-07 11:52:34+00:00",
-        "sender": "PM Modi <no-reply@sampark.gov.in>",
-        "subject": "Happy Diwali to You!",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29129": {
-        "account": "gmail",
-        "uid": "29129",
-        "timestamp": 1794086842,
-        "date_str": "2026-11-07 21:27:22+00:00",
-        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
-        "subject": "bank job @ P2C HR Consulting",
-        "snippet": "Hi Rakesh,  Your background in customer service and current role in financial services could be a good match for this Private Bank role. P2C HR Consulting is seeking candidates for this position, offering a monthly pay of \u20b925,000.00 - \u20b935,000.00. If you're interested, you can apply now or view the j",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29130": {
         "account": "gmail",
@@ -3127,6 +3031,114 @@
         "sender": "ICICI Life Insurance <service@icicilife.com>",
         "subject": "Our brand promise of 'Har Kal Aasaan' comes alive on Television and\r\n Digital",
         "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29140": {
+        "account": "gmail",
+        "uid": "29140",
+        "timestamp": 1794198105,
+        "date_str": "2026-11-09 04:21:45+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11% YTM with 90 days bond ",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29141": {
+        "account": "gmail",
+        "uid": "29141",
+        "timestamp": 1794199520,
+        "date_str": "2026-11-09 04:45:20+00:00",
+        "sender": "\"Zype\" <notification@mailer.getzype.com>",
+        "subject": "Up to Rs.2,00,000 starting at just 1.5% a month",
+        "snippet": "<!doctype html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:Wo",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29142": {
+        "account": "gmail",
+        "uid": "29142",
+        "timestamp": 1794205911,
+        "date_str": "2026-11-09 06:31:51+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_29143": {
+        "account": "gmail",
+        "uid": "29143",
+        "timestamp": 1794208522,
+        "date_str": "2026-11-09 07:15:22+00:00",
+        "sender": "\"Zype\" <notification@mailer.getzype.com>",
+        "subject": "Get a fresh Zype loan offer up to Rs.2,00,000",
+        "snippet": "<!doctype html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:Wo",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29144": {
+        "account": "gmail",
+        "uid": "29144",
+        "timestamp": 1794214876,
+        "date_str": "2026-11-09 09:01:16+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "***** is the OTP to login to iLens.",
+        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_29145": {
+        "account": "gmail",
+        "uid": "29145",
+        "timestamp": 1794219861,
+        "date_str": "2026-11-09 10:24:21+00:00",
+        "sender": "eCAS@cdslstatement.com",
+        "subject": "CDSL Consolidated Account Statement (CAS) across Mutual Funds\r\n and Depositories for-OCT2026-1103533686-1-1",
+        "snippet": "%PDF-1.7 % 543 0 obj <</Filter/FlateDecode/Length 48>>stream {XA\u0010:Vk^\u001b\u044f.\u0001,?y\u0006zt\u00162\b$\u0011 endstream endobj 598 0 obj <</Filter/FlateDecode/Length 128>>stream {XA\u0010:Vk^\u001b\u044f.\u0001,?\to~DY--D\u007f%\u3926\u007fc>/]oA\u01acK3\u000evoA\u001a9\u00159\u0017TbQ\u0010+[K4\u0495}B\\\u0016\u0003]5`g\u001c endstream endobj 592 0 obj <</Filter/FlateDecode/Length 128>>stream {XA\u0010:Vk^\u001b\u044f.\u0001,?\u0425",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29146": {
+        "account": "gmail",
+        "uid": "29146",
+        "timestamp": 1794223829,
+        "date_str": "2026-11-09 11:30:29+00:00",
+        "sender": "ICICI Life Insurance <Renewals@icicilife.com>",
+        "subject": "It is time to renew your ICICILife policy",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29147": {
+        "account": "gmail",
+        "uid": "29147",
+        "timestamp": 1794227583,
+        "date_str": "2026-11-09 12:33:03+00:00",
+        "sender": "Marketing Standup \u2013 Zain Kahn",
+        "subject": "\ud83d\ude21 Fans are sick of Marvel\u2019s brand deals",
+        "snippet": "---------- View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254cd97d-*****-4ea0-bdf6-b1a699b65259/Superhuman_Group_1000005225__1_.png?t=1784099967) Caption:   **Welcome back.** How many brands deals are too many brand deals",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29148": {
+        "account": "gmail",
+        "uid": "29148",
+        "timestamp": 1794232739,
+        "date_str": "2026-11-09 13:58:59+00:00",
+        "sender": "ICICI Life Insurance",
+        "subject": "Pay \u20b915k p.m. & Get \u20b92.09 Cr? See how \ud83d\udc49",
+        "snippet": "ICICI Life Signature Assure                                                                                                                                                                                                                                                   ",
         "status": "CLASSIFIED",
         "category": "Marketing",
         "decision": "TRASH"
