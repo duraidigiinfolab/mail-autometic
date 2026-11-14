@@ -1,100 +1,4 @@
 {
-    "gmail_28739": {
-        "account": "gmail",
-        "uid": "28739",
-        "timestamp": 1792037896,
-        "date_str": "2026-10-15 04:18:16+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "KEEP"
-    },
-    "gmail_28740": {
-        "account": "gmail",
-        "uid": "28740",
-        "timestamp": 1792050314,
-        "date_str": "2026-10-15 07:45:14+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Mortgage Loan Application 7781639182: Query Assigned",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28741": {
-        "account": "gmail",
-        "uid": "28741",
-        "timestamp": 1792051208,
-        "date_str": "2026-10-15 08:00:08+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "KEEP"
-    },
-    "gmail_28742": {
-        "account": "gmail",
-        "uid": "28742",
-        "timestamp": 1792055290,
-        "date_str": "2026-10-15 09:08:10+00:00",
-        "sender": "nse_alerts@nse.co.in",
-        "subject": "Funds/Securities Balance",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28743": {
-        "account": "gmail",
-        "uid": "28743",
-        "timestamp": 1792056740,
-        "date_str": "2026-10-15 09:32:20+00:00",
-        "sender": "HDFC Bank <information@hdfcbank.bank.in>",
-        "subject": "Important notice: Maintain the required Average Minimum Balance to avoid charges",
-        "snippet": "Hello, If your email software can't display HTML emails. You can view the newsletter by clicking here: https://trkp.aclemails.com/c/v/2/v1/*****/c9f63f47e2ac8d72.e752d12b47e5d82a.9b8f13a3dc499a0239306e8e9030.9e5f6380a92cff279ab3.2cb7.7a1c8463d096.06e6fa2ab61c.bdeeceea0fed.4b5108939ba9.b5fd/eyJhbW",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28744": {
-        "account": "gmail",
-        "uid": "28744",
-        "timestamp": 1792071639,
-        "date_str": "2026-10-15 13:40:39+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Mortgage Loan Application 7782205925: Query Assigned",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28746": {
-        "account": "gmail",
-        "uid": "28746",
-        "timestamp": 1792079578,
-        "date_str": "2026-10-15 15:52:58+00:00",
-        "sender": "\"HDFC Bank\" <information@mailers.hdfcbank.bank.in>",
-        "subject": "\u26a0\ufe0f Non-maintenance charges may apply on A/c XX2661",
-        "snippet": "Check your account details and take action if required\ufe0f    ---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t13.mailers.hdfcbank.bank.in/r/?id=t9bb2e2d0-*****-425d-86b3-cc332dac4ffe,5ad049,4930b4&p1=%40ZVxhhiEBG0",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28747": {
-        "account": "gmail",
-        "uid": "28747",
-        "timestamp": 1792101958,
-        "date_str": "2026-10-15 22:05:58+00:00",
-        "sender": "SBM Bank India <info@sbmbank.co.in>",
-        "subject": "This is a scheduled downtime notification",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
     "gmail_28750": {
         "account": "gmail",
         "uid": "28750",
@@ -3011,18 +2915,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29187": {
-        "account": "gmail",
-        "uid": "29187",
-        "timestamp": 1794463322,
-        "date_str": "2026-11-12 06:02:02+00:00",
-        "sender": "\"HDFC Bank\" <information@mailers.hdfcbank.bank.in>",
-        "subject": "\ud83d\udd25\ud83d\udcb3 Keep the post-Diwali plans going!",
-        "snippet": "Load your wallet with your Credit Card    ---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t13.mailers.hdfcbank.bank.in/r/?id=tdbc86367-cf82-4b68-8f08-63f5e8104e5a,61f3f1,515cd9&p1=%40dhShUEnSgi7s0fMq2%2B8LAlOqA",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29188": {
         "account": "gmail",
         "uid": "29188",
@@ -3034,42 +2926,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29189": {
-        "account": "gmail",
-        "uid": "29189",
-        "timestamp": 1794465621,
-        "date_str": "2026-11-12 06:40:21+00:00",
-        "sender": "\"Zype\" <notification@mailer.getzype.com>",
-        "subject": "Reapply for a Zype loan with just your PAN + Aadhaar",
-        "snippet": "<!doctype html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:Wo",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29190": {
-        "account": "gmail",
-        "uid": "29190",
-        "timestamp": 1794466175,
-        "date_str": "2026-11-12 06:49:35+00:00",
-        "sender": "\"Nippon Life India Asset Management Limited\" <nimfupdates@campaign1.nipponindia.email>",
-        "subject": "The highs and lows are part of every market cycle. Keep investing. Start Your SIP!",
-        "snippet": "---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t2.campaign1.nipponindia.email/r/?id=t6fbcaf76,1e555d,c8916&e=cDE9JTQwSDhwcGZ5cWlUZXJuTElSdXc3NyUyRllNRWl1a0tpOTN6UUlzMFhTbVh0aDc0JTNE&s=ReJ16A0mSCFIi4lbiqed8SgJV7",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29191": {
-        "account": "gmail",
-        "uid": "29191",
-        "timestamp": 1794462909,
-        "date_str": "2026-11-12 05:55:09+00:00",
-        "sender": "\"SingleDebt\" <info@singledebt.in>",
-        "subject": "How to Manage Your Debt Without Pausing Your Retirement Savings",
-        "snippet": "  [ https://singledebt.in/blog/manage-debt-retirement-savings/ ]  How to Manage Your Debt Without Pausing Your Retirement Savings  Managing debt while saving for retirement can be difficult, especially when EMIs and credit card bills take up a large part of your monthly income. When money feel",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29192": {
         "account": "gmail",
@@ -3131,18 +2987,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29197": {
-        "account": "gmail",
-        "uid": "29197",
-        "timestamp": 1794483945,
-        "date_str": "2026-11-12 11:45:45+00:00",
-        "sender": "ChatGPT <noreply@email.openai.com>",
-        "subject": "Draft a public post asking for job leads",
-        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>               <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <meta name=\"color-scheme\" content=\"light dark only\">   <meta nam",
-        "status": "CLASSIFIED",
-        "category": "Social",
-        "decision": "TRASH"
-    },
     "gmail_29199": {
         "account": "gmail",
         "uid": "29199",
@@ -3154,54 +2998,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29200": {
-        "account": "gmail",
-        "uid": "29200",
-        "timestamp": 1794491818,
-        "date_str": "2026-11-12 13:56:58+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "\ud83d\udc49 Your \u20b92.48 Crore Wealth Journey Starts Here!",
-        "snippet": "ICICI Life Signature Assure                                                                                                                                                                                                                                                   ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29201": {
-        "account": "gmail",
-        "uid": "29201",
-        "timestamp": 1794492060,
-        "date_str": "2026-11-12 14:01:00+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "A New Fund. A New Opportunity. A Wealthier Tomorrow!",
-        "snippet": "ICICI Life Signature Assure                                                                                                                                                                                                                                                   ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29202": {
-        "account": "gmail",
-        "uid": "29202",
-        "timestamp": 1794492742,
-        "date_str": "2026-11-12 14:12:22+00:00",
-        "sender": "ICICI Prudential Life",
-        "subject": "A New Fund. A New Opportunity. A Wealthier Tomorrow!",
-        "snippet": "ICICI Life Signature Assure                                                                                                                                                                                                                                                   ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29203": {
-        "account": "gmail",
-        "uid": "29203",
-        "timestamp": 1794495755,
-        "date_str": "2026-11-12 15:02:35+00:00",
-        "sender": "BSE INVESTOR PROTECTION FUND <mailers@bseindia.in>",
-        "subject": "Make every move count. Invest smart !",
-        "snippet": ".",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29204": {
         "account": "gmail",
@@ -3250,18 +3046,6 @@
         "status": "CLASSIFIED",
         "category": "Security",
         "decision": "KEEP"
-    },
-    "gmail_29208": {
-        "account": "gmail",
-        "uid": "29208",
-        "timestamp": 1794547857,
-        "date_str": "2026-11-13 05:30:57+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_29209": {
         "account": "gmail",
@@ -3335,18 +3119,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29215": {
-        "account": "gmail",
-        "uid": "29215",
-        "timestamp": 1794555611,
-        "date_str": "2026-11-13 07:40:11+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_29216": {
         "account": "gmail",
         "uid": "29216",
@@ -3419,18 +3191,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29222": {
-        "account": "gmail",
-        "uid": "29222",
-        "timestamp": 1794573881,
-        "date_str": "2026-11-13 12:44:41+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
     "gmail_29223": {
         "account": "gmail",
         "uid": "29223",
@@ -3442,30 +3202,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29224": {
-        "account": "gmail",
-        "uid": "29224",
-        "timestamp": 1794575531,
-        "date_str": "2026-11-13 13:12:11+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
-    },
-    "gmail_29225": {
-        "account": "gmail",
-        "uid": "29225",
-        "timestamp": 1794578389,
-        "date_str": "2026-11-13 13:59:49+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "***** is the OTP to login to iLens.",
-        "snippet": "***** is the OTP to login to iLens. DO NOT disclose it to anyone.  Best Regards, ICICI Bank. ",
-        "status": "CLASSIFIED",
-        "category": "OTP",
-        "decision": "TRASH"
     },
     "gmail_29226": {
         "account": "gmail",
@@ -3487,6 +3223,102 @@
         "sender": "\"Indeed\" <donotreply@match.indeed.com>",
         "subject": "Customer Relations Manager @ Anamallais Agencies Madurai Pvt Ltd",
         "snippet": "Hi Rakesh,  Your customer service background and sales experience could be a strong match for this Customer Relations Manager role. Anamallais Agencies Madurai Pvt Ltd offers a full-time position with benefits including health insurance and work from home. Interested in resolving customer issues and",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29228": {
+        "account": "gmail",
+        "uid": "29228",
+        "timestamp": 1794623678,
+        "date_str": "2026-11-14 02:34:38+00:00",
+        "sender": "ICICI Life Insurance <service@icicilife.com>",
+        "subject": "Wishing you a prosperous Dhanteras",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29229": {
+        "account": "gmail",
+        "uid": "29229",
+        "timestamp": 1794630609,
+        "date_str": "2026-11-14 04:30:09+00:00",
+        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
+        "subject": "Live now: Earn 11.75% YTM with 3 months bond ",
+        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29230": {
+        "account": "gmail",
+        "uid": "29230",
+        "timestamp": 1794632954,
+        "date_str": "2026-11-14 05:09:14+00:00",
+        "sender": "\"Zype\" <notification@mailer.getzype.com>",
+        "subject": "RAKESH, get a fresh Zype loan offer today",
+        "snippet": "<!doctype html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:Wo",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29231": {
+        "account": "gmail",
+        "uid": "29231",
+        "timestamp": 1794636319,
+        "date_str": "2026-11-14 06:05:19+00:00",
+        "sender": "Stable Money <announcements@stablemoney.in>",
+        "subject": "This ",
+        "snippet": "<!DOCTYPE html>  <html lang=\"en\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:v=\"urn:schemas-microsoft-com:vml\"> <head> <title></title> <meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"/> <meta content=\"width=device-width,initial-scale=1\" name=\"viewport\"/> <!--[if ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29232": {
+        "account": "gmail",
+        "uid": "29232",
+        "timestamp": 1794640736,
+        "date_str": "2026-11-14 07:18:56+00:00",
+        "sender": "CRED",
+        "subject": "Your credit card bill is due on Nov 18, *****: Pay now to maintain your credit score",
+        "snippet": "                                                                                                                                                                                                            Rakesh,                                                                                        y",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29233": {
+        "account": "gmail",
+        "uid": "29233",
+        "timestamp": 1794647801,
+        "date_str": "2026-11-14 09:16:41+00:00",
+        "sender": "ICICI Life Insurance <Renewals@icicilife.com>",
+        "subject": "It is time to renew your ICICILife policy",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29234": {
+        "account": "gmail",
+        "uid": "29234",
+        "timestamp": 1794658486,
+        "date_str": "2026-11-14 12:14:46+00:00",
+        "sender": "\"HDFC Bank\" <information@mailers.hdfcbank.bank.in>",
+        "subject": "\u26a0\ufe0f Non-maintenance charges may apply on A/c XX2661",
+        "snippet": "Check your account details and take action if required\ufe0f    ---------------------------------------------------------------------------- To view this message in HTML format, click here:  https://t13.mailers.hdfcbank.bank.in/r/?id=tbd600d26-e155-*****-b0a2-faa6f90fbed7,629a59,52255c&p1=%406SshtQWVQM",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29235": {
+        "account": "gmail",
+        "uid": "29235",
+        "timestamp": 1794670096,
+        "date_str": "2026-11-14 15:28:16+00:00",
+        "sender": "ICICI Life Insurance <service@icicilife.com>",
+        "subject": "Wishing you a Happy Diwali",
+        "snippet": "Could not extract body.",
         "status": "CLASSIFIED",
         "category": "Marketing",
         "decision": "TRASH"
