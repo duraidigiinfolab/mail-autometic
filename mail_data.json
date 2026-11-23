@@ -1,112 +1,4 @@
 {
-    "gmail_28855": {
-        "account": "gmail",
-        "uid": "28855",
-        "timestamp": 1792740736,
-        "date_str": "2026-10-23 07:32:16+00:00",
-        "sender": "service@icicisecurities.com",
-        "subject": "Equity Transaction Statement from 01-Jul-***** to 30-Sep-*****",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28857": {
-        "account": "gmail",
-        "uid": "28857",
-        "timestamp": 1792746493,
-        "date_str": "2026-10-23 09:08:13+00:00",
-        "sender": "\"nse_alerts\" <nse_alerts@nse.co.in>",
-        "subject": "Funds/Securities Balance",
-        "snippet": "<html>  <head></head>  <body> \t<p>Dear Investor,</p> \t<p>With reference to NSE circulars NSE/INSP/***** dated December 17, *****, and NSE/INSP/***** dated December 28, *****, Trading members are required to upload clients' securities balance on a daily basis.</p> \t<p>Further, with reference to ",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28858": {
-        "account": "gmail",
-        "uid": "28858",
-        "timestamp": 1792758676,
-        "date_str": "2026-10-23 12:31:16+00:00",
-        "sender": "service@icicisecurities.com",
-        "subject": "Important update on your GTT order",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28859": {
-        "account": "gmail",
-        "uid": "28859",
-        "timestamp": 1792758683,
-        "date_str": "2026-10-23 12:31:23+00:00",
-        "sender": "service@icicisecurities.com",
-        "subject": "Important update on your GTT order",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28860": {
-        "account": "gmail",
-        "uid": "28860",
-        "timestamp": 1792759686,
-        "date_str": "2026-10-23 12:48:06+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Login - Mortgage Loan Application number IHL_429209296163107 - Balan \r\n Rasalam",
-        "snippet": "Dear Partner,     Mortgage Loan Application number IHL_429209296163107 of Balan  Rasalam submitted by you is received in TN Thirunelveli Madurai Road.    You can check the status on Link https://bit.ly/35rp3ay    Sincerely, Team ICICI Bank  This is a system-generated e-mail. Please do not re",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28861": {
-        "account": "gmail",
-        "uid": "28861",
-        "timestamp": 1792761219,
-        "date_str": "2026-10-23 13:13:39+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Mortgage Loan Application 773100080109: Query Assigned",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28863": {
-        "account": "gmail",
-        "uid": "28863",
-        "timestamp": 1792769462,
-        "date_str": "2026-10-23 15:31:02+00:00",
-        "sender": "info@sbmbank.co.in",
-        "subject": "Your KYC details registered with Central KYC Registry",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28864": {
-        "account": "gmail",
-        "uid": "28864",
-        "timestamp": 1792773495,
-        "date_str": "2026-10-23 16:38:15+00:00",
-        "sender": "reports@loans.icici.bank.in",
-        "subject": "Login - Mortgage Loan Application number IHL_429209296173618 - ANITHA\r\n WILMA D SOUZA",
-        "snippet": "Dear Partner,     Mortgage Loan Application number IHL_429209296173618 of ANITHA WILMA D SOUZA submitted by you is received in TN Thirunelveli Madurai Road.    You can check the status on Link https://bit.ly/35rp3ay    Sincerely, Team ICICI Bank  This is a system-generated e-mail. Please do ",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28865": {
-        "account": "gmail",
-        "uid": "28865",
-        "timestamp": 1792774409,
-        "date_str": "2026-10-23 16:53:29+00:00",
-        "sender": "SBM Bank India <info@sbmbank.co.in>",
-        "subject": "Celebrate Safely: Stay Vigilant Against Scams.",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
     "gmail_28869": {
         "account": "gmail",
         "uid": "28869",
@@ -3047,18 +2939,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29324": {
-        "account": "gmail",
-        "uid": "29324",
-        "timestamp": 1795145323,
-        "date_str": "2026-11-20 03:28:43+00:00",
-        "sender": "Team Wint Wealth <info@updates.wintwealth.com>",
-        "subject": "Live Now: Earn 0.25% additional returns on ALL bonds!",
-        "snippet": "<!DOCTYPE html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:W",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29325": {
         "account": "gmail",
         "uid": "29325",
@@ -3070,18 +2950,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29326": {
-        "account": "gmail",
-        "uid": "29326",
-        "timestamp": 1795154594,
-        "date_str": "2026-11-20 06:03:14+00:00",
-        "sender": "\"Zype\" <notification@mailer.getzype.com>",
-        "subject": "RAKESH, get a fresh Zype loan offer today",
-        "snippet": "<!doctype html><html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"><head><title></title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if mso]> <xml><w:Wo",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29327": {
         "account": "gmail",
@@ -3095,18 +2963,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29328": {
-        "account": "gmail",
-        "uid": "29328",
-        "timestamp": 1795170458,
-        "date_str": "2026-11-20 10:27:38+00:00",
-        "sender": "Bajaj Finserv Mutual Fund",
-        "subject": "Could changing sectors open new opportunities for you?",
-        "snippet": "                                                                                              --Click Here to unsubscribe from this newsletter.  ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29329": {
         "account": "gmail",
         "uid": "29329",
@@ -3118,18 +2974,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29330": {
-        "account": "gmail",
-        "uid": "29330",
-        "timestamp": 1795175783,
-        "date_str": "2026-11-20 11:56:23+00:00",
-        "sender": "ChatGPT <noreply@email.openai.com>",
-        "subject": "3 new image styles to try",
-        "snippet": "<!DOCTYPE html> <html dir=\"ltr\"> <head>               <meta charset=\"utf-8\">   <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">   <title></title>   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">      <meta name=\"color-scheme\" content=\"light dark only\">   <meta",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29331": {
         "account": "gmail",
@@ -3143,18 +2987,6 @@
         "category": "Important",
         "decision": "KEEP"
     },
-    "gmail_29332": {
-        "account": "gmail",
-        "uid": "29332",
-        "timestamp": 1795180836,
-        "date_str": "2026-11-20 13:20:36+00:00",
-        "sender": "ICICI Life Insurance <service@icicilife.com>",
-        "subject": "Meet the ICICI Life Insurance App That Makes Policy Management Easier for 5 Million+ Customers! \ud83d\udcf1\u2728",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29333": {
         "account": "gmail",
         "uid": "29333",
@@ -3166,18 +2998,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29334": {
-        "account": "gmail",
-        "uid": "29334",
-        "timestamp": 1795190749,
-        "date_str": "2026-11-20 16:05:49+00:00",
-        "sender": "\"AI Inner Circle\" <aiinnercircle@mail.beehiiv.com>",
-        "subject": "GPT-6.2 is here, and testers aren't sold \ud83c\udf0c ",
-        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29335": {
         "account": "gmail",
@@ -3334,5 +3154,89 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_29348": {
+        "account": "gmail",
+        "uid": "29348",
+        "timestamp": 1795314545,
+        "date_str": "2026-11-22 02:29:05+00:00",
+        "sender": "alerts@crifhighmark.com",
+        "subject": "Your CRIF Consumer Credit Score through MONEYCONTROL",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29349": {
+        "account": "gmail",
+        "uid": "29349",
+        "timestamp": 1795315381,
+        "date_str": "2026-11-22 02:43:01+00:00",
+        "sender": "service@icicisecurities.com",
+        "subject": "***** - OTP for login to your ICICI Direct account",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "OTP",
+        "decision": "KEEP"
+    },
+    "gmail_29350": {
+        "account": "gmail",
+        "uid": "29350",
+        "timestamp": 1795332474,
+        "date_str": "2026-11-22 07:27:54+00:00",
+        "sender": "ICICI Life Insurance <service@icicilife.com>",
+        "subject": "A Little Caution Can Protect You From Fake Policy Scams \ud83d\udee1\ufe0f",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29351": {
+        "account": "gmail",
+        "uid": "29351",
+        "timestamp": 1795359513,
+        "date_str": "2026-11-22 14:58:33+00:00",
+        "sender": "ebill.home@jio.com",
+        "subject": "E-Bill for JioFiber connection having JioFixedVoice Number 9146xxxxxx60",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29352": {
+        "account": "gmail",
+        "uid": "29352",
+        "timestamp": 1795354033,
+        "date_str": "2026-11-22 13:27:13+00:00",
+        "sender": "ICICI Life Insurance",
+        "subject": "\u23f0 Just 2 Days Left! NFO Opportunity Is Closing Soon",
+        "snippet": "ICICI Life Signature Pension                                                                                                                                                                                                                                                  ",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29353": {
+        "account": "gmail",
+        "uid": "29353",
+        "timestamp": 1795380010,
+        "date_str": "2026-11-22 20:40:10+00:00",
+        "sender": "ICICI Life Insurance <service@icicilife.com>",
+        "subject": "\ud83d\udcf1 24x7 Assistance, Just a Click Away | Explore Our Digital Services",
+        "snippet": "Could not extract body.",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
+    },
+    "gmail_29354": {
+        "account": "gmail",
+        "uid": "29354",
+        "timestamp": 1795382710,
+        "date_str": "2026-11-22 21:25:10+00:00",
+        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
+        "subject": "Sr. Executive-Loan Sales @ CAREIQ TECHNOLOGIES PRIVATE LIMITED",
+        "snippet": "Hi Rakesh,  Your sales experience in financial services and customer service skills could be a strong match for this Sr. Executive-Loan Sales role. CAREIQ Technologies offers a flexible schedule and the opportunity to grow in loan sales and disbursement. If you're interested, you can apply now or vi",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
