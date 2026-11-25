@@ -1,28 +1,4 @@
 {
-    "gmail_28879": {
-        "account": "gmail",
-        "uid": "28879",
-        "timestamp": 1792911269,
-        "date_str": "2026-10-25 06:54:29+00:00",
-        "sender": "InstaMoney <noreply@lendenclub.com>",
-        "subject": "Action Required: Your InstaMoney EMI is Due Soon",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
-    "gmail_28880": {
-        "account": "gmail",
-        "uid": "28880",
-        "timestamp": 1792916989,
-        "date_str": "2026-10-25 08:29:49+00:00",
-        "sender": "service@icicisecurities.com",
-        "subject": "Statement of accounts for funds from 12-Oct-***** to 18-Oct-*****",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Important",
-        "decision": "KEEP"
-    },
     "gmail_28882": {
         "account": "gmail",
         "uid": "28882",
@@ -3071,18 +3047,6 @@
         "category": "OTP",
         "decision": "KEEP"
     },
-    "gmail_29350": {
-        "account": "gmail",
-        "uid": "29350",
-        "timestamp": 1795332474,
-        "date_str": "2026-11-22 07:27:54+00:00",
-        "sender": "ICICI Life Insurance <service@icicilife.com>",
-        "subject": "A Little Caution Can Protect You From Fake Policy Scams \ud83d\udee1\ufe0f",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
     "gmail_29351": {
         "account": "gmail",
         "uid": "29351",
@@ -3094,42 +3058,6 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
-    },
-    "gmail_29352": {
-        "account": "gmail",
-        "uid": "29352",
-        "timestamp": 1795354033,
-        "date_str": "2026-11-22 13:27:13+00:00",
-        "sender": "ICICI Life Insurance",
-        "subject": "\u23f0 Just 2 Days Left! NFO Opportunity Is Closing Soon",
-        "snippet": "ICICI Life Signature Pension                                                                                                                                                                                                                                                  ",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29353": {
-        "account": "gmail",
-        "uid": "29353",
-        "timestamp": 1795380010,
-        "date_str": "2026-11-22 20:40:10+00:00",
-        "sender": "ICICI Life Insurance <service@icicilife.com>",
-        "subject": "\ud83d\udcf1 24x7 Assistance, Just a Click Away | Explore Our Digital Services",
-        "snippet": "Could not extract body.",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
-    },
-    "gmail_29354": {
-        "account": "gmail",
-        "uid": "29354",
-        "timestamp": 1795382710,
-        "date_str": "2026-11-22 21:25:10+00:00",
-        "sender": "\"Indeed\" <donotreply@match.indeed.com>",
-        "subject": "Sr. Executive-Loan Sales @ CAREIQ TECHNOLOGIES PRIVATE LIMITED",
-        "snippet": "Hi Rakesh,  Your sales experience in financial services and customer service skills could be a strong match for this Sr. Executive-Loan Sales role. CAREIQ Technologies offers a flexible schedule and the opportunity to grow in loan sales and disbursement. If you're interested, you can apply now or vi",
-        "status": "CLASSIFIED",
-        "category": "Marketing",
-        "decision": "TRASH"
     },
     "gmail_29355": {
         "account": "gmail",
@@ -3394,5 +3322,29 @@
         "status": "CLASSIFIED",
         "category": "Important",
         "decision": "KEEP"
+    },
+    "gmail_29377": {
+        "account": "gmail",
+        "uid": "29377",
+        "timestamp": 1795522170,
+        "date_str": "2026-11-24 12:09:30+00:00",
+        "sender": "reports@loans.icici.bank.in",
+        "subject": "Mortgage Loan Application 773100141783 Approved",
+        "snippet": "Dear SHYAMAL BISWAS S,   Congratulations! Your ICICI Bank Mortgage Loan Application number 773100141783 has been approved.  In case of any query you can contact your Relationship Manager SHAJI S(*****) on 9715919471. Alternatively you can also track your application status on click https://lo",
+        "status": "CLASSIFIED",
+        "category": "Important",
+        "decision": "KEEP"
+    },
+    "gmail_29378": {
+        "account": "gmail",
+        "uid": "29378",
+        "timestamp": 1795537939,
+        "date_str": "2026-11-24 16:32:19+00:00",
+        "sender": "\"AI Inner Circle\" <aiinnercircle@mail.beehiiv.com>",
+        "subject": "Claude Ship reviews, fixes and approves your code \ud83d\udea2",
+        "snippet": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/*****-c3d3-447d-81fb-f75104a9c784/bee_AIIC.png?t=1780567280) Caption:   View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,q",
+        "status": "CLASSIFIED",
+        "category": "Marketing",
+        "decision": "TRASH"
     }
 }
